@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<title>BIMOp</title>
+<head>
+	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/bimserverapiwebsocket.js"></script>
+	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/bimserverclient.js"></script>
+	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/bimserverapipromise.js"></script>
+	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/ifc2x3tc1.js"></script>
+	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/ifc4.js"></script>
+	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/model.js"></script>
+	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/translations_en.js"></script>
+</head>
+<body>
+<h1>Web-based 3-D Real-time HVAC Operation Monitor</h1>
+<div id="expserver"></div>
+<div id="localhost8080"></div>
+<div id="localhost8082"></div>
+<h2>Load Project</h2>
+<h4>Load BIM Model</h4>
+<div id="load_bim">
+<input id="address" placeholder="BIM server address"/>
+<input id="username" placeholder="BIM server username"/>
+<input id="password" type="password" placeholder="BIM server password"/>
+<button id="loadProjectsBtn">Load</button>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+	function loadFromBimserver(address, username, password, target) {
+		target.innerHTML = "";
+		var client = new BimServerClient(address);
+		client.init(function(){
+			var bimServerDiv = document.getElementById("bimserverdiv");
+			var div = document.createElement("div");
+			var status = document.createElement("div");
+			div.appendChild(status);
+			var ul = document.createElement("ul");
+			div.appendChild(ul);
+			target.appendChild(div);
+			
+			status.textContent = "Logging in...";
+			client.login(username, password, function(){
+				status.textContent = "Getting all projects...";
+				client.call("ServiceInterface", "getAllProjects", {
+					onlyTopLevel: true,
+					onlyActive: true
+				}, function(projects){
+					var totalFound = 0;
+					projects.forEach(function(project){
+						if (project.lastRevisionId != -1) {
+							var li = document.createElement("li");
+							var a = document.createElement("a");
+							li.appendChild(a);
+							a.textContent = project.name;
+							a.setAttribute("href", "docs/example_BIMServer.html?address=" + encodeURIComponent(address) + "&token=" + client.token + "&poid=" + project.oid);
+							ul.appendChild(li);
+							totalFound++;
+						}
+					});
+					if (totalFound == 0) {
+						status.textContent = "No projects with revisions found on this server";
+					} else {
+						status.textContent = "";
+					}
+				});
+			}, function(error){
+				console.error(error);
+				status.textContent = error.message;
+			});
+		});
+	}
+
+
+	var loadProjectsBtn = document.getElementById("loadProjectsBtn");
+	loadProjectsBtn.onclick = function(){
+		var address = document.getElementById("address").value;
+		var username = document.getElementById("username").value;
+		var password = document.getElementById("password").value;
+		localStorage.setItem("address", address);
+		localStorage.setItem("username", username);
+		localStorage.setItem("password", password);
+		loadFromBimserver(address, username, password, document.getElementById("load_bim"));
+	};
+});
+</script>
+</body>
+</html>
