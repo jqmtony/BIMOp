@@ -2,13 +2,13 @@
 <html>
 <title>BIMsurfer V2 - Demo index</title>
 <head>
-	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/bimserverapiwebsocket.js"></script>
-	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/bimserverclient.js"></script>
-	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/bimserverapipromise.js"></script>
-	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/ifc2x3tc1.js"></script>
-	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/ifc4.js"></script>
-	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/model.js"></script>
-	<script type="text/javascript" src="../BIMserver-JavaScript-API/js/translations_en.js"></script>
+	<script type="text/javascript" src="http://localhost:8082/apps/bimserverjavascriptapi/js/bimserverapiwebsocket.js"></script>
+	<script type="text/javascript" src="http://localhost:8082/apps/bimserverjavascriptapi/js/bimserverclient.js"></script>
+	<script type="text/javascript" src="http://localhost:8082/apps/bimserverjavascriptapi/js/bimserverapipromise.js"></script>
+	<script type="text/javascript" src="http://localhost:8082/apps/bimserverjavascriptapi/js/ifc2x3tc1.js"></script>
+	<script type="text/javascript" src="http://localhost:8082/apps/bimserverjavascriptapi/js/ifc4.js"></script>
+	<script type="text/javascript" src="http://localhost:8082/apps/bimserverjavascriptapi/js/model.js"></script>
+	<script type="text/javascript" src="http://localhost:8082/apps/bimserverjavascriptapi/js/translations_en.js"></script>
 </head>
 <body>
 <h1>BIMservers</h1>
@@ -17,7 +17,7 @@
 <div id="localhost8082"></div>
 <h3>Other BIMserver</h3>
 <a id="loadFromOtherBimServer" style="cursor: pointer">Load from other server</a>
-<div id="other">
+<div id="other" style="display: none">
 <input id="address"/>
 <input id="username"/>
 <input id="password" type="password"/>
@@ -36,6 +36,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		client.init(function(){
 			var bimServerDiv = document.getElementById("bimserverdiv");
 			var div = document.createElement("div");
+			var h3 = document.createElement("h3");
+			h3.textContent = address;
+			div.appendChild(h3);
 			var status = document.createElement("div");
 			div.appendChild(status);
 			var ul = document.createElement("ul");
@@ -56,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 							var a = document.createElement("a");
 							li.appendChild(a);
 							a.textContent = project.name;
-							a.setAttribute("href", "docs/example_BIMServer.html?address=" + encodeURIComponent(address) + "&token=" + client.token + "&poid=" + project.oid);
+							a.setAttribute("href", "docs/example_BIMServer.html?address=" + encodeURIComponent(address) + "&token=" + client.token + "&poid=" + project.oid + "&roid=" + project.lastRevisionId);
 							ul.appendChild(li);
 							totalFound++;
 						}
@@ -73,8 +76,22 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			});
 		});
 	}
-
-
+	
+	loadFromBimserver("http://localhost:8082", "bimsurfer@logic-labs.nl", "bimsurfer", document.getElementById("expserver"));
+	loadFromBimserver("http://localhost:8080", "admin@bimserver.org", "admin", document.getElementById("localhost8080"));
+	loadFromBimserver("http://localhost:8082", "admin@bimserver.org", "admin", document.getElementById("localhost8082"));
+	
+	var loadLink = document.getElementById("loadFromOtherBimServer");
+	loadLink.onclick = function(){
+		document.getElementById("other").style.display = "block";
+		if (localStorage.getItem("address") != null) {
+			document.getElementById("address").value = localStorage.getItem("address");
+			document.getElementById("username").value = localStorage.getItem("username");
+			document.getElementById("password").value = localStorage.getItem("password");
+		}
+		document.getElementById("address").focus();
+	};
+	
 	var loadProjectsBtn = document.getElementById("loadProjectsBtn");
 	loadProjectsBtn.onclick = function(){
 		var address = document.getElementById("address").value;

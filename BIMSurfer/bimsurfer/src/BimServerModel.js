@@ -13,10 +13,10 @@ define(["../lib/text"], function(text) {
     };
     */
     
-    function BimServerModel(apiModel) {
-    	
-        this.api = apiModel.bimServerApi;
-        this.apiModel = apiModel;
+    function BimServerModel(api, model) {
+    
+        this.api = api;
+        this.model = model;
         this.tree = null;
         this.treePromise = null;
     
@@ -115,7 +115,7 @@ define(["../lib/text"], function(text) {
 					};
 				
                 // Perform the download
-//				apiModel.query(query, function(o) {}).done(function(){		
+				model.query(query, function(o) {}).done(function(){		
 					
 					// A list of entities that define parent-child relationships
 					var entities = {
@@ -130,10 +130,10 @@ define(["../lib/text"], function(text) {
 					var instance_by_id = {};
 					var objects = [];
 					
-					for (var e in apiModel.objects) {
+					for (var e in model.objects) {
 						// The root node in a dojo store should have its parent
 						// set to null, not just something that evaluates to false
-						var o = apiModel.objects[e].object;
+						var o = model.objects[e].object;
 						o.parent = null;
 						instance_by_id[o._i] = o;
 						objects.push(o);
@@ -169,8 +169,8 @@ define(["../lib/text"], function(text) {
 						for (var i = 0; i < ps.length; ++i) {
 							for (var j = 0; j < cs.length; ++j) {
 								// Lookup the instance ids in the mapping
-								var p = instance_by_id[ps[i]._i];
-								var c = instance_by_id[cs[j]._i];
+								var p = instance_by_id[ps[i]];
+								var c = instance_by_id[cs[j]];
 
 								// parent, id, hasChildren are significant attributes in a dojo store
 								c.parent = p.id = p._i;
@@ -190,7 +190,7 @@ define(["../lib/text"], function(text) {
 					});
 					
 					var make_element = function (o) {
-						return {name: o.Name, id: o.id, guid: o.GlobalId, parent: o.parent, gid: (o._rgeometry == null ? null : o._rgeometry._i)};
+						return {name: o.Name, id: o.id, guid: o.GlobalId, parent: o.parent, gid: o._rgeometry};
 					};
 					
 					var fold = (function() {
@@ -212,7 +212,7 @@ define(["../lib/text"], function(text) {
 					}})();
 					
 					resolve(self.tree = fold(data.map(make_element)));
-//				});
+				});
             }));
         };
         
