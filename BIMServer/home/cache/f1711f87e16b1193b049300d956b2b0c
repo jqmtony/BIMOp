@@ -1,0 +1,31 @@
+{"objects":[{"_i":2343174649,"_t":"IfcPropertySingleValue","_s":1,"Name":"Vent Box Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.127}}
+,{"_i":2343371257,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.2288}}
+,{"_i":2344223225,"_t":"IfcPropertySingleValue","_s":1,"Name":"Boiler Top Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.28}}
+,{"_i":2344354297,"_t":"IfcPropertySingleValue","_s":1,"Name":"Boiler Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.3050000000000001}}
+,{"_i":2344747513,"_t":"IfcPropertySingleValue","_s":1,"Name":"ModelNumber","_eNominalValue":{"_t":"IfcLabel","_v":"ModelNumber"}}
+,{"_i":2344813049,"_t":"IfcPropertySingleValue","_s":1,"Name":"ExpectedLife","_eNominalValue":{"_t":"IfcLabel","_v":"ExpectedLife"}}
+,{"_i":2344878585,"_t":"IfcPropertySingleValue","_s":1,"Name":"ReplacementCost","_eNominalValue":{"_t":"IfcLabel","_v":"ReplacementCost"}}
+,{"_i":2344944121,"_t":"IfcPropertySingleValue","_s":1,"Name":"AssetAccountingType","_eNominalValue":{"_t":"IfcLabel","_v":"FIXED"}}
+,{"_i":2345009657,"_t":"IfcPropertySingleValue","_s":1,"Name":"AccessibilityPerformance","_eNominalValue":{"_t":"IfcLabel","_v":"AccessibilityPerformance"}}
+,{"_i":2345075193,"_t":"IfcPropertySingleValue","_s":1,"Name":"CodePerformance","_eNominalValue":{"_t":"IfcLabel","_v":"CodePerformance"}}
+,{"_i":2345140729,"_t":"IfcPropertySingleValue","_s":1,"Name":"Color","_eNominalValue":{"_t":"IfcLabel","_v":"Color"}}
+,{"_i":2345206265,"_t":"IfcPropertySingleValue","_s":1,"Name":"Constituents","_eNominalValue":{"_t":"IfcLabel","_v":"Constituents"}}
+,{"_i":2345271801,"_t":"IfcPropertySingleValue","_s":1,"Name":"Features","_eNominalValue":{"_t":"IfcLabel","_v":"Features"}}
+,{"_i":2345337337,"_t":"IfcPropertySingleValue","_s":1,"Name":"Finish","_eNominalValue":{"_t":"IfcLabel","_v":"Finish"}}
+,{"_i":2345402873,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grade","_eNominalValue":{"_t":"IfcLabel","_v":"Grade"}}
+,{"_i":2345468409,"_t":"IfcPropertySingleValue","_s":1,"Name":"Material","_eNominalValue":{"_t":"IfcLabel","_v":"Material"}}
+,{"_i":2345533945,"_t":"IfcPropertySingleValue","_s":1,"Name":"ModelReference","_eNominalValue":{"_t":"IfcLabel","_v":"ModelReference"}}
+,{"_i":2345599481,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalHeight","_eNominalValue":{"_t":"IfcLabel","_v":"NominalHeight"}}
+,{"_i":2345665017,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalLength","_eNominalValue":{"_t":"IfcLabel","_v":"NominalLength"}}
+,{"_i":2345730553,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalWidth","_eNominalValue":{"_t":"IfcLabel","_v":"NominalWidth"}}
+,{"_i":2345796089,"_t":"IfcPropertySingleValue","_s":1,"Name":"ProductionYear","_eNominalValue":{"_t":"IfcLabel","_v":"ProductionYear"}}
+,{"_i":2345861625,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reference","_eNominalValue":{"_t":"IfcLabel","_v":"Reference"}}
+,{"_i":2345927161,"_t":"IfcPropertySingleValue","_s":1,"Name":"Shape","_eNominalValue":{"_t":"IfcLabel","_v":"Shape"}}
+,{"_i":2345992697,"_t":"IfcPropertySingleValue","_s":1,"Name":"Size","_eNominalValue":{"_t":"IfcLabel","_v":"Size"}}
+,{"_i":2346058233,"_t":"IfcPropertySingleValue","_s":1,"Name":"SustainabilityPerformance","_eNominalValue":{"_t":"IfcLabel","_v":"SustainabilityPerformance"}}
+,{"_i":2346123769,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDescription","_eNominalValue":{"_t":"IfcLabel","_v":"WarrantyDescription"}}
+,{"_i":2346189305,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDurationLabor","_eNominalValue":{"_t":"IfcLabel","_v":"WarrantyDurationLabor"}}
+,{"_i":2346254841,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDurationParts","_eNominalValue":{"_t":"IfcLabel","_v":"WarrantyDurationParts"}}
+,{"_i":2346320377,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyGuarantorLabor","_eNominalValue":{"_t":"IfcLabel","_v":"WarrantyGuarantorLabor"}}
+,{"_i":2346385913,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyGuarantorParts","_eNominalValue":{"_t":"IfcLabel","_v":"WarrantyGuarantorParts"}}
+]}

@@ -1,0 +1,23 @@
+{"objects":[{"_i":3080697,"_t":"IfcPropertySingleValue","_s":1,"Name":"Full Element ID","_eNominalValue":{"_t":"IfcLabel","_v":"Slab - 004"}}
+,{"_i":3146233,"_t":"IfcPropertySingleValue","_s":1,"Name":"Compact Element ID","_eNominalValue":{"_t":"IfcLabel","_v":"Slab - 004"}}
+,{"_i":3211769,"_t":"IfcPropertySingleValue","_s":1,"Name":"Property Object Name","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":3277305,"_t":"IfcPropertySingleValue","_s":1,"Name":"Home Story","_eNominalValue":{"_t":"IfcLabel","_v":"Ground Floor"}}
+,{"_i":3342841,"_t":"IfcPropertySingleValue","_s":1,"Name":"Layer","_eNominalValue":{"_t":"IfcLabel","_v":"Des: Floors"}}
+,{"_i":3408377,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type","_eNominalValue":{"_t":"IfcLabel","_v":"Slab"}}
+,{"_i":3473913,"_t":"IfcPropertySingleValue","_s":1,"Name":"Locked","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":3539449,"_t":"IfcPropertySingleValue","_s":1,"Name":"Building Material / Composite / Profile / Fill","_eNominalValue":{"_t":"IfcLabel","_v":"Floor: Concrete 100"}}
+,{"_i":3604985,"_t":"IfcPropertySingleValue","_s":1,"Name":"Label Text","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":3670521,"_t":"IfcPropertySingleValue","_s":1,"Name":"Unique ID","_eNominalValue":{"_t":"IfcLabel","_v":"4F8CEED4-92FD-8F4F-9921-FAAA2EB99ACA"}}
+,{"_i":3736057,"_t":"IfcPropertySingleValue","_s":1,"Name":"Linked Changes","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":3801593,"_t":"IfcPropertySingleValue","_s":1,"Name":"Structural Function","_eNominalValue":{"_t":"IfcLabel","_v":"Undefined"}}
+,{"_i":3867129,"_t":"IfcPropertySingleValue","_s":1,"Name":"Position","_eNominalValue":{"_t":"IfcLabel","_v":"Undefined"}}
+,{"_i":3932665,"_t":"IfcPropertySingleValue","_s":1,"Name":"Element Classification","_eNominalValue":{"_t":"IfcLabel","_v":"ArchiCAD Type"}}
+,{"_i":3998201,"_t":"IfcPropertySingleValue","_s":1,"Name":"Renovation Status","_eNominalValue":{"_t":"IfcLabel","_v":"Existing"}}
+,{"_i":4063737,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show On Renovation Filter","_eNominalValue":{"_t":"IfcLabel","_v":"All Relevant Filters"}}
+,{"_i":4129273,"_t":"IfcPropertySingleValue","_s":1,"Name":"Structure Type","_eNominalValue":{"_t":"IfcLabel","_v":"Composite"}}
+,{"_i":4194809,"_t":"IfcPropertySingleValue","_s":1,"Name":"ArchiCAD IFC ID","_eNominalValue":{"_t":"IfcLabel","_v":"1FZExKalsFJvaX_gekkPhA"}}
+,{"_i":4260345,"_t":"IfcPropertySingleValue","_s":1,"Name":"External IFC ID","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":4325881,"_t":"IfcPropertySingleValue","_s":1,"Name":"Building Material / Composite","_eNominalValue":{"_t":"IfcLabel","_v":"Floor: Concrete 100"}}
+,{"_i":4391417,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cover Fill","_eNominalValue":{"_t":"IfcLabel","_v":"Plank Floor"}}
+,{"_i":4456953,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reference Plane Location","_eNominalValue":{"_t":"IfcLabel","_v":"Top"}}
+]}

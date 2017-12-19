@@ -1,0 +1,7 @@
+{"objects":[{"_i":2342519289,"_t":"IfcPropertySingleValue","_s":1,"Name":"TagNumber","_eNominalValue":{"_t":"IfcLabel","_v":"TagNumber"}}
+,{"_i":2342584825,"_t":"IfcPropertySingleValue","_s":1,"Name":"InstallationDate","_eNominalValue":{"_t":"IfcLabel","_v":"InstallationDate"}}
+,{"_i":2342650361,"_t":"IfcPropertySingleValue","_s":1,"Name":"SerialNumber","_eNominalValue":{"_t":"IfcLabel","_v":"SerialNumber"}}
+,{"_i":2342715897,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyStartDate","_eNominalValue":{"_t":"IfcLabel","_v":"WarrantyStartDate"}}
+,{"_i":2342781433,"_t":"IfcPropertySingleValue","_s":1,"Name":"BarCode","_eNominalValue":{"_t":"IfcLabel","_v":"BarCode"}}
+,{"_i":2342846969,"_t":"IfcPropertySingleValue","_s":1,"Name":"AssetIdentifier","_eNominalValue":{"_t":"IfcLabel","_v":"AssetIdentifier"}}
+]}

@@ -8,8 +8,7 @@ from portal.models import *
 
 @login_required
 def dashboard(request):
-	projects = Project.objects.filter(user = request.user)
-	return render(request, 'portal/html/dashboard.html', {'projects': projects})
+	return render(request, 'portal/html/dashboard.html')
 
 def home(request):
 	return render(request, 'portal/html/index.html')

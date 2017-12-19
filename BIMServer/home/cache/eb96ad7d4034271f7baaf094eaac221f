@@ -1,0 +1,31 @@
+{"objects":[{"_i":161612281,"_t":"IfcPropertySingleValue","_s":1,"Name":"Full Element ID","_eNominalValue":{"_t":"IfcLabel","_v":"Wall - 033"}}
+,{"_i":161677817,"_t":"IfcPropertySingleValue","_s":1,"Name":"Compact Element ID","_eNominalValue":{"_t":"IfcLabel","_v":"Wall - 033"}}
+,{"_i":161743353,"_t":"IfcPropertySingleValue","_s":1,"Name":"Property Object Name","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":161808889,"_t":"IfcPropertySingleValue","_s":1,"Name":"Home Story","_eNominalValue":{"_t":"IfcLabel","_v":"Ground Floor"}}
+,{"_i":161874425,"_t":"IfcPropertySingleValue","_s":1,"Name":"Zone Name","_eNominalValue":{"_t":"IfcLabel","_v":"Staircase"}}
+,{"_i":161939961,"_t":"IfcPropertySingleValue","_s":1,"Name":"Zone Number","_eNominalValue":{"_t":"IfcLabel","_v":"024"}}
+,{"_i":162005497,"_t":"IfcPropertySingleValue","_s":1,"Name":"Layer","_eNominalValue":{"_t":"IfcLabel","_v":"Des: Walls"}}
+,{"_i":162071033,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type","_eNominalValue":{"_t":"IfcLabel","_v":"Wall"}}
+,{"_i":162136569,"_t":"IfcPropertySingleValue","_s":1,"Name":"Locked","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":162202105,"_t":"IfcPropertySingleValue","_s":1,"Name":"Building Material / Composite / Profile / Fill","_eNominalValue":{"_t":"IfcLabel","_v":"EXT: Concrete 200"}}
+,{"_i":162267641,"_t":"IfcPropertySingleValue","_s":1,"Name":"Label Text","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":162333177,"_t":"IfcPropertySingleValue","_s":1,"Name":"Unique ID","_eNominalValue":{"_t":"IfcLabel","_v":"79AF7A2C-269C-BA44-B41C-D13D5C3CEDF0"}}
+,{"_i":162398713,"_t":"IfcPropertySingleValue","_s":1,"Name":"Linked Changes","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":162464249,"_t":"IfcPropertySingleValue","_s":1,"Name":"Structural Function","_eNominalValue":{"_t":"IfcLabel","_v":"Undefined"}}
+,{"_i":162529785,"_t":"IfcPropertySingleValue","_s":1,"Name":"Position","_eNominalValue":{"_t":"IfcLabel","_v":"Undefined"}}
+,{"_i":162595321,"_t":"IfcPropertySingleValue","_s":1,"Name":"Element Classification","_eNominalValue":{"_t":"IfcLabel","_v":"ArchiCAD Type"}}
+,{"_i":162660857,"_t":"IfcPropertySingleValue","_s":1,"Name":"Renovation Status","_eNominalValue":{"_t":"IfcLabel","_v":"Existing"}}
+,{"_i":162726393,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show On Renovation Filter","_eNominalValue":{"_t":"IfcLabel","_v":"All Relevant Filters"}}
+,{"_i":162791929,"_t":"IfcPropertySingleValue","_s":1,"Name":"Structure Type","_eNominalValue":{"_t":"IfcLabel","_v":"Composite"}}
+,{"_i":162857465,"_t":"IfcPropertySingleValue","_s":1,"Name":"ArchiCAD IFC ID","_eNominalValue":{"_t":"IfcLabel","_v":"1vhtei9fowHBGSqJrSFEtm"}}
+,{"_i":162923001,"_t":"IfcPropertySingleValue","_s":1,"Name":"External IFC ID","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":162988537,"_t":"IfcPropertySingleValue","_s":1,"Name":"Building Material / Composite / Profile","_eNominalValue":{"_t":"IfcLabel","_v":"EXT: Concrete 200"}}
+,{"_i":163054073,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Face Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Concrete - 02"}}
+,{"_i":163119609,"_t":"IfcPropertySingleValue","_s":1,"Name":"Inside Face Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Concrete - 02"}}
+,{"_i":163185145,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Slant Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":90.0}}
+,{"_i":163250681,"_t":"IfcPropertySingleValue","_s":1,"Name":"Inside Slant Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":90.0}}
+,{"_i":163316217,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Slant Type","_eNominalValue":{"_t":"IfcLabel","_v":"Straight"}}
+,{"_i":163381753,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reference Line Location","_eNominalValue":{"_t":"IfcLabel","_v":"Outside Face"}}
+,{"_i":163447289,"_t":"IfcPropertySingleValue","_s":1,"Name":"Top Link Story","_eNominalValue":{"_t":"IfcLabel","_v":"Home + 2 (3. Level 2)"}}
+,{"_i":163512825,"_t":"IfcPropertySingleValue","_s":1,"Name":"Geometry method","_eNominalValue":{"_t":"IfcLabel","_v":"Uniform"}}
+]}

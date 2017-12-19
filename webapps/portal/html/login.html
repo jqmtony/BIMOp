@@ -5,6 +5,7 @@
 </head>
 <body>
 <form method='post' action="{% url 'login' %}">
+	<input type="hidden" name="next" value="{{ next }}" />
 	<table>
 		<tr>
 			<td>{{ form.username.label_tag }}</td>

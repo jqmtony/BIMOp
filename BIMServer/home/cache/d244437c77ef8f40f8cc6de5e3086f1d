@@ -1,0 +1,4 @@
+{"objects":[{"_i":2342978041,"_t":"IfcPropertySingleValue","_s":1,"Name":"Voltage","_eNominalValue":{"_t":"IfcReal","_v":2238.893366675622}}
+,{"_i":2343436793,"_t":"IfcPropertySingleValue","_s":1,"Name":"Number of Poles","_eNominalValue":{"_t":"IfcInteger","_v":3}}
+,{"_i":2343502329,"_t":"IfcPropertySingleValue","_s":1,"Name":"Load Classification","_eNominalValue":{"_t":"IfcLabel","_v":"Heating"}}
+]}

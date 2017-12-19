@@ -1,0 +1,36 @@
+{"objects":[{"_i":77464057,"_t":"IfcPropertySingleValue","_s":1,"Name":"Full Element ID","_eNominalValue":{"_t":"IfcLabel","_v":"W011"}}
+,{"_i":77529593,"_t":"IfcPropertySingleValue","_s":1,"Name":"Compact Element ID","_eNominalValue":{"_t":"IfcLabel","_v":"W011"}}
+,{"_i":77595129,"_t":"IfcPropertySingleValue","_s":1,"Name":"Property Object Name","_eNominalValue":{"_t":"IfcLabel","_v":"PROPWindow 19"}}
+,{"_i":77660665,"_t":"IfcPropertySingleValue","_s":1,"Name":"Home Story","_eNominalValue":{"_t":"IfcLabel","_v":"Ground Floor"}}
+,{"_i":77726201,"_t":"IfcPropertySingleValue","_s":1,"Name":"Zone Name","_eNominalValue":{"_t":"IfcLabel","_v":"Office"}}
+,{"_i":77791737,"_t":"IfcPropertySingleValue","_s":1,"Name":"Zone Number","_eNominalValue":{"_t":"IfcLabel","_v":"001"}}
+,{"_i":77857273,"_t":"IfcPropertySingleValue","_s":1,"Name":"Layer","_eNominalValue":{"_t":"IfcLabel","_v":"Des: Walls"}}
+,{"_i":77922809,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type","_eNominalValue":{"_t":"IfcLabel","_v":"Window"}}
+,{"_i":77988345,"_t":"IfcPropertySingleValue","_s":1,"Name":"Locked","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":78053881,"_t":"IfcPropertySingleValue","_s":1,"Name":"Library Part Name","_eNominalValue":{"_t":"IfcLabel","_v":"2-Sash Sliding Window 19"}}
+,{"_i":78119417,"_t":"IfcPropertySingleValue","_s":1,"Name":"Building Material / Composite / Profile / Fill","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":78184953,"_t":"IfcPropertySingleValue","_s":1,"Name":"Label Text","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":78250489,"_t":"IfcPropertySingleValue","_s":1,"Name":"Unique ID","_eNominalValue":{"_t":"IfcLabel","_v":"E22D6C22-C91E-FB42-A49C-BCDC6D500456"}}
+,{"_i":78316025,"_t":"IfcPropertySingleValue","_s":1,"Name":"Linked Changes","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":78381561,"_t":"IfcPropertySingleValue","_s":1,"Name":"Structural Function","_eNominalValue":{"_t":"IfcLabel","_v":"Undefined"}}
+,{"_i":78447097,"_t":"IfcPropertySingleValue","_s":1,"Name":"Position","_eNominalValue":{"_t":"IfcLabel","_v":"Undefined"}}
+,{"_i":78512633,"_t":"IfcPropertySingleValue","_s":1,"Name":"Element Classification","_eNominalValue":{"_t":"IfcLabel","_v":"ArchiCAD Type"}}
+,{"_i":78578169,"_t":"IfcPropertySingleValue","_s":1,"Name":"Renovation Status","_eNominalValue":{"_t":"IfcLabel","_v":"Existing"}}
+,{"_i":78643705,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show On Renovation Filter","_eNominalValue":{"_t":"IfcLabel","_v":"All Relevant Filters"}}
+,{"_i":78709241,"_t":"IfcPropertySingleValue","_s":1,"Name":"ArchiCAD IFC ID","_eNominalValue":{"_t":"IfcLabel","_v":"3YBMmYoHxxGgISlDnjK0HM"}}
+,{"_i":78774777,"_t":"IfcPropertySingleValue","_s":1,"Name":"External IFC ID","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":78840313,"_t":"IfcPropertySingleValue","_s":1,"Name":"Marker Text","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":78905849,"_t":"IfcPropertySingleValue","_s":1,"Name":"From Zone","_eNominalValue":{"_t":"IfcLabel","_v":"Office"}}
+,{"_i":78971385,"_t":"IfcPropertySingleValue","_s":1,"Name":"To Zone","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":79036921,"_t":"IfcPropertySingleValue","_s":1,"Name":"Orientation","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":79102457,"_t":"IfcPropertySingleValue","_s":1,"Name":"From Zone Number","_eNominalValue":{"_t":"IfcLabel","_v":"001"}}
+,{"_i":79167993,"_t":"IfcPropertySingleValue","_s":1,"Name":"To Zone Number","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":79233529,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reveal Dimensions","_eNominalValue":{"_t":"IfcLabel","_v":"2,000.0x1,500.0"}}
+,{"_i":79299065,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fire Rating","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":79364601,"_t":"IfcPropertySingleValue","_s":1,"Name":"Acoustic Rating","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":79430137,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wallhole Dimensions","_eNominalValue":{"_t":"IfcLabel","_v":"2,000.0x1,500.0"}}
+,{"_i":79495673,"_t":"IfcPropertySingleValue","_s":1,"Name":"Unit Dimensions","_eNominalValue":{"_t":"IfcLabel","_v":"2,000.0x1,500.0"}}
+,{"_i":79561209,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Structure","_eNominalValue":{"_t":"IfcLabel","_v":"EXT: Concrete 200"}}
+,{"_i":79626745,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nominal W x H Size","_eNominalValue":{"_t":"IfcLabel","_v":"2,000.0x1,500.0"}}
+,{"_i":79692281,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nominal W x H x T Size","_eNominalValue":{"_t":"IfcLabel","_v":"2,000.0x1,500.0x200.0"}}
+]}

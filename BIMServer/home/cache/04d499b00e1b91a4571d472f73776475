@@ -1,0 +1,58 @@
+{"objects":[{"_i":1948844537,"_t":"IfcPropertySingleValue","_s":1,"Name":"Width 2","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.006750000000000001}}
+,{"_i":1949172217,"_t":"IfcPropertySingleValue","_s":1,"Name":"Thickness 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.00375}}
+,{"_i":1949237753,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 9","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.006000000000000001}}
+,{"_i":1949303289,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 8","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.00375}}
+,{"_i":1949368825,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 7","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.009000000000000001}}
+,{"_i":1949434361,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 6","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.033}}
+,{"_i":1949499897,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 5","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.03135}}
+,{"_i":1949565433,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 4","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.01125}}
+,{"_i":1949630969,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 3","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.0135}}
+,{"_i":1949696505,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 2","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.0381}}
+,{"_i":1949762041,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 10","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.02475}}
+,{"_i":1949827577,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.0254}}
+,{"_i":1949893113,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.015}}
+,{"_i":1950351865,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 9","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.01120629165497509}}
+,{"_i":1950417401,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 8","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.001600898807853585}}
+,{"_i":1950482937,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 7","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.01921078569424302}}
+,{"_i":1950548473,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 6","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.01280719046282868}}
+,{"_i":1950614009,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 5","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.05122876185131472}}
+,{"_i":1950679545,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 4","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.00640359523141434}}
+,{"_i":1950745081,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 3","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.00635}}
+,{"_i":1950810617,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 2","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.0254}}
+,{"_i":1950876153,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.0254}}
+,{"_i":1950941689,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.1280719046282868}}
+,{"_i":1951138297,"_t":"IfcPropertySingleValue","_s":1,"Name":"Height 6","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.007500000000000001}}
+,{"_i":1951203833,"_t":"IfcPropertySingleValue","_s":1,"Name":"Height 5","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.015}}
+,{"_i":1951269369,"_t":"IfcPropertySingleValue","_s":1,"Name":"Height 4","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.00225}}
+,{"_i":1951334905,"_t":"IfcPropertySingleValue","_s":1,"Name":"Height 3","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.02025}}
+,{"_i":1951400441,"_t":"IfcPropertySingleValue","_s":1,"Name":"Height 2","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.06000000000000001}}
+,{"_i":1951465977,"_t":"IfcPropertySingleValue","_s":1,"Name":"Height 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.04500000000000001}}
+,{"_i":1951924729,"_t":"IfcPropertySingleValue","_s":1,"Name":"Angle 2","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":45.0}}
+,{"_i":1951990265,"_t":"IfcPropertySingleValue","_s":1,"Name":"Angle 1","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":45.0}}
+,{"_i":1952186873,"_t":"IfcPropertySingleValue","_s":1,"Name":"ModelNumber","_eNominalValue":{"_t":"IfcLabel","_v":"DCLF40"}}
+,{"_i":1952252409,"_t":"IfcPropertySingleValue","_s":1,"Name":"ExpectedLife","_eNominalValue":{"_t":"IfcLabel","_v":"20 years"}}
+,{"_i":1952317945,"_t":"IfcPropertySingleValue","_s":1,"Name":"ReplacementCost","_eNominalValue":{"_t":"IfcLabel","_v":"$150"}}
+,{"_i":1952383481,"_t":"IfcPropertySingleValue","_s":1,"Name":"AssetAccountingType","_eNominalValue":{"_t":"IfcLabel","_v":"FIXED"}}
+,{"_i":1952449017,"_t":"IfcPropertySingleValue","_s":1,"Name":"AccessibilityPerformance","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":1952514553,"_t":"IfcPropertySingleValue","_s":1,"Name":"CodePerformance","_eNominalValue":{"_t":"IfcLabel","_v":"15520"}}
+,{"_i":1952580089,"_t":"IfcPropertySingleValue","_s":1,"Name":"Color","_eNominalValue":{"_t":"IfcLabel","_v":"Bronze"}}
+,{"_i":1952645625,"_t":"IfcPropertySingleValue","_s":1,"Name":"Constituents","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":1952711161,"_t":"IfcPropertySingleValue","_s":1,"Name":"Features","_eNominalValue":{"_t":"IfcLabel","_v":"top-mounted test cocks"}}
+,{"_i":1952776697,"_t":"IfcPropertySingleValue","_s":1,"Name":"Finish","_eNominalValue":{"_t":"IfcLabel","_v":"Bronze Body"}}
+,{"_i":1952842233,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grade","_eNominalValue":{"_t":"IfcLabel","_v":"A"}}
+,{"_i":1952907769,"_t":"IfcPropertySingleValue","_s":1,"Name":"Material","_eNominalValue":{"_t":"IfcLabel","_v":"Bronze"}}
+,{"_i":1952973305,"_t":"IfcPropertySingleValue","_s":1,"Name":"ModelReference","_eNominalValue":{"_t":"IfcLabel","_v":"DCLF40"}}
+,{"_i":1953038841,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalHeight","_eNominalValue":{"_t":"IfcLabel","_v":"146 mm"}}
+,{"_i":1953104377,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalLength","_eNominalValue":{"_t":"IfcLabel","_v":"356 mm"}}
+,{"_i":1953169913,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalWidth","_eNominalValue":{"_t":"IfcLabel","_v":"79.4 mm"}}
+,{"_i":1953235449,"_t":"IfcPropertySingleValue","_s":1,"Name":"ProductionYear","_eNominalValue":{"_t":"IfcLabel","_v":"2011"}}
+,{"_i":1953300985,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reference","_eNominalValue":{"_t":"IfcLabel","_v":"Internet"}}
+,{"_i":1953366521,"_t":"IfcPropertySingleValue","_s":1,"Name":"Shape","_eNominalValue":{"_t":"IfcLabel","_v":"Odd"}}
+,{"_i":1953432057,"_t":"IfcPropertySingleValue","_s":1,"Name":"Size","_eNominalValue":{"_t":"IfcLabel","_v":"25 mm"}}
+,{"_i":1953497593,"_t":"IfcPropertySingleValue","_s":1,"Name":"SustainabilityPerformance","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":1953563129,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDescription","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1953628665,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDurationLabor","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1953694201,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDurationParts","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1953759737,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyGuarantorLabor","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1953825273,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyGuarantorParts","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+]}

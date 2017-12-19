@@ -1,0 +1,66 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (
+        ('ViewDefinition [CoordinationView, QuantityTakeOffAddOnView]'),
+        '2;1');
+FILE_NAME (
+        'example.ifc',
+        '2012-09-24T14:39:29',
+        ('Architect'),
+        ('Building Designer Office'),
+        'IFC Engine DLL version 1.03 beta',
+        'IFC Engine DLL version 1.03 beta',
+        'The authorising person');
+FILE_SCHEMA (('IFC4RC4'));
+ENDSEC;
+DATA;
+
+/* --------------------------------------------------------------------------------------------- */
+/* general entities required for all IFC data sets, defining the context for the exchange ------ */
+#1 = IFCPROJECT('2SYAVT2M5EpBIs_$HKURdP', #2, 'Default Project', 'Description of Default Project', $, $, $, (#20), #7);
+
+/* single owner history sufficient if not otherwise required by the view definition ------------ */
+/* provides the person and application creating the data set, and the time it is created ------- */
+#2 = IFCOWNERHISTORY(#3, #6, $, .NOTDEFINED., $, $, $, 1348486769);
+#3 = IFCPERSONANDORGANIZATION(#4, #5, $);
+#4 = IFCPERSON($, 'Bonsma', 'Peter', $, $, $, $, $);
+#5 = IFCORGANIZATION($, 'RDF', 'RDF Ltd.', $, $);
+#6 = IFCAPPLICATION(#5, '0.10', 'Test Application', 'TA 1001');
+
+/* each IFC data set containing geometry has to define at absolute minimum length and angle ---- */
+/* here length is milli metre as SI unit, and plane angle is 'degree' as non SI unit ----------- */
+#7 = IFCUNITASSIGNMENT((#8, #9, #10, #11, #15, #16, #17, #18, #19));
+#8 = IFCSIUNIT(*, .LENGTHUNIT., .MILLI., .METRE.);
+#9 = IFCSIUNIT(*, .AREAUNIT., $, .SQUARE_METRE.);
+#10 = IFCSIUNIT(*, .VOLUMEUNIT., $, .CUBIC_METRE.);
+#11 = IFCCONVERSIONBASEDUNIT(#12, .PLANEANGLEUNIT., 'DEGREE', #13);
+#12 = IFCDIMENSIONALEXPONENTS(0, 0, 0, 0, 0, 0, 0);
+#13 = IFCMEASUREWITHUNIT(IFCPLANEANGLEMEASURE(1.745E-2), #14);
+#14 = IFCSIUNIT(*, .PLANEANGLEUNIT., $, .RADIAN.);
+#15 = IFCSIUNIT(*, .SOLIDANGLEUNIT., $, .STERADIAN.);
+#16 = IFCSIUNIT(*, .MASSUNIT., $, .GRAM.);
+#17 = IFCSIUNIT(*, .TIMEUNIT., $, .SECOND.);
+#18 = IFCSIUNIT(*, .THERMODYNAMICTEMPERATUREUNIT., $, .DEGREE_CELSIUS.);
+#19 = IFCSIUNIT(*, .LUMINOUSINTENSITYUNIT., $, .LUMEN.);
+#20 = IFCGEOMETRICREPRESENTATIONCONTEXT($, 'Model', 3, 1.E-5, #21, #23);
+/* no rotation - z and x axes set to '$' are therefore identical to "world coordinate system" -- */
+#21 = IFCAXIS2PLACEMENT3D(#22, $, $);
+#22 = IFCCARTESIANPOINT((0., 0., 0.));
+#23 = IFCDIRECTION((0., 1., 0.));
+
+/* shared coordinates - it is permissable to share common instances to reduce file size -------- */
+#24 = IFCCARTESIANPOINT((0., 0., 0.));
+#25 = IFCDIRECTION((1., 0., 0.));
+#26 = IFCDIRECTION((0., 1., 0.));
+#27 = IFCDIRECTION((0., 0., 1.));
+#28 = IFCDIRECTION((-1., 0., 0.));
+#29 = IFCDIRECTION((0., -1., 0.));
+#30 = IFCDIRECTION((0., 0., -1.));
+
+/* if site is irrelevant Building could be connected to project directly ----------------------- */
+#31 = IFCSITE('37o3EXTpb0Ovnzl873AiaW', #2, 'Default Site', 'Description of Default Site', $, #32, $, $, .ELEMENT., (24, 28, 0), (54, 25, 0), 10., $, $);
+#32 = IFCLOCALPLACEMENT($, #33);
+/* no rotation - z and x axes set to '$' are therefore identical to "world coordinate system" -- */
+#33 = IFCAXIS2PLACEMENT3D(#24, $, $);
+
+/* each IFC data set containing elem

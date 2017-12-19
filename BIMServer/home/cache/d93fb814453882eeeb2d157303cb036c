@@ -1,0 +1,31 @@
+{"objects":[{"_i":1435435513,"_t":"IfcPropertySingleValue","_s":1,"Name":"Vent Box Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.127}}
+,{"_i":1435763193,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.2288}}
+,{"_i":1437008377,"_t":"IfcPropertySingleValue","_s":1,"Name":"Boiler Top Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.28}}
+,{"_i":1437139449,"_t":"IfcPropertySingleValue","_s":1,"Name":"Boiler Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.3050000000000001}}
+,{"_i":1437467129,"_t":"IfcPropertySingleValue","_s":1,"Name":"ModelNumber","_eNominalValue":{"_t":"IfcLabel","_v":"Ultra 155"}}
+,{"_i":1437532665,"_t":"IfcPropertySingleValue","_s":1,"Name":"ExpectedLife","_eNominalValue":{"_t":"IfcLabel","_v":"20 years"}}
+,{"_i":1437598201,"_t":"IfcPropertySingleValue","_s":1,"Name":"ReplacementCost","_eNominalValue":{"_t":"IfcLabel","_v":"$4000"}}
+,{"_i":1437663737,"_t":"IfcPropertySingleValue","_s":1,"Name":"AssetAccountingType","_eNominalValue":{"_t":"IfcLabel","_v":"FIXED"}}
+,{"_i":1437729273,"_t":"IfcPropertySingleValue","_s":1,"Name":"AccessibilityPerformance","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":1437794809,"_t":"IfcPropertySingleValue","_s":1,"Name":"CodePerformance","_eNominalValue":{"_t":"IfcLabel","_v":"15500"}}
+,{"_i":1437860345,"_t":"IfcPropertySingleValue","_s":1,"Name":"Color","_eNominalValue":{"_t":"IfcLabel","_v":"White"}}
+,{"_i":1437925881,"_t":"IfcPropertySingleValue","_s":1,"Name":"Constituents","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":1437991417,"_t":"IfcPropertySingleValue","_s":1,"Name":"Features","_eNominalValue":{"_t":"IfcLabel","_v":"Cast Aluminum Block"}}
+,{"_i":1438056953,"_t":"IfcPropertySingleValue","_s":1,"Name":"Finish","_eNominalValue":{"_t":"IfcLabel","_v":"Shell"}}
+,{"_i":1438122489,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grade","_eNominalValue":{"_t":"IfcLabel","_v":"A"}}
+,{"_i":1438188025,"_t":"IfcPropertySingleValue","_s":1,"Name":"Material","_eNominalValue":{"_t":"IfcLabel","_v":"Various"}}
+,{"_i":1438253561,"_t":"IfcPropertySingleValue","_s":1,"Name":"ModelReference","_eNominalValue":{"_t":"IfcLabel","_v":"Ultra 155"}}
+,{"_i":1438319097,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalHeight","_eNominalValue":{"_t":"IfcLabel","_v":"1092 mm"}}
+,{"_i":1438384633,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalLength","_eNominalValue":{"_t":"IfcLabel","_v":"584 mm"}}
+,{"_i":1438450169,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalWidth","_eNominalValue":{"_t":"IfcLabel","_v":"559 mm"}}
+,{"_i":1438515705,"_t":"IfcPropertySingleValue","_s":1,"Name":"ProductionYear","_eNominalValue":{"_t":"IfcLabel","_v":"2011"}}
+,{"_i":1438581241,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reference","_eNominalValue":{"_t":"IfcLabel","_v":"Internet"}}
+,{"_i":1438646777,"_t":"IfcPropertySingleValue","_s":1,"Name":"Shape","_eNominalValue":{"_t":"IfcLabel","_v":"Rectangular"}}
+,{"_i":1438712313,"_t":"IfcPropertySingleValue","_s":1,"Name":"Size","_eNominalValue":{"_t":"IfcLabel","_v":"155"}}
+,{"_i":1438777849,"_t":"IfcPropertySingleValue","_s":1,"Name":"SustainabilityPerformance","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":1438843385,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDescription","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1438908921,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDurationLabor","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1438974457,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDurationParts","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1439039993,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyGuarantorLabor","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1439105529,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyGuarantorParts","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+]}

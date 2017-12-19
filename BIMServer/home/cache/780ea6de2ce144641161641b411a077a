@@ -1,0 +1,13 @@
+{"objects":[{"_i":1305740130,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"0aHGLDY6b9yh2x7rZ2q8L7","_rOwnerHistory":71107008,"_rRelatedObjects":[66230],"_rRelatingPropertyDefinition":1899168501}
+,{"_i":1305805666,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"2$sbOGJEP7Xun7GvDsIVpY","_rOwnerHistory":71107008,"_rRelatedObjects":[66230],"_rRelatingPropertyDefinition":1899234037}
+,{"_i":1305871202,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"2hdscV3pLCFOo6mRjIWWyF","_rOwnerHistory":71107008,"_rRelatedObjects":[66230],"_rRelatingPropertyDefinition":1899299573}
+,{"_i":1305936738,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"3zYQwVxDn32v6tuTRRgGnD","_rOwnerHistory":71107008,"_rRelatedObjects":[66230],"_rRelatingPropertyDefinition":1899365109}
+,{"_i":1306002274,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"0TpQkzvt52qwDgWM3x7qal","_rOwnerHistory":71107008,"_rRelatedObjects":[66230],"_rRelatingPropertyDefinition":1899430645}
+,{"_i":1306067810,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"3FLibkxJv2oQPfOxRg$32a","_rOwnerHistory":71107008,"_rRelatedObjects":[66230],"_rRelatingPropertyDefinition":1899496181}
+,{"_i":1511195490,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"2xW5GRc9z3Q9QWxYi_FlL5","_rOwnerHistory":71107008,"_rRelatedObjects":[66230,590518],"_rRelatingPropertyDefinition":1899561717}
+,{"_i":1511261026,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"0Undo$CsD0nfaVeg8HbUcS","_rOwnerHistory":71107008,"_rRelatedObjects":[66230,590518],"_rRelatingPropertyDefinition":1899627253}
+,{"_i":1511326562,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"3lYQeRC8f3fxNkQTLyPZi5","_rOwnerHistory":71107008,"_rRelatedObjects":[66230,590518],"_rRelatingPropertyDefinition":1899692789}
+,{"_i":1511392098,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"3BKLzfR$T9uQ9pKXcRB4hU","_rOwnerHistory":71107008,"_rRelatedObjects":[66230,590518],"_rRelatingPropertyDefinition":1899758325}
+,{"_i":1511457634,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"3A$A2hHobBWhquRAa09X2L","_rOwnerHistory":71107008,"_rRelatedObjects":[66230,590518],"_rRelatingPropertyDefinition":1899823861}
+,{"_i":14287205,"_t":"IfcRelDefinesByType","_s":1,"GlobalId":"1c9MSyQmr77x99HJxbjv0v","_rOwnerHistory":71107008,"_rRelatedObjects":[66230,590518],"_rRelatingType":66257}
+]}

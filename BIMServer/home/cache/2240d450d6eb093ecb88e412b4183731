@@ -1,0 +1,10 @@
+{"objects":[{"_i":1633681913,"_t":"IfcPropertySingleValue","_s":1,"Name":"Elbow","_eNominalValue":{"_t":"IfcLabel","_v":"M_Round Elbow: 1.5 D"}}
+,{"_i":1633747449,"_t":"IfcPropertySingleValue","_s":1,"Name":"Preferred Junction Type","_eNominalValue":{"_t":"IfcInteger","_v":0}}
+,{"_i":1633812985,"_t":"IfcPropertySingleValue","_s":1,"Name":"Tee","_eNominalValue":{"_t":"IfcLabel","_v":"M_Round Tee: Standard"}}
+,{"_i":1633878521,"_t":"IfcPropertySingleValue","_s":1,"Name":"Tap","_eNominalValue":{"_t":"IfcLabel","_v":"M_Round Takeoff: Standard"}}
+,{"_i":1633944057,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cross","_eNominalValue":{"_t":"IfcLabel","_v":"M_Round Cross: Standard"}}
+,{"_i":1634009593,"_t":"IfcPropertySingleValue","_s":1,"Name":"Transition","_eNominalValue":{"_t":"IfcLabel","_v":"M_Round Transition - Angle: 45 Degree"}}
+,{"_i":1634075129,"_t":"IfcPropertySingleValue","_s":1,"Name":"Multi Shape Transition Rect to Round","_eNominalValue":{"_t":"IfcLabel","_v":"M_Rectangular to Round Transition - Angle: 45 Degree"}}
+,{"_i":1634140665,"_t":"IfcPropertySingleValue","_s":1,"Name":"Multi Shape Transition Oval to Round","_eNominalValue":{"_t":"IfcLabel","_v":"M_Oval to Round Transition - Length: Standard"}}
+,{"_i":1634206201,"_t":"IfcPropertySingleValue","_s":1,"Name":"Union","_eNominalValue":{"_t":"IfcLabel","_v":"M_Round Union: Standard"}}
+]}

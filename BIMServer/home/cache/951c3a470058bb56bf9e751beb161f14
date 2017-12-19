@@ -1,0 +1,7 @@
+{"objects":[{"_i":1406665209,"_t":"IfcPropertySingleValue","_s":1,"Name":"Average Estimated Illumination","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1406730745,"_t":"IfcPropertySingleValue","_s":1,"Name":"Room Cavity Ratio","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1406796281,"_t":"IfcPropertySingleValue","_s":1,"Name":"Lighting Calculation Workplane","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.762}}
+,{"_i":1406861817,"_t":"IfcPropertySingleValue","_s":1,"Name":"Ceiling Reflectance","_eNominalValue":{"_t":"IfcReal","_v":0.75}}
+,{"_i":1406927353,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Reflectance","_eNominalValue":{"_t":"IfcReal","_v":0.5}}
+,{"_i":1406992889,"_t":"IfcPropertySingleValue","_s":1,"Name":"Floor Reflectance","_eNominalValue":{"_t":"IfcReal","_v":0.2}}
+]}

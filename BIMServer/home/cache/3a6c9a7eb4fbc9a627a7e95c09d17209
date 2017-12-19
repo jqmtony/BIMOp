@@ -1,0 +1,8 @@
+{"objects":[{"_i":1630470649,"_t":"IfcPropertySingleValue","_s":1,"Name":"Flow","_eNominalValue":{"_t":"IfcReal","_v":0.1412586668859543}}
+,{"_i":1630536185,"_t":"IfcPropertySingleValue","_s":1,"Name":"Additional Flow","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1630601721,"_t":"IfcPropertySingleValue","_s":1,"Name":"Velocity","_eNominalValue":{"_t":"IfcReal","_v":0.2673468860336302}}
+,{"_i":1630667257,"_t":"IfcPropertySingleValue","_s":1,"Name":"Friction","_eNominalValue":{"_t":"IfcReal","_v":7.721539245935043E-5}}
+,{"_i":1630732793,"_t":"IfcPropertySingleValue","_s":1,"Name":"Pressure Drop","_eNominalValue":{"_t":"IfcReal","_v":5.433957244924868E-4}}
+,{"_i":1630798329,"_t":"IfcPropertySingleValue","_s":1,"Name":"Velocity Pressure","_eNominalValue":{"_t":"IfcReal","_v":0.001216988156416308}}
+,{"_i":1630929401,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reynolds number","_eNominalValue":{"_t":"IfcReal","_v":1357.404684647311}}
+]}

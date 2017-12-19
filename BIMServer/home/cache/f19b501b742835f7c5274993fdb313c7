@@ -1,0 +1,5 @@
+{"objects":[{"_i":27394914,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"3lIQ6ZJF7KgiHAtgLLtkWp","_rOwnerHistory":65984,"_rRelatedObjects":[1704334],"_rRelatingPropertyDefinition":15794933}
+,{"_i":27460450,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"2JXNsyhoh1KaLBCYpjTYQP","_rOwnerHistory":65984,"_rRelatedObjects":[1704334],"_rRelatingPropertyDefinition":15860469}
+,{"_i":27525986,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"2spxa4BWninjUGlOnaWYUo","_rOwnerHistory":65984,"_rRelatedObjects":[1704334],"_rRelatingPropertyDefinition":11665858}
+,{"_i":27591522,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"2fW6oT5Hmqk4gqhrjWTx1a","_rOwnerHistory":65984,"_rRelatedObjects":[1704334],"_rRelatingPropertyDefinition":11731394}
+]}

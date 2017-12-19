@@ -55,7 +55,7 @@ ROOT_URLCONF = 'webapps.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/zhiangz/Documents/BIMOp/webapps',],
+        'DIRS': ['',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,5 +122,5 @@ STATIC_URL = '/static/'
 
 
 # Authentication 
-LOGIN_URL = '/portal/login'
-LOGIN_REDIRECT_URL = 'portal/' # Default URL to redirect to after a user logs in 
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'dashboard' # Default URL to redirect to after a user logs in 

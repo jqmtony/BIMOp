@@ -1,0 +1,20 @@
+{"objects":[{"_i":1830027769,"_t":"IfcPropertySingleValue","_s":1,"Name":"Stem Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.005}}
+,{"_i":1830093305,"_t":"IfcPropertySingleValue","_s":1,"Name":"Stem Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.0275}}
+,{"_i":1830158841,"_t":"IfcPropertySingleValue","_s":1,"Name":"Stem Diameter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.01}}
+,{"_i":1830224377,"_t":"IfcPropertySingleValue","_s":1,"Name":"Seal Length","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.04450000000000001}}
+,{"_i":1830355449,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nut Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.007500000000000001}}
+,{"_i":1830420985,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nut Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.0165}}
+,{"_i":1830486521,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nut Diameter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.015}}
+,{"_i":1830552057,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nominal Radius","_eNominalValue":{"_t":"IfcReal","_v":0.08202099737532809}}
+,{"_i":1830617593,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nominal Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.1640419947506562}}
+,{"_i":1831207417,"_t":"IfcPropertySingleValue","_s":1,"Name":"Handle Width","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.025}}
+,{"_i":1831272953,"_t":"IfcPropertySingleValue","_s":1,"Name":"Handle Length","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.127}}
+,{"_i":1831338489,"_t":"IfcPropertySingleValue","_s":1,"Name":"Handle Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.229}}
+,{"_i":1831600633,"_t":"IfcPropertySingleValue","_s":1,"Name":"Body Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.0275}}
+,{"_i":1831666169,"_t":"IfcPropertySingleValue","_s":1,"Name":"Body Length","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.178}}
+,{"_i":1831731705,"_t":"IfcPropertySingleValue","_s":1,"Name":"Body Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.07150000000000001}}
+,{"_i":1831797241,"_t":"IfcPropertySingleValue","_s":1,"Name":"Body Diameter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.05500000000000001}}
+,{"_i":1831928313,"_t":"IfcPropertySingleValue","_s":1,"Name":"Adapter Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.04}}
+,{"_i":1831993849,"_t":"IfcPropertySingleValue","_s":1,"Name":"Adapter Length","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.0178}}
+,{"_i":1832059385,"_t":"IfcPropertySingleValue","_s":1,"Name":"Adapter Diameter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.08}}
+]}

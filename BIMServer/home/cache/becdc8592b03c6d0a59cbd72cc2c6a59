@@ -1,0 +1,6 @@
+{"objects":[{"_i":2344550905,"_t":"IfcPropertySingleValue","_s":1,"Name":"Manufacturer","_eNominalValue":{"_t":"IfcLabel","_v":"Manufacturer"}}
+,{"_i":2344616441,"_t":"IfcPropertySingleValue","_s":1,"Name":"Assembly Description","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":2344681977,"_t":"IfcPropertySingleValue","_s":1,"Name":"Assembly Code","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":2346451449,"_t":"IfcPropertySingleValue","_s":1,"Name":"OmniClass Number","_eNominalValue":{"_t":"IfcLabel","_v":"23.75.10.11.14"}}
+,{"_i":2346516985,"_t":"IfcPropertySingleValue","_s":1,"Name":"OmniClass Title","_eNominalValue":{"_t":"IfcLabel","_v":"Hot Water Heat Generators"}}
+]}

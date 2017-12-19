@@ -1,0 +1,13 @@
+{"objects":[{"_i":1400767330,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"3VfScvDk9FMBCeaYTHZrIt","_rOwnerHistory":71107008,"_rRelatedObjects":[197253],"_rRelatingPropertyDefinition":1996554997}
+,{"_i":1400832866,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"23z$TMbwD5MQ0yPR019Fhq","_rOwnerHistory":71107008,"_rRelatedObjects":[197253],"_rRelatingPropertyDefinition":1996620533}
+,{"_i":1400898402,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"2ctjk4SEb66vWZE0rZ$QA$","_rOwnerHistory":71107008,"_rRelatedObjects":[197253],"_rRelatingPropertyDefinition":1996686069}
+,{"_i":1400963938,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"1ISpIvcPX85eMh1D0rEYRa","_rOwnerHistory":71107008,"_rRelatedObjects":[197253],"_rRelatingPropertyDefinition":1996751605}
+,{"_i":1401029474,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"3M$W7Glv19FBkuifb9lXGD","_rOwnerHistory":71107008,"_rRelatedObjects":[197253],"_rRelatingPropertyDefinition":1996817141}
+,{"_i":1401095010,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"0W8ZtB8iXAbORUxkw0eyq4","_rOwnerHistory":71107008,"_rRelatedObjects":[197253],"_rRelatingPropertyDefinition":1996882677}
+,{"_i":1401160546,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"3KXBVrFcvE2uCsIH49ZR_3","_rOwnerHistory":71107008,"_rRelatedObjects":[197253],"_rRelatingPropertyDefinition":1996948213}
+,{"_i":1512309602,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"1hjZoZ4Z9CcAUlr3Jv4ZXQ","_rOwnerHistory":71107008,"_rRelatedObjects":[66181,131717,197253,262789],"_rRelatingPropertyDefinition":1983906549}
+,{"_i":1512375138,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"0hfL0FfIn12wAROmQyaUAL","_rOwnerHistory":71107008,"_rRelatedObjects":[66181,131717,197253,262789],"_rRelatingPropertyDefinition":1983972085}
+,{"_i":1512440674,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"10TIE5mEfCNRtt1YqohCms","_rOwnerHistory":71107008,"_rRelatedObjects":[66181,131717,197253,262789],"_rRelatingPropertyDefinition":1984037621}
+,{"_i":1512506210,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"2yhAVmauv7hvHcHwbnS7yA","_rOwnerHistory":71107008,"_rRelatedObjects":[66181,131717,197253,262789],"_rRelatingPropertyDefinition":1984103157}
+,{"_i":15597925,"_t":"IfcRelDefinesByType","_s":1,"GlobalId":"2f7wLRwyr9iOOLSvCVVQAU","_rOwnerHistory":71107008,"_rRelatedObjects":[66181,131717,197253,262789],"_rRelatingType":66292}
+]}

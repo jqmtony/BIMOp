@@ -1,0 +1,4 @@
+{"objects":[{"_i":1830814201,"_t":"IfcPropertySingleValue","_s":1,"Name":"Loss Method","_eNominalValue":{"_t":"IfcInteger","_v":0}}
+,{"_i":1831076345,"_t":"IfcPropertySingleValue","_s":1,"Name":"K Coefficient Table","_eNominalValue":{"_t":"IfcLabel","_v":"Ball Valve Full Port Full Open"}}
+,{"_i":1831141881,"_t":"IfcPropertySingleValue","_s":1,"Name":"K Coefficient","_eNominalValue":{"_t":"IfcReal","_v":0.35}}
+]}

@@ -1,0 +1,38 @@
+{"objects":[{"_i":123339257,"_t":"IfcPropertySingleValue","_s":1,"Name":"Full Element ID","_eNominalValue":{"_t":"IfcLabel","_v":"D001"}}
+,{"_i":123404793,"_t":"IfcPropertySingleValue","_s":1,"Name":"Compact Element ID","_eNominalValue":{"_t":"IfcLabel","_v":"D001"}}
+,{"_i":123470329,"_t":"IfcPropertySingleValue","_s":1,"Name":"Property Object Name","_eNominalValue":{"_t":"IfcLabel","_v":"PROPDoor 19"}}
+,{"_i":123535865,"_t":"IfcPropertySingleValue","_s":1,"Name":"Home Story","_eNominalValue":{"_t":"IfcLabel","_v":"Ground Floor"}}
+,{"_i":123601401,"_t":"IfcPropertySingleValue","_s":1,"Name":"Zone Name","_eNominalValue":{"_t":"IfcLabel","_v":"Corridor"}}
+,{"_i":123666937,"_t":"IfcPropertySingleValue","_s":1,"Name":"Zone Number","_eNominalValue":{"_t":"IfcLabel","_v":"014"}}
+,{"_i":123732473,"_t":"IfcPropertySingleValue","_s":1,"Name":"Layer","_eNominalValue":{"_t":"IfcLabel","_v":"Des: Walls"}}
+,{"_i":123798009,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type","_eNominalValue":{"_t":"IfcLabel","_v":"Door"}}
+,{"_i":123863545,"_t":"IfcPropertySingleValue","_s":1,"Name":"Locked","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":123929081,"_t":"IfcPropertySingleValue","_s":1,"Name":"Library Part Name","_eNominalValue":{"_t":"IfcLabel","_v":"Door 19"}}
+,{"_i":123994617,"_t":"IfcPropertySingleValue","_s":1,"Name":"Building Material / Composite / Profile / Fill","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":124060153,"_t":"IfcPropertySingleValue","_s":1,"Name":"Label Text","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":124125689,"_t":"IfcPropertySingleValue","_s":1,"Name":"Unique ID","_eNominalValue":{"_t":"IfcLabel","_v":"7B6A6CFF-B6AB-6743-82F1-748B8159EAFD"}}
+,{"_i":124191225,"_t":"IfcPropertySingleValue","_s":1,"Name":"Linked Changes","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":124256761,"_t":"IfcPropertySingleValue","_s":1,"Name":"Structural Function","_eNominalValue":{"_t":"IfcLabel","_v":"Undefined"}}
+,{"_i":124322297,"_t":"IfcPropertySingleValue","_s":1,"Name":"Position","_eNominalValue":{"_t":"IfcLabel","_v":"Undefined"}}
+,{"_i":124387833,"_t":"IfcPropertySingleValue","_s":1,"Name":"Element Classification","_eNominalValue":{"_t":"IfcLabel","_v":"ArchiCAD Type"}}
+,{"_i":124453369,"_t":"IfcPropertySingleValue","_s":1,"Name":"Renovation Status","_eNominalValue":{"_t":"IfcLabel","_v":"Existing"}}
+,{"_i":124518905,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show On Renovation Filter","_eNominalValue":{"_t":"IfcLabel","_v":"All Relevant Filters"}}
+,{"_i":124584441,"_t":"IfcPropertySingleValue","_s":1,"Name":"ArchiCAD IFC ID","_eNominalValue":{"_t":"IfcLabel","_v":"1xQcp$jgjdGuBnT8k1MUhz"}}
+,{"_i":124649977,"_t":"IfcPropertySingleValue","_s":1,"Name":"External IFC ID","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":124715513,"_t":"IfcPropertySingleValue","_s":1,"Name":"Marker Text","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":124781049,"_t":"IfcPropertySingleValue","_s":1,"Name":"From Zone","_eNominalValue":{"_t":"IfcLabel","_v":"Office"}}
+,{"_i":124846585,"_t":"IfcPropertySingleValue","_s":1,"Name":"To Zone","_eNominalValue":{"_t":"IfcLabel","_v":"Corridor"}}
+,{"_i":124912121,"_t":"IfcPropertySingleValue","_s":1,"Name":"Orientation","_eNominalValue":{"_t":"IfcLabel","_v":"L"}}
+,{"_i":124977657,"_t":"IfcPropertySingleValue","_s":1,"Name":"From Zone Number","_eNominalValue":{"_t":"IfcLabel","_v":"001"}}
+,{"_i":125043193,"_t":"IfcPropertySingleValue","_s":1,"Name":"To Zone Number","_eNominalValue":{"_t":"IfcLabel","_v":"014"}}
+,{"_i":125108729,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reveal Dimensions","_eNominalValue":{"_t":"IfcLabel","_v":"900.0x2,100.0"}}
+,{"_i":125174265,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fire Rating","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":125239801,"_t":"IfcPropertySingleValue","_s":1,"Name":"Acoustic Rating","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":125305337,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wallhole Dimensions","_eNominalValue":{"_t":"IfcLabel","_v":"900.0x2,100.0"}}
+,{"_i":125370873,"_t":"IfcPropertySingleValue","_s":1,"Name":"Unit Dimensions","_eNominalValue":{"_t":"IfcLabel","_v":"900.0x2,100.0"}}
+,{"_i":125436409,"_t":"IfcPropertySingleValue","_s":1,"Name":"Egress Dimensions","_eNominalValue":{"_t":"IfcLabel","_v":"830.0x2,065.0"}}
+,{"_i":125501945,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Dimensions","_eNominalValue":{"_t":"IfcLabel","_v":"850.0x2,075.0"}}
+,{"_i":125567481,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Structure","_eNominalValue":{"_t":"IfcLabel","_v":"INT: Concrete 200"}}
+,{"_i":125633017,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nominal W x H Size","_eNominalValue":{"_t":"IfcLabel","_v":"900.0x2,100.0"}}
+,{"_i":125698553,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nominal W x H x T Size","_eNominalValue":{"_t":"IfcLabel","_v":"900.0x2,100.0x200.0"}}
+]}

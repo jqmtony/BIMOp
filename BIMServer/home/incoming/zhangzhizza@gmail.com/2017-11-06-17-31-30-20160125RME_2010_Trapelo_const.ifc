@@ -1,0 +1,54 @@
+ISO-10303-21;
+HEADER;
+
+/******************************************************************************************
+* STEP Physical File produced by: The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013
+* Module:                         EDMstepFileFactory/EDMstandAlone
+* Creation date:                  Sat Jan 23 18:19:30 2016
+* Host:                           WawanHP
+* Database:                       C:\Users\wawan\AppData\Local\Temp\{E1625D79-5E44-43ED-8697-5B43C139ADEE}\ifc
+* Database version:               5507
+* Database creation date:         Sat Jan 23 18:17:20 2016
+* Schema:                         IFC4
+* Model:                          DataRepository.ifc
+* Model creation date:            Sat Jan 23 18:17:21 2016
+* Header model:                   DataRepository.ifc_HeaderModel
+* Header model creation date:     Sat Jan 23 18:17:21 2016
+* EDMuser:                        sdai-user
+* EDMgroup:                       sdai-group
+* License ID and type:            5605 : Permanent license. Expiry date: 
+* EDMstepFileFactory options:     020000
+******************************************************************************************/
+FILE_DESCRIPTION(('ViewDefinition [CoordinationView_V2.0, QuantityTakeOffAddOnView]'),'2;1');
+FILE_NAME('35-5778-00','2016-01-23T18:19:30',('Autodesk Inc.'),('Autodesk Inc.'),'The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013','20150702_1515(x64) - Exporter 15.5.0.0 - Alternate UI 15.5.0.0','');
+FILE_SCHEMA(('IFC4'));
+ENDSEC;
+
+DATA;
+#1= IFCORGANIZATION($,'Autodesk Revit 2015 (ENU)',$,$,$);
+#5= IFCAPPLICATION(#1,'2015','Autodesk Revit 2015 (ENU)','Revit');
+#6= IFCCARTESIANPOINT((0.,0.,0.));
+#10= IFCCARTESIANPOINT((0.,0.));
+#12= IFCDIRECTION((1.,0.,0.));
+#14= IFCDIRECTION((-1.,0.,0.));
+#16= IFCDIRECTION((0.,1.,0.));
+#18= IFCDIRECTION((0.,-1.,0.));
+#20= IFCDIRECTION((0.,0.,1.));
+#22= IFCDIRECTION((0.,0.,-1.));
+#24= IFCDIRECTION((1.,0.));
+#26= IFCDIRECTION((-1.,0.));
+#28= IFCDIRECTION((0.,1.));
+#30= IFCDIRECTION((0.,-1.));
+#32= IFCAXIS2PLACEMENT3D(#6,$,$);
+#33= IFCLOCALPLACEMENT(#1938985,#32);
+#36= IFCPERSON($,'','wsolihin3@gatech.edu',$,$,$,$,$);
+#38= IFCORGANIZATION($,'','',$,$);
+#39= IFCPERSONANDORGANIZATION(#36,#38,$);
+#42= IFCOWNERHISTORY(#39,#5,$,.NOCHANGE.,$,$,$,1383246146);
+#43= IFCSIUNIT(*,.LENGTHUNIT.,$,.METRE.);
+#44= IFCDIMENSIONALEXPONENTS(1,0,0,0,0,0,0);
+#45= IFCMEASUREWITHUNIT(IFCRATIOMEASURE(0.3048),#43);
+#46= IFCCONVERSIONBASEDUNIT(#44,.LENGTHUNIT.,'FOOT',#45);
+#48= IFCSIUNIT(*,.AREAUNIT.,$,.SQUARE_METRE.);
+#49= IFCDIMENSIONALEXPONENTS(2,0,0,0,0,0,0);
+#50= IFCMEASUREWITHUNIT(IFCRAT

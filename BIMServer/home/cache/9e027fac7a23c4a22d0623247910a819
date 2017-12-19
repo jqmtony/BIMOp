@@ -1,0 +1,7 @@
+{"objects":[{"_i":1452409337,"_t":"IfcPropertySingleValue","_s":1,"Name":"Elbow","_eNominalValue":{"_t":"IfcLabel","_v":"M_Elbow - Generic: Standard"}}
+,{"_i":1452474873,"_t":"IfcPropertySingleValue","_s":1,"Name":"Preferred Junction Type","_eNominalValue":{"_t":"IfcInteger","_v":1}}
+,{"_i":1452540409,"_t":"IfcPropertySingleValue","_s":1,"Name":"Tee","_eNominalValue":{"_t":"IfcLabel","_v":"M_Tee - Generic: Standard"}}
+,{"_i":1452605945,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cross","_eNominalValue":{"_t":"IfcLabel","_v":"M_Cross - Generic: Standard"}}
+,{"_i":1452671481,"_t":"IfcPropertySingleValue","_s":1,"Name":"Transition","_eNominalValue":{"_t":"IfcLabel","_v":"M_Transition - Generic: Standard"}}
+,{"_i":1452737017,"_t":"IfcPropertySingleValue","_s":1,"Name":"Union","_eNominalValue":{"_t":"IfcLabel","_v":"M_Coupling - Generic: Standard"}}
+]}

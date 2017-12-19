@@ -1,0 +1,7 @@
+{"objects":[{"_i":6423394,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"0VA5Rbqt66FjxvDbViTDuZ","_rOwnerHistory":65984,"_rRelatedObjects":[66320],"_rRelatingPropertyDefinition":3670773}
+,{"_i":6488930,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"3gg87f_RgEXAxR3AV9oHaN","_rOwnerHistory":65984,"_rRelatedObjects":[66320],"_rRelatingPropertyDefinition":3736309}
+,{"_i":6554466,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"3Q6MiO2nYzlXeJx80LMPqn","_rOwnerHistory":65984,"_rRelatedObjects":[66320],"_rRelatingPropertyDefinition":3801845}
+,{"_i":6620002,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"10EPA8ZbiZ2eikOwFFJfi0","_rOwnerHistory":65984,"_rRelatedObjects":[66320],"_rRelatingPropertyDefinition":2818498}
+,{"_i":6685538,"_t":"IfcRelDefinesByProperties","_s":1,"GlobalId":"14RZ6uhjJb3FwIdis1k304","_rOwnerHistory":65984,"_rRelatedObjects":[66320],"_rRelatingPropertyDefinition":2884034}
+,{"_i":459109,"_t":"IfcRelDefinesByType","_s":1,"GlobalId":"1NQ9$EcATwBo_9JO$n1AB8","_rOwnerHistory":65984,"_rRelatedObjects":[66320,131856,197392,262928,328464,394000,459536,525072,590608,656144],"_rRelatingType":65926}
+]}

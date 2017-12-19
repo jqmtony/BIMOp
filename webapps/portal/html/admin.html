@@ -19,6 +19,7 @@
 {% endfor %}
 </ol>
 
-<button type = "button" onclick="{% url 'logout_then_login' %}">Logout</button>
+<button type = "button" onclick="location.href='{% url 'logout_then_login' %}';">Logout</button>
+
 </body>
 </html>

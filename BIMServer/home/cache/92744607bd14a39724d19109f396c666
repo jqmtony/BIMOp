@@ -1,0 +1,5 @@
+{"objects":[{"_i":1890583033,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Type","_eNominalValue":{"_t":"IfcLabel","_v":"Hydronic Supply"}}
+,{"_i":1890648569,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Name","_eNominalValue":{"_t":"IfcLabel","_v":"Hydronic Supply Unit B"}}
+,{"_i":1890714105,"_t":"IfcPropertySingleValue","_s":1,"Name":"Loss Method","_eNominalValue":{"_t":"IfcInteger","_v":1}}
+,{"_i":1890779641,"_t":"IfcPropertySingleValue","_s":1,"Name":"K Coefficient Table","_eNominalValue":{"_t":"IfcLabel","_v":"Ball Valve Full Port Full Open"}}
+]}

@@ -1,0 +1,12 @@
+{"objects":[{"_i":1629553145,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Type","_eNominalValue":{"_t":"IfcLabel","_v":"Exhaust Air"}}
+,{"_i":1629618681,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Name","_eNominalValue":{"_t":"IfcLabel","_v":"Unit B Mechanical Exhaust Air"}}
+,{"_i":1629684217,"_t":"IfcPropertySingleValue","_s":1,"Name":"Bottom Elevation","_eNominalValue":{"_t":"IfcLengthMeasure","_v":1.212999999999952}}
+,{"_i":1629749753,"_t":"IfcPropertySingleValue","_s":1,"Name":"Top Elevation","_eNominalValue":{"_t":"IfcLengthMeasure","_v":3.358000000000013}}
+,{"_i":1630405113,"_t":"IfcPropertySingleValue","_s":1,"Name":"Size Lock","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":1630863865,"_t":"IfcPropertySingleValue","_s":1,"Name":"Loss Coefficient","_eNominalValue":{"_t":"IfcReal","_v":0.4465086382538316}}
+,{"_i":1630994937,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hydraulic Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.8202099737532809}}
+,{"_i":1631060473,"_t":"IfcPropertySingleValue","_s":1,"Name":"Section","_eNominalValue":{"_t":"IfcInteger","_v":1}}
+,{"_i":1631126009,"_t":"IfcPropertySingleValue","_s":1,"Name":"Insulation Thickness","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1631191545,"_t":"IfcPropertySingleValue","_s":1,"Name":"Lining Thickness","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1631584761,"_t":"IfcPropertySingleValue","_s":1,"Name":"Area","_eNominalValue":{"_t":"IfcAreaMeasure","_v":1.684679060487559}}
+]}

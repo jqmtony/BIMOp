@@ -1,0 +1,31 @@
+{"objects":[{"_i":7602681,"_t":"IfcPropertySingleValue","_s":1,"Name":"Full Element ID","_eNominalValue":{"_t":"IfcLabel","_v":"Wall - 034"}}
+,{"_i":7668217,"_t":"IfcPropertySingleValue","_s":1,"Name":"Compact Element ID","_eNominalValue":{"_t":"IfcLabel","_v":"Wall - 034"}}
+,{"_i":7733753,"_t":"IfcPropertySingleValue","_s":1,"Name":"Property Object Name","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":7799289,"_t":"IfcPropertySingleValue","_s":1,"Name":"Home Story","_eNominalValue":{"_t":"IfcLabel","_v":"Ground Floor"}}
+,{"_i":7864825,"_t":"IfcPropertySingleValue","_s":1,"Name":"Zone Name","_eNominalValue":{"_t":"IfcLabel","_v":"Exit lobby"}}
+,{"_i":7930361,"_t":"IfcPropertySingleValue","_s":1,"Name":"Zone Number","_eNominalValue":{"_t":"IfcLabel","_v":"015"}}
+,{"_i":7995897,"_t":"IfcPropertySingleValue","_s":1,"Name":"Layer","_eNominalValue":{"_t":"IfcLabel","_v":"Des: Walls"}}
+,{"_i":8061433,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type","_eNominalValue":{"_t":"IfcLabel","_v":"Wall"}}
+,{"_i":8126969,"_t":"IfcPropertySingleValue","_s":1,"Name":"Locked","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":8192505,"_t":"IfcPropertySingleValue","_s":1,"Name":"Building Material / Composite / Profile / Fill","_eNominalValue":{"_t":"IfcLabel","_v":"EXT: Concrete 200"}}
+,{"_i":8258041,"_t":"IfcPropertySingleValue","_s":1,"Name":"Label Text","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":8323577,"_t":"IfcPropertySingleValue","_s":1,"Name":"Unique ID","_eNominalValue":{"_t":"IfcLabel","_v":"C6B61FFD-D4D6-8F4E-A154-C9681CD75EE6"}}
+,{"_i":8389113,"_t":"IfcPropertySingleValue","_s":1,"Name":"Linked Changes","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":8454649,"_t":"IfcPropertySingleValue","_s":1,"Name":"Structural Function","_eNominalValue":{"_t":"IfcLabel","_v":"Undefined"}}
+,{"_i":8520185,"_t":"IfcPropertySingleValue","_s":1,"Name":"Position","_eNominalValue":{"_t":"IfcLabel","_v":"Undefined"}}
+,{"_i":8585721,"_t":"IfcPropertySingleValue","_s":1,"Name":"Element Classification","_eNominalValue":{"_t":"IfcLabel","_v":"ArchiCAD Type"}}
+,{"_i":8651257,"_t":"IfcPropertySingleValue","_s":1,"Name":"Renovation Status","_eNominalValue":{"_t":"IfcLabel","_v":"Existing"}}
+,{"_i":8716793,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show On Renovation Filter","_eNominalValue":{"_t":"IfcLabel","_v":"All Relevant Filters"}}
+,{"_i":8782329,"_t":"IfcPropertySingleValue","_s":1,"Name":"Structure Type","_eNominalValue":{"_t":"IfcLabel","_v":"Composite"}}
+,{"_i":8847865,"_t":"IfcPropertySingleValue","_s":1,"Name":"ArchiCAD IFC ID","_eNominalValue":{"_t":"IfcLabel","_v":"36jX$zrDQFJg5KoMWSrrxc"}}
+,{"_i":8913401,"_t":"IfcPropertySingleValue","_s":1,"Name":"External IFC ID","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":8978937,"_t":"IfcPropertySingleValue","_s":1,"Name":"Building Material / Composite / Profile","_eNominalValue":{"_t":"IfcLabel","_v":"EXT: Concrete 200"}}
+,{"_i":9044473,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Face Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Concrete - 02"}}
+,{"_i":9110009,"_t":"IfcPropertySingleValue","_s":1,"Name":"Inside Face Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Concrete - 02"}}
+,{"_i":9175545,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Slant Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":90.0}}
+,{"_i":9241081,"_t":"IfcPropertySingleValue","_s":1,"Name":"Inside Slant Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":90.0}}
+,{"_i":9306617,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Slant Type","_eNominalValue":{"_t":"IfcLabel","_v":"Straight"}}
+,{"_i":9372153,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reference Line Location","_eNominalValue":{"_t":"IfcLabel","_v":"Outside Face"}}
+,{"_i":9437689,"_t":"IfcPropertySingleValue","_s":1,"Name":"Top Link Story","_eNominalValue":{"_t":"IfcLabel","_v":"Home + 2 (3. Level 2)"}}
+,{"_i":9503225,"_t":"IfcPropertySingleValue","_s":1,"Name":"Geometry method","_eNominalValue":{"_t":"IfcLabel","_v":"Uniform"}}
+]}

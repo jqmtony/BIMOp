@@ -1,0 +1,13 @@
+{"objects":[{"_i":1949041145,"_t":"IfcPropertySingleValue","_s":1,"Name":"URL","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":1949106681,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type Comments","_eNominalValue":{"_t":"IfcLabel","_v":"Corrosion Resistant"}}
+,{"_i":1950220793,"_t":"IfcPropertySingleValue","_s":1,"Name":"Model","_eNominalValue":{"_t":"IfcLabel","_v":"DCLF40"}}
+,{"_i":1950286329,"_t":"IfcPropertySingleValue","_s":1,"Name":"Manufacturer","_eNominalValue":{"_t":"IfcLabel","_v":"Apollo"}}
+,{"_i":1951007225,"_t":"IfcPropertySingleValue","_s":1,"Name":"Keynote","_eNominalValue":{"_t":"IfcLabel","_v":"15200"}}
+,{"_i":1951531513,"_t":"IfcPropertySingleValue","_s":1,"Name":"Description","_eNominalValue":{"_t":"IfcLabel","_v":"Double Check Valve"}}
+,{"_i":1951597049,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cost","_eNominalValue":{"_t":"IfcReal","_v":150.0}}
+,{"_i":1951859193,"_t":"IfcPropertySingleValue","_s":1,"Name":"Assembly Code","_eNominalValue":{"_t":"IfcLabel","_v":"D3040400"}}
+,{"_i":1952055801,"_t":"IfcPropertySingleValue","_s":1,"Name":"Assembly Description","_eNominalValue":{"_t":"IfcLabel","_v":"Hot Water Distribution"}}
+,{"_i":1952121337,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type Mark","_eNominalValue":{"_t":"IfcLabel","_v":"none"}}
+,{"_i":1953890809,"_t":"IfcPropertySingleValue","_s":1,"Name":"OmniClass Number","_eNominalValue":{"_t":"IfcLabel","_v":"23.65.55.14.21"}}
+,{"_i":1953956345,"_t":"IfcPropertySingleValue","_s":1,"Name":"OmniClass Title","_eNominalValue":{"_t":"IfcLabel","_v":"Non-Return Valves for Liquid Services"}}
+]}

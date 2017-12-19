@@ -1,0 +1,516 @@
+{"objects":[{"_i":125764089,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Contours (0-None,1-Full,2-Side,3-Length)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":125829625,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hotspots 0-None,1-2D,2-3D,3-All","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":125895161,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show 2D Hotspots in 3D","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":125960697,"_t":"IfcPropertySingleValue","_s":1,"Name":"Floor Plan Display Option","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":126026233,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hole Position Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":126091769,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hole has Wall's Side Surface","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":126157305,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hole Surface's Split is Curved","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":126222841,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Type","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":126288377,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Direction Type","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":126353913,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reveal Anchor Position","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":126419449,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Direction","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":126484985,"_t":"IfcPropertySingleValue","_s":1,"Name":"Flip","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":126550521,"_t":"IfcPropertySingleValue","_s":1,"Name":"Parapet Wall Inset Value","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":126616057,"_t":"IfcPropertySingleValue","_s":1,"Name":"Demolition / New construction","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":126681593,"_t":"IfcPropertySingleValue","_s":1,"Name":"Demolition Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"0"}}
+,{"_i":126747129,"_t":"IfcPropertySingleValue","_s":1,"Name":"Demolition Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Transparent"}}
+,{"_i":126812665,"_t":"IfcPropertySingleValue","_s":1,"Name":"Demolition Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Transparent"}}
+,{"_i":126878201,"_t":"IfcPropertySingleValue","_s":1,"Name":"New Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"0"}}
+,{"_i":126943737,"_t":"IfcPropertySingleValue","_s":1,"Name":"New Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Transparent"}}
+,{"_i":127009273,"_t":"IfcPropertySingleValue","_s":1,"Name":"New Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Transparent"}}
+,{"_i":127074809,"_t":"IfcPropertySingleValue","_s":1,"Name":"New Wall Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Masonry Block"}}
+,{"_i":127140345,"_t":"IfcPropertySingleValue","_s":1,"Name":"New Wall Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":127205881,"_t":"IfcPropertySingleValue","_s":1,"Name":"New Wall Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":127271417,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show new construction on Wall","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":127336953,"_t":"IfcPropertySingleValue","_s":1,"Name":"Demolition line type","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":127402489,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Demolition/New parameter","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":127468025,"_t":"IfcPropertySingleValue","_s":1,"Name":"Display as Transom","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":127533561,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight (gs_SidelightTransomRelation)","_eNominalValue":{"_t":"IfcLabel","_v":"Under Transom"}}
+,{"_i":127599097,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight (gs_SidelightTransomRelation_m)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":127664633,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight 1","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":127730169,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight 2","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":127795705,"_t":"IfcPropertySingleValue","_s":1,"Name":"Transom","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":127861241,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uniform Tolerances","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":127926777,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nominal Size","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":127992313,"_t":"IfcPropertySingleValue","_s":1,"Name":"Set Wallhole Size as Nominal Size","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":128057849,"_t":"IfcPropertySingleValue","_s":1,"Name":"Set Reveal Size as Nominal Size","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":128123385,"_t":"IfcPropertySingleValue","_s":1,"Name":"Set Unit Size as Nominal Size","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":128188921,"_t":"IfcPropertySingleValue","_s":1,"Name":"Set Egress Size as Nominal Size","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":128254457,"_t":"IfcPropertySingleValue","_s":1,"Name":"Set Leaf Size as Nominal Size","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":128319993,"_t":"IfcPropertySingleValue","_s":1,"Name":"Transfer Current Nominal Size to Selection","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":128385529,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Editable Hotspots","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":128451065,"_t":"IfcPropertySingleValue","_s":1,"Name":"2D Detail Level","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":128516601,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Reveal on Symbol","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":128582137,"_t":"IfcPropertySingleValue","_s":1,"Name":"Symbolic Display of Opening","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":128647673,"_t":"IfcPropertySingleValue","_s":1,"Name":"3D Detail Level","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":128713209,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Direction Sidelight (gs_opening_dir_sl)","_eNominalValue":{"_t":"IfcLabel","_v":"Opposite to Leaf"}}
+,{"_i":128778745,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Direction Sidelight (gs_opening_dir_sl_m)","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":128844281,"_t":"IfcPropertySingleValue","_s":1,"Name":"Door Frame (gs_pocket_door_frame)","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":128909817,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Style (gs_frame_style)","_eNominalValue":{"_t":"IfcLabel","_v":"Double Rebate"}}
+,{"_i":128975353,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Style (gs_frame_style_m)","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":129040889,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Thickness=Wall Thickness","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":129106425,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uniform Frame Thickness","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":129171961,"_t":"IfcPropertySingleValue","_s":1,"Name":"Centered Leaf","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":129237497,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uniform Frame Width","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":129303033,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Style Changed Automatically","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":129368569,"_t":"IfcPropertySingleValue","_s":1,"Name":"Number of Door Leaves","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":129434105,"_t":"IfcPropertySingleValue","_s":1,"Name":"Number of Door Leaves - Side 2","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":129499641,"_t":"IfcPropertySingleValue","_s":1,"Name":"Door Panel Style (gs_door_typ)","_eNominalValue":{"_t":"IfcLabel","_v":"Style 1"}}
+,{"_i":129565177,"_t":"IfcPropertySingleValue","_s":1,"Name":"Door Panel Style (gs_door_typ_m)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":129630713,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaves Configuration (gs_LeavesConfig)","_eNominalValue":{"_t":"IfcLabel","_v":"Uniform Leaves"}}
+,{"_i":129696249,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaves Configuration (gs_iLeavesConfig)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":129761785,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name (gs_cust_panel)","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":129827321,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grid Position (gs_grill_pos)","_eNominalValue":{"_t":"IfcLabel","_v":"Throughout"}}
+,{"_i":129892857,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grid Position (gs_grill_pos_m)","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":129958393,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":130023929,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":130089465,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically Side 1","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":130155001,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally Side 1","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":130220537,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show as Glass Panel on Symbol","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":130286073,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Chinese Spring Door Symbol","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":130351609,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Symbol as Airtight Panel","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":130417145,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Handle (gs_handle_type)","_eNominalValue":{"_t":"IfcLabel","_v":"None"}}
+,{"_i":130482681,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Handle (gs_handle_type_m)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":130548217,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Handle on Symbol","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":130613753,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Handle Name","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":130679289,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uniform Sashes","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":130744825,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type Sidelight Side 1","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":130810361,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type (gs_optype_m_05)","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":130875897,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type Sidelight Side 2","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":130941433,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type (gs_optype_m_09)","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":131006969,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type Middle Transom","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":131072505,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type (gs_optype_m_02)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":131138041,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type Transom Side 1","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":131203577,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type (gs_optype_m_06)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":131269113,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type Transom Side 2","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":131334649,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type (gs_optype_m_10)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":131400185,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type (MullionStyle_00)","_eNominalValue":{"_t":"IfcLabel","_v":"No Grid"}}
+,{"_i":131465721,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type (iMullionStyle_00)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":131531257,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type Sidelight Side 1","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":131596793,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type (iMullionStyle_05)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":131662329,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type Sidelight Side 2","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":131727865,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type (iMullionStyle_09)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":131793401,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type Middle Transom","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":131858937,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type (iMullionStyle_02)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":131924473,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type Transom Side 1","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":131990009,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type (iMullionStyle_06)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":132055545,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type Transom Side 2","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132121081,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sash Type (iMullionStyle_10)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":132186617,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name (gs_cust_panel_00)","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132252153,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name Sidelight Side 1","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132317689,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name 2 Sidelight Side 1","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132383225,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name Sidelight Side 2","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132448761,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name 2 Sidelight Side 2","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132514297,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name Middle Transom","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132579833,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name 2 Middle Transom","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132645369,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name Transom Side 1","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132710905,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name 2 Transom Side 1","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132776441,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name Transom Side 2","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132841977,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name 2 Transom Side 2","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":132907513,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hotspot Grill Editing","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":132973049,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grid Position (MullionPosition)","_eNominalValue":{"_t":"IfcLabel","_v":"Throughout"}}
+,{"_i":133038585,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grid Position (iMullionPosition)","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":133104121,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically Main Sash Side 1","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":133169657,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally Main Sash Side 1","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":133235193,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically 2 Main Sash Side 1","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":133300729,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally 2 Main Sash Side 1","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":133366265,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically Main Sash Side 2","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":133431801,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally Main Sash Side 2","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":133497337,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically 2 Main Sash Side 2","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":133562873,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally 2 Main Sash Side 2","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":133628409,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically Middle Transom","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":133693945,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally Middle Transom","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":133759481,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically 2 Middle Transom","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":133825017,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally 2 Middle Transom","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":133890553,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically Transom Side 1","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":133956089,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally Transom Side 1","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":134021625,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically 2 Transom Side 1","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":134087161,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally 2 Transom Side 1","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":134152697,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically Transom Side 2","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":134218233,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally Transom Side 2","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":134283769,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Vertically 2 Transom Side 2","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":134349305,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panes Number Horizontally 2 Transom Side 2","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":134414841,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Outside","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":134480377,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Type Outside (gs_trimtype_out)","_eNominalValue":{"_t":"IfcLabel","_v":"Rectangular"}}
+,{"_i":134545913,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Type Outside (gs_trimtype_out_int)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":134611449,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uniform Casing Widths (gs_trim_outside_uniform)","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":134676985,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Inside","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":134742521,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Type Inside (gs_trimtype_in)","_eNominalValue":{"_t":"IfcLabel","_v":"Rectangular"}}
+,{"_i":134808057,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Type Inside (gs_trimtype_in_int)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":134873593,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uniform Casing Widths (gs_trim_inside_uniform)","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":134939129,"_t":"IfcPropertySingleValue","_s":1,"Name":"Threshold","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":135004665,"_t":"IfcPropertySingleValue","_s":1,"Name":"Threshold Type","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":135070201,"_t":"IfcPropertySingleValue","_s":1,"Name":"Threshold Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":3.19959740472}}
+,{"_i":135135737,"_t":"IfcPropertySingleValue","_s":1,"Name":"Threshold Changed Automatically","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":135201273,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill - Door","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":135266809,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill - Sidelight Side 1","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":135332345,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill - Sidelight Side 2","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":135397881,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill Oversize","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":135463417,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type of the Sill","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":135528953,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":3.0}}
+,{"_i":135594489,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill is Curved in Curved Walls","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":135660025,"_t":"IfcPropertySingleValue","_s":1,"Name":"Insulation below Sill","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":135725561,"_t":"IfcPropertySingleValue","_s":1,"Name":"Use Wall Insulation Skin","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":135791097,"_t":"IfcPropertySingleValue","_s":1,"Name":"Brick Sill 3D Detail Level","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":135856633,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill Style Changed Automatically","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":135922169,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board - Sidelight Side 1","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":135987705,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board - Sidelight Side 2","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":136053241,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board - Door","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":136118777,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":136184313,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board is Curved in Curved Walls","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":136249849,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board in Polygonal Walls","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":136315385,"_t":"IfcPropertySingleValue","_s":1,"Name":"Natural Ventilation","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":136380921,"_t":"IfcPropertySingleValue","_s":1,"Name":"Natural Ventilation Type","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":136446457,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sunshade","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":136511993,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sunshade Type","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":136577529,"_t":"IfcPropertySingleValue","_s":1,"Name":"Enabled Sunshade Types","_eNominalValue":{"_t":"IfcReal","_v":126.0}}
+,{"_i":136643065,"_t":"IfcPropertySingleValue","_s":1,"Name":"Number of Panels","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":136708601,"_t":"IfcPropertySingleValue","_s":1,"Name":"Number of Panels 2","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":136774137,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panel Position (gs_shutter_panelPos)","_eNominalValue":{"_t":"IfcLabel","_v":"Symmetric"}}
+,{"_i":136839673,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panel Position (gs_shutter_iPanelPos)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":136905209,"_t":"IfcPropertySingleValue","_s":1,"Name":"Automatic Shutter Height","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":136970745,"_t":"IfcPropertySingleValue","_s":1,"Name":"Extra Frame","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":137036281,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cover Type (gs_slidingShutter_cover)","_eNominalValue":{"_t":"IfcLabel","_v":"Z-Profile"}}
+,{"_i":137101817,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cover Type (gs_slidingShutter_iCover)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":137167353,"_t":"IfcPropertySingleValue","_s":1,"Name":"Stacking Direction (gs_foldingShutter_stacking)","_eNominalValue":{"_t":"IfcLabel","_v":"Inside"}}
+,{"_i":137232889,"_t":"IfcPropertySingleValue","_s":1,"Name":"Stacking Direction (gs_foldingShutter_iStacking)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":137298425,"_t":"IfcPropertySingleValue","_s":1,"Name":"Open in 3D","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":137363961,"_t":"IfcPropertySingleValue","_s":1,"Name":"3D Opening Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":180.0}}
+,{"_i":137429497,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show 2D Symbol","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":137495033,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Opening Lines on Symbol","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":137560569,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panel Type (gs_shutPanel_type)","_eNominalValue":{"_t":"IfcLabel","_v":"Style 1"}}
+,{"_i":137626105,"_t":"IfcPropertySingleValue","_s":1,"Name":"Panel Type (gs_shutPanel_iType)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":137691641,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Panel Name (gs_cust_shutterPanel)","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":137757177,"_t":"IfcPropertySingleValue","_s":1,"Name":"Different Bottom Frame Width","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":137822713,"_t":"IfcPropertySingleValue","_s":1,"Name":"Automatic Shutter Width","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":137888249,"_t":"IfcPropertySingleValue","_s":1,"Name":"Louver Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":30.0}}
+,{"_i":137953785,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hole Resolution","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":138019321,"_t":"IfcPropertySingleValue","_s":1,"Name":"Holes Number Horizontal","_eNominalValue":{"_t":"IfcReal","_v":5.0}}
+,{"_i":138084857,"_t":"IfcPropertySingleValue","_s":1,"Name":"Holes Number Vertical","_eNominalValue":{"_t":"IfcReal","_v":8.0}}
+,{"_i":138150393,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rolling Shutter Placement (gs_shutRoll_placement)","_eNominalValue":{"_t":"IfcLabel","_v":"On Facade"}}
+,{"_i":138215929,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rolling Shutter Placement (gs_shutRoll_iPlacement)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":138281465,"_t":"IfcPropertySingleValue","_s":1,"Name":"Box Type (gs_shutRoll_boxType)","_eNominalValue":{"_t":"IfcLabel","_v":"Rectangular"}}
+,{"_i":138347001,"_t":"IfcPropertySingleValue","_s":1,"Name":"Box Type (gs_shutRoll_iBoxType)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":138412537,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rail Position (gs_shutRoll_railPos)","_eNominalValue":{"_t":"IfcLabel","_v":"On Casing"}}
+,{"_i":138478073,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rail Position (gs_shutRoll_iRailPos)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":138543609,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Casing behind Sunshade (gs_shutRoll_showCasingBehind)","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":138609145,"_t":"IfcPropertySingleValue","_s":1,"Name":"Insulation behind Box (gs_shutRoll_cutWallBehind)","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":138674681,"_t":"IfcPropertySingleValue","_s":1,"Name":"Include Height in Wallhole Height","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":138740217,"_t":"IfcPropertySingleValue","_s":1,"Name":"Box Top Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":10.0}}
+,{"_i":138805753,"_t":"IfcPropertySingleValue","_s":1,"Name":"Box Default Width (gs_shutRoll_boxDefaultSize)","_eNominalValue":{"_t":"IfcLabel","_v":"Reveal Width"}}
+,{"_i":138871289,"_t":"IfcPropertySingleValue","_s":1,"Name":"Box Default Width (gs_shutRoll_iBoxDefaultSize)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":138936825,"_t":"IfcPropertySingleValue","_s":1,"Name":"Venetian Blinds Placement (gs_shutLam_placement)","_eNominalValue":{"_t":"IfcLabel","_v":"Fixed on Facade"}}
+,{"_i":139002361,"_t":"IfcPropertySingleValue","_s":1,"Name":"Venetian Blinds Placement (gs_shutLam_iPlacement)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":139067897,"_t":"IfcPropertySingleValue","_s":1,"Name":"Insulation behind Box (gs_shutLam_cutWallBehind)","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":139133433,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opened Box","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":139198969,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rail (gs_shutLam_bRail)","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":139264505,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rail Position (gs_shutLam_railPos)","_eNominalValue":{"_t":"IfcLabel","_v":"On Casing"}}
+,{"_i":139330041,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rail Position (gs_shutLam_iRailPos)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":139395577,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Casing behind Sunshade (gs_shutLam_showCasingBehind)","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":139461113,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rotation Angle of Slats (gs_shutLam_rotation)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":45.0}}
+,{"_i":139526649,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rotation Angle of Slats (gs_shutLam2_rotation)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":45.0}}
+,{"_i":139592185,"_t":"IfcPropertySingleValue","_s":1,"Name":"Masonry Arch (bMasonryArch)","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":139657721,"_t":"IfcPropertySingleValue","_s":1,"Name":"Masonry Arch (gs_masonry_arch_int)","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":139723257,"_t":"IfcPropertySingleValue","_s":1,"Name":"Masonry Arch Type (gs_masonry_arch_structure)","_eNominalValue":{"_t":"IfcLabel","_v":"Stucco Arch"}}
+,{"_i":139788793,"_t":"IfcPropertySingleValue","_s":1,"Name":"Masonry Arch Type (gs_masonry_arch_structure_int)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":139854329,"_t":"IfcPropertySingleValue","_s":1,"Name":"Arch on Header","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":139919865,"_t":"IfcPropertySingleValue","_s":1,"Name":"Niche below Arch","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":139985401,"_t":"IfcPropertySingleValue","_s":1,"Name":"Skewback Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":75.0}}
+,{"_i":140050937,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Niche Surface","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":140116473,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reveal Type (gs_reveal_type_new)","_eNominalValue":{"_t":"IfcLabel","_v":"No Reveal - Edge"}}
+,{"_i":140182009,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reveal Type (gs_reveal_type_int)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":140247545,"_t":"IfcPropertySingleValue","_s":1,"Name":"Bottom Reveal Type (gs_reveal_type_bottom)","_eNominalValue":{"_t":"IfcLabel","_v":"No Reveal"}}
+,{"_i":140313081,"_t":"IfcPropertySingleValue","_s":1,"Name":"Bottom Reveal Type (gs_reveal_type_bottom_int)","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":140378617,"_t":"IfcPropertySingleValue","_s":1,"Name":"Set Jamb Depth on Side","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":140444153,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uniform Jamb Depth","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":140509689,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outer Reveal Type","_eNominalValue":{"_t":"IfcLabel","_v":"No Reveal"}}
+,{"_i":140575225,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reveal Type (gs_reveal_doubleOuterTypeInt)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":140640761,"_t":"IfcPropertySingleValue","_s":1,"Name":"Inner Reveal Type","_eNominalValue":{"_t":"IfcLabel","_v":"No Reveal"}}
+,{"_i":140706297,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reveal Type (gs_reveal_doubleInnerTypeInt)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":140771833,"_t":"IfcPropertySingleValue","_s":1,"Name":"Angle Side 2","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":20.0}}
+,{"_i":140837369,"_t":"IfcPropertySingleValue","_s":1,"Name":"Angle Side","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":20.0}}
+,{"_i":140902905,"_t":"IfcPropertySingleValue","_s":1,"Name":"Upper Side Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":20.0}}
+,{"_i":140968441,"_t":"IfcPropertySingleValue","_s":1,"Name":"Bottom Side Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":20.0}}
+,{"_i":141033977,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outer Angle Side 2","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":20.0}}
+,{"_i":141099513,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outer Angle Side","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":20.0}}
+,{"_i":141165049,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outer Angle Upper Side","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":20.0}}
+,{"_i":141230585,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outer Angle Bottom Side","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":20.0}}
+,{"_i":141296121,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rail under Leaves","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":141361657,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rail (gs_door_rail_ext)","_eNominalValue":{"_t":"IfcLabel","_v":"Off"}}
+,{"_i":141427193,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rail (gs_door_rail_ext_m)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":141492729,"_t":"IfcPropertySingleValue","_s":1,"Name":"Use Wall Finish Component","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":141558265,"_t":"IfcPropertySingleValue","_s":1,"Name":"Auto Turn Inside Face Plaster","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":141623801,"_t":"IfcPropertySingleValue","_s":1,"Name":"Turn Inside Face Plaster","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":141689337,"_t":"IfcPropertySingleValue","_s":1,"Name":"Auto Turn Outside Face Plaster","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":141754873,"_t":"IfcPropertySingleValue","_s":1,"Name":"Turn Outside Face Plaster","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":141820409,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show in 3D","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":141885945,"_t":"IfcPropertySingleValue","_s":1,"Name":"Closure Type (gs_closure_type)","_eNominalValue":{"_t":"IfcLabel","_v":"No Closure"}}
+,{"_i":141951481,"_t":"IfcPropertySingleValue","_s":1,"Name":"Closure Type (gs_closure_type_int)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":142017017,"_t":"IfcPropertySingleValue","_s":1,"Name":"Turn Skin on Side (gs_cavity_side)","_eNominalValue":{"_t":"IfcLabel","_v":"Both"}}
+,{"_i":142082553,"_t":"IfcPropertySingleValue","_s":1,"Name":"Turn Skin on Side (iCavityClosureSide)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":142148089,"_t":"IfcPropertySingleValue","_s":1,"Name":"Number of Skins to Turn","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":142213625,"_t":"IfcPropertySingleValue","_s":1,"Name":"Number from (gs_nTurnDir)","_eNominalValue":{"_t":"IfcLabel","_v":"Outside Face"}}
+,{"_i":142279161,"_t":"IfcPropertySingleValue","_s":1,"Name":"Number from (iCavityClosureTurnDir)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":142344697,"_t":"IfcPropertySingleValue","_s":1,"Name":"Place Closer on Side 1","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":142410233,"_t":"IfcPropertySingleValue","_s":1,"Name":"Place Closer on Side 2","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":142475769,"_t":"IfcPropertySingleValue","_s":1,"Name":"Place Closer on Top","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":142541305,"_t":"IfcPropertySingleValue","_s":1,"Name":"Place Closer on Bottom","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":142606841,"_t":"IfcPropertySingleValue","_s":1,"Name":"Place Closer to Skin","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":142672377,"_t":"IfcPropertySingleValue","_s":1,"Name":"Place Closer from Side (gs_cc_dutch_ClosureToSide_str)","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":142737913,"_t":"IfcPropertySingleValue","_s":1,"Name":"Place Closer from Side (gs_cc_dutch_ClosureToSide)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":142803449,"_t":"IfcPropertySingleValue","_s":1,"Name":"Gap at Outside Skin","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":142868985,"_t":"IfcPropertySingleValue","_s":1,"Name":"Turn Skin to Closer","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":142934521,"_t":"IfcPropertySingleValue","_s":1,"Name":"Insert Insulation Strip","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":143000057,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Insulation Strip","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":143065593,"_t":"IfcPropertySingleValue","_s":1,"Name":"Contour Pen (gs_penJoint)","_eNominalValue":{"_t":"IfcLabel","_v":"Openings- Cut Non-Structural"}}
+,{"_i":143131129,"_t":"IfcPropertySingleValue","_s":1,"Name":"Contour Line Type (gs_ltJoint)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":143196665,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fill Type (gs_fillJoint)","_eNominalValue":{"_t":"IfcLabel","_v":"Rigid Insulation"}}
+,{"_i":143262201,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fill Pen (gs_penJointFg)","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":143327737,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fill Background Pen (gs_penJointBg)","_eNominalValue":{"_t":"IfcLabel","_v":"2D Elements - Drafting"}}
+,{"_i":143393273,"_t":"IfcPropertySingleValue","_s":1,"Name":"Custom Surface","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":143458809,"_t":"IfcPropertySingleValue","_s":1,"Name":"Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":143524345,"_t":"IfcPropertySingleValue","_s":1,"Name":"Contour Pen (gs_penPlug)","_eNominalValue":{"_t":"IfcLabel","_v":"Openings- Cut Non-Structural"}}
+,{"_i":143589881,"_t":"IfcPropertySingleValue","_s":1,"Name":"Contour Line Type (gs_ltPlug)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":143655417,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fill Type (gs_fillPlug)","_eNominalValue":{"_t":"IfcLabel","_v":"Rigid Insulation"}}
+,{"_i":143720953,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fill Pen (gs_penPlugFg)","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":143786489,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fill Background Pen (gs_penPlugBg)","_eNominalValue":{"_t":"IfcLabel","_v":"2D Elements - Drafting"}}
+,{"_i":143852025,"_t":"IfcPropertySingleValue","_s":1,"Name":"Edited Jamb Side","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":143917561,"_t":"IfcPropertySingleValue","_s":1,"Name":"Edited Wall Side","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":143983097,"_t":"IfcPropertySingleValue","_s":1,"Name":"Edited Skin Number","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":144048633,"_t":"IfcPropertySingleValue","_s":1,"Name":"Turn-in Skin","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":144114169,"_t":"IfcPropertySingleValue","_s":1,"Name":"Consider Skin as Plaster","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":144179705,"_t":"IfcPropertySingleValue","_s":1,"Name":"Turn-in Thickness","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":144245241,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hatch Orientation","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":144310777,"_t":"IfcPropertySingleValue","_s":1,"Name":"Separating Line at Turn-in","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":144376313,"_t":"IfcPropertySingleValue","_s":1,"Name":"Separating Line Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":144441849,"_t":"IfcPropertySingleValue","_s":1,"Name":"Last Selected Side","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":144507385,"_t":"IfcPropertySingleValue","_s":1,"Name":"Closure Method Changed Automatically","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":144572921,"_t":"IfcPropertySingleValue","_s":1,"Name":"Connection on Side 1","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":144638457,"_t":"IfcPropertySingleValue","_s":1,"Name":"Connection on Side 2","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":144703993,"_t":"IfcPropertySingleValue","_s":1,"Name":"Connection on the Top","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":144769529,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type (gs_leaf_optype)","_eNominalValue":{"_t":"IfcLabel","_v":"Side Hung"}}
+,{"_i":144835065,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Type (gs_leaf_optype_m)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":144900601,"_t":"IfcPropertySingleValue","_s":1,"Name":"End Panel Opening Side 1","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":144966137,"_t":"IfcPropertySingleValue","_s":1,"Name":"End Panel Opening Side 2","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":145031673,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle in 2D","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":90.0}}
+,{"_i":145097209,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle in 2D on Side 2","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":90.0}}
+,{"_i":145162745,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle in 3D","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145228281,"_t":"IfcPropertySingleValue","_s":1,"Name":"End Panel Opening Angle in 3D on Side 2","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145293817,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle of Main Sash Side 1 (openingAngle_05)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145359353,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle of Main Sash Side 1 (openingAngle2_05)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145424889,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle of Main Sash Side 2 (openingAngle_09)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145490425,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle of Main Sash Side 2 (openingAngle2_09)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145555961,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle of Middle Transom (openingAngle_02)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145621497,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle of Middle Transom (openingAngle2_02)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145687033,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle of Transom Side 1 (openingAngle_06)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145752569,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle of Transom Side 1 (openingAngle2_06)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145818105,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle of Transom Side 2 (openingAngle_10)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145883641,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Angle of Transom Side 2 (openingAngle2_10)","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":0.0}}
+,{"_i":145949177,"_t":"IfcPropertySingleValue","_s":1,"Name":"Double Acting Line Type","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":146014713,"_t":"IfcPropertySingleValue","_s":1,"Name":"Override MVO for 2D Symbolic Display","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":146080249,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Line Type","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":146145785,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Line Shape (or_SwingType)","_eNominalValue":{"_t":"IfcLabel","_v":"Curved"}}
+,{"_i":146211321,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Line Shape (or_iSwingType)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":146276857,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Line Shape (or_SlidingType)","_eNominalValue":{"_t":"IfcLabel","_v":"None"}}
+,{"_i":146342393,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Line Shape (or_iSlidingType)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":146407929,"_t":"IfcPropertySingleValue","_s":1,"Name":"Override MVO for Door 3D Projections","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":146473465,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Opening Line (or_bOplines3d)","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":146539001,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Type Opening Side (or_opLineType3dIn)","_eNominalValue":{"_t":"IfcLabel","_v":"Solid Line"}}
+,{"_i":146604537,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Type Opening Side (or_iOpLineType3dIn)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":146670073,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Type Opposite Side (or_opLineType3dOut)","_eNominalValue":{"_t":"IfcLabel","_v":"Solid Line"}}
+,{"_i":146735609,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Type Opposite Side (or_iOpLineType3dOut)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":146801145,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Orientation (or_oplineStyle)","_eNominalValue":{"_t":"IfcLabel","_v":"Hinges"}}
+,{"_i":146866681,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Orientation (or_iOplineStyle)","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":146932217,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Line Pen in 2D/3D (or_opLinePen)","_eNominalValue":{"_t":"IfcLabel","_v":"Openings - General"}}
+,{"_i":146997753,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Line Pen in 2D/3D (or_iOpLinePen)","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":147063289,"_t":"IfcPropertySingleValue","_s":1,"Name":"Override MVO for Sidelight/Transom 3D Projections","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":147128825,"_t":"IfcPropertySingleValue","_s":1,"Name":"Show Opening Line (or_bWinOplines3d)","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":147194361,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Type Opening Side (or_winOpLineType3dIn)","_eNominalValue":{"_t":"IfcLabel","_v":"Solid Line"}}
+,{"_i":147259897,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Type Opening Side (or_iWinOpLineType3dIn)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":147325433,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Type Opposite Side (or_winOpLineType3dOut)","_eNominalValue":{"_t":"IfcLabel","_v":"Solid Line"}}
+,{"_i":147390969,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Type Opposite Side (or_iWinOpLineType3dOut)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":147456505,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Orientation (or_winOplineStyle)","_eNominalValue":{"_t":"IfcLabel","_v":"Hinges"}}
+,{"_i":147522041,"_t":"IfcPropertySingleValue","_s":1,"Name":"Line Orientation (or_iWinOplineStyle)","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":147587577,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Line Pen in 2D/3D (or_winOpLinePen)","_eNominalValue":{"_t":"IfcLabel","_v":"Openings - General"}}
+,{"_i":147653113,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Line Pen in 2D/3D (or_iWinOpLinePen)","_eNominalValue":{"_t":"IfcReal","_v":3.0}}
+,{"_i":147718649,"_t":"IfcPropertySingleValue","_s":1,"Name":"Symbol Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Openings - General"}}
+,{"_i":147784185,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Contour Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Openings- Cut Structural"}}
+,{"_i":147849721,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Cut Line Pen on Both Sides","_eNominalValue":{"_t":"IfcLabel","_v":"Openings - General"}}
+,{"_i":147915257,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Contour Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Openings - General"}}
+,{"_i":147980793,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Contour Line (gs_wcont_line)","_eNominalValue":{"_t":"IfcLabel","_v":"Off"}}
+,{"_i":148046329,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Contour Line (iWallContourLine)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":148111865,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Contour Line Type Inside","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":148177401,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Contour Line Type Outside","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":148242937,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hidden Wall Contour Line Type Inside","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":148308473,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hidden Wall Contour Line Type Outside","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":148374009,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight Wall Contour Line (gs_wcont_line_sl)","_eNominalValue":{"_t":"IfcLabel","_v":"Both Sides"}}
+,{"_i":148439545,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight Wall Contour Line (iWallContourLineSl)","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":148505081,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight Wall Contour Line Type Inside","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":148570617,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight Wall Contour Line Type Outside","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":148636153,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight Hidden Wall Contour Line Type Inside","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":148701689,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight Hidden Wall Contour Line Type Outside","_eNominalValue":{"_t":"IfcReal","_v":4.0}}
+,{"_i":148767225,"_t":"IfcPropertySingleValue","_s":1,"Name":"Wall Contour Line Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Openings - General"}}
+,{"_i":148832761,"_t":"IfcPropertySingleValue","_s":1,"Name":"Use Fills","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":148898297,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":148963833,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Openings- Cut Fills"}}
+,{"_i":149029369,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":149094905,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Air Space"}}
+,{"_i":149160441,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":149225977,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":149291513,"_t":"IfcPropertySingleValue","_s":1,"Name":"Airtight Symbol Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Foreground Fill"}}
+,{"_i":149357049,"_t":"IfcPropertySingleValue","_s":1,"Name":"Airtight Symbol Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":149422585,"_t":"IfcPropertySingleValue","_s":1,"Name":"Airtight Symbol Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":149488121,"_t":"IfcPropertySingleValue","_s":1,"Name":"Door Plan Symbol Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":149553657,"_t":"IfcPropertySingleValue","_s":1,"Name":"Door Plan Symbol Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":149619193,"_t":"IfcPropertySingleValue","_s":1,"Name":"Door Plan Symbol Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Transparent"}}
+,{"_i":149684729,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight Plan Symbol Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":149750265,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight Plan Symbol Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":149815801,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sidelight Plan Symbol Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":149881337,"_t":"IfcPropertySingleValue","_s":1,"Name":"Threshold and Sill Line Type","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":149946873,"_t":"IfcPropertySingleValue","_s":1,"Name":"Threshold Section Contour Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Openings - General"}}
+,{"_i":150012409,"_t":"IfcPropertySingleValue","_s":1,"Name":"Threshold Section Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":150077945,"_t":"IfcPropertySingleValue","_s":1,"Name":"Threshold Section Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":150143481,"_t":"IfcPropertySingleValue","_s":1,"Name":"Threshold Section Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":150209017,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill 3D and Uncut Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":150274553,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill Section Contour Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":150340089,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill Section Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":150405625,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill Section Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":150471161,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill Section Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":150536697,"_t":"IfcPropertySingleValue","_s":1,"Name":"Section Insulation Contour Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":150602233,"_t":"IfcPropertySingleValue","_s":1,"Name":"Section Insulation Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Rigid Insulation"}}
+,{"_i":150667769,"_t":"IfcPropertySingleValue","_s":1,"Name":"Section Insulation Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":150733305,"_t":"IfcPropertySingleValue","_s":1,"Name":"Section Insulation Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":150798841,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board 3D and Uncut Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":150864377,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board Section Contour Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":150929913,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board Section Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":150995449,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board Section Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":151060985,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board Section Fill Bkg. Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":151126521,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Fill Type Inside","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":151192057,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Fill Pen Inside","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":151257593,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Fill Background Pen Inside","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":151323129,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Fill Type Outside","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":151388665,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Fill Pen Outside","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":151454201,"_t":"IfcPropertySingleValue","_s":1,"Name":"Casing Fill Background Pen Outside","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":151519737,"_t":"IfcPropertySingleValue","_s":1,"Name":"Arch Section Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":151585273,"_t":"IfcPropertySingleValue","_s":1,"Name":"Arch Section Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":151650809,"_t":"IfcPropertySingleValue","_s":1,"Name":"Arch Section Fill Bkg. Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":151716345,"_t":"IfcPropertySingleValue","_s":1,"Name":"Ventilation Profile Section Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Air Space"}}
+,{"_i":151781881,"_t":"IfcPropertySingleValue","_s":1,"Name":"Ventilation Profile Section Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":151847417,"_t":"IfcPropertySingleValue","_s":1,"Name":"Ventilation Profile Section Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":151912953,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sunshade Symbol Line Type","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+,{"_i":151978489,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sunshade Cut Line Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":152044025,"_t":"IfcPropertySingleValue","_s":1,"Name":"3D/Section Uncut Line Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":152109561,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sunshade Cut Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":152175097,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sunshade Cut Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":152240633,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sunshade Cut Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Window Background"}}
+,{"_i":152306169,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sunshade Insulation Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Batt Insulation"}}
+,{"_i":152371705,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sunshade Insulation Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"General - General"}}
+,{"_i":152437241,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sunshade Insulation Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Window Background"}}
+,{"_i":152502777,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uncut Fill Type","_eNominalValue":{"_t":"IfcLabel","_v":"Background Fill"}}
+,{"_i":152568313,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uncut Fill Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":152633849,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uncut Fill Background Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Backgrounds - color 1"}}
+,{"_i":152699385,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Side Values (gs_opside_list)","_eNominalValue":{"_t":"IfcLabel","_v":"Custom"}}
+,{"_i":152764921,"_t":"IfcPropertySingleValue","_s":1,"Name":"Opening Side Values (gs_opside_list_m)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":152830457,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Element Joinery (gs_SashText_typ)","_eNominalValue":{"_t":"IfcLabel","_v":"Butt Joint"}}
+,{"_i":152895993,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Element Joinery (gs_SashText_typ_num)","_eNominalValue":{"_t":"IfcReal","_v":2.0}}
+,{"_i":152961529,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Openings - General"}}
+,{"_i":153027065,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Openings - General"}}
+,{"_i":153092601,"_t":"IfcPropertySingleValue","_s":1,"Name":"Glass Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Openings- Cut Non-Structural"}}
+,{"_i":153158137,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Glass Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Openings- Cut Non-Structural"}}
+,{"_i":153223673,"_t":"IfcPropertySingleValue","_s":1,"Name":"Masonry Arch Pen","_eNominalValue":{"_t":"IfcLabel","_v":"Walls - General"}}
+,{"_i":153289209,"_t":"IfcPropertySingleValue","_s":1,"Name":"Curve Resolution","_eNominalValue":{"_t":"IfcReal","_v":32.0}}
+,{"_i":153354745,"_t":"IfcPropertySingleValue","_s":1,"Name":"Shadow","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":153420281,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uniform Door Surfaces","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":153485817,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Surface Outside","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":153551353,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Surface Inside","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":153616889,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Surface Outside","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":153682425,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Surface Inside","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":153747961,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Surface 2","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":153813497,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Surface 3","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":153879033,"_t":"IfcPropertySingleValue","_s":1,"Name":"Lock Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Paint - Anthracite"}}
+,{"_i":153944569,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grid Surface Outside (gs_grill_mat)","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":154010105,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grid Surface Inside (gs_grill_mat2)","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":154075641,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grid Surface Outside (gs_leaf_grill_mat)","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":154141177,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grid Surface Inside (gs_leaf_grill_mat2)","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":154206713,"_t":"IfcPropertySingleValue","_s":1,"Name":"Solid Panel Surface Outside","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":154272249,"_t":"IfcPropertySingleValue","_s":1,"Name":"Solid Panel Surface Inside","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":154337785,"_t":"IfcPropertySingleValue","_s":1,"Name":"Glass Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Glass - Clear Fast"}}
+,{"_i":154403321,"_t":"IfcPropertySingleValue","_s":1,"Name":"Leaf Glass Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Glass - Clear Fast"}}
+,{"_i":154468857,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rail Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Metal - Iron"}}
+,{"_i":154534393,"_t":"IfcPropertySingleValue","_s":1,"Name":"Louver Surface Outside","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":154599929,"_t":"IfcPropertySingleValue","_s":1,"Name":"Louver Surface Inside","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":154665465,"_t":"IfcPropertySingleValue","_s":1,"Name":"Kick Plate Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Metal - Aluminium"}}
+,{"_i":154731001,"_t":"IfcPropertySingleValue","_s":1,"Name":"Uniform Casing Surfaces","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":154796537,"_t":"IfcPropertySingleValue","_s":1,"Name":"Interior Casing Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":154862073,"_t":"IfcPropertySingleValue","_s":1,"Name":"Exterior Casing Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":154927609,"_t":"IfcPropertySingleValue","_s":1,"Name":"Ventilation Profile Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Metal - Aluminium"}}
+,{"_i":154993145,"_t":"IfcPropertySingleValue","_s":1,"Name":"Shutter Panel Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":155058681,"_t":"IfcPropertySingleValue","_s":1,"Name":"Shutter Panel Frame Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":155124217,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rolling Shutter Box Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Metal - Stainless Steel"}}
+,{"_i":155189753,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rolling Shutter Blades Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Paint - Glossy White"}}
+,{"_i":155255289,"_t":"IfcPropertySingleValue","_s":1,"Name":"Rolling Shutter Rail Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Paint - Glossy White"}}
+,{"_i":155320825,"_t":"IfcPropertySingleValue","_s":1,"Name":"Venetian Blinds Box Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Metal - Stainless Steel"}}
+,{"_i":155386361,"_t":"IfcPropertySingleValue","_s":1,"Name":"Venetian Blinds Segments Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Paint - Glossy White"}}
+,{"_i":155451897,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sliding Shutter Rail Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Metal - Stainless Steel"}}
+,{"_i":155517433,"_t":"IfcPropertySingleValue","_s":1,"Name":"Threshold Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":155582969,"_t":"IfcPropertySingleValue","_s":1,"Name":"Threshold Metal Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Metal - Aluminium"}}
+,{"_i":155648505,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Brick - Running Bond"}}
+,{"_i":155714041,"_t":"IfcPropertySingleValue","_s":1,"Name":"Brick Sill Mortar Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Stucco - White Rough"}}
+,{"_i":155779577,"_t":"IfcPropertySingleValue","_s":1,"Name":"Board Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Wood - Pine Grained Horizontal"}}
+,{"_i":155845113,"_t":"IfcPropertySingleValue","_s":1,"Name":"Handle Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Metal - Stainless Steel"}}
+,{"_i":155910649,"_t":"IfcPropertySingleValue","_s":1,"Name":"Handle Accessories Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Metal - Iron"}}
+,{"_i":155976185,"_t":"IfcPropertySingleValue","_s":1,"Name":"Masonry Arch Brick Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Brick - Running Bond"}}
+,{"_i":156041721,"_t":"IfcPropertySingleValue","_s":1,"Name":"Masonry Arch Mortar Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Stucco - White Rough"}}
+,{"_i":156107257,"_t":"IfcPropertySingleValue","_s":1,"Name":"Masonry Arch Keystone Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Stone - Sandstone 01"}}
+,{"_i":156172793,"_t":"IfcPropertySingleValue","_s":1,"Name":"Niche Surface","_eNominalValue":{"_t":"IfcLabel","_v":"Paint - Lead Oxide Yellow"}}
+,{"_i":156238329,"_t":"IfcPropertySingleValue","_s":1,"Name":"Door belongs to the Zone into which it opens","_eNominalValue":{"_t":"IfcBoolean","_v":true}}
+,{"_i":156303865,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cost","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":156369401,"_t":"IfcPropertySingleValue","_s":1,"Name":"Manufacturer","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":156434937,"_t":"IfcPropertySingleValue","_s":1,"Name":"Note/Remarks","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":156500473,"_t":"IfcPropertySingleValue","_s":1,"Name":"Location as","_eNominalValue":{"_t":"IfcLabel","_v":"Custom"}}
+,{"_i":156566009,"_t":"IfcPropertySingleValue","_s":1,"Name":"Location","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":156631545,"_t":"IfcPropertySingleValue","_s":1,"Name":"Accessories","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":156697081,"_t":"IfcPropertySingleValue","_s":1,"Name":"Glazing","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":156762617,"_t":"IfcPropertySingleValue","_s":1,"Name":"Header Detail","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":156828153,"_t":"IfcPropertySingleValue","_s":1,"Name":"Jamb Detail","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":156893689,"_t":"IfcPropertySingleValue","_s":1,"Name":"Sill Detail","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":156959225,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hardware Set","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":157024761,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hardware Key Side Room Number","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":157090297,"_t":"IfcPropertySingleValue","_s":1,"Name":"Operation Type","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":157155833,"_t":"IfcPropertySingleValue","_s":1,"Name":"Finish","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":157221369,"_t":"IfcPropertySingleValue","_s":1,"Name":"Elevation","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":157286905,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hinges","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":157352441,"_t":"IfcPropertySingleValue","_s":1,"Name":"Lockset","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":157417977,"_t":"IfcPropertySingleValue","_s":1,"Name":"Total Glazed Area (gs_list_glassarea_tmp)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":157483513,"_t":"IfcPropertySingleValue","_s":1,"Name":"Override Glazed Area","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":157549049,"_t":"IfcPropertySingleValue","_s":1,"Name":"Total Glazed Area (gs_list_glassarea)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":157614585,"_t":"IfcPropertySingleValue","_s":1,"Name":"Total Glass Perimeter","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":157680121,"_t":"IfcPropertySingleValue","_s":1,"Name":"U-value","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":157745657,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fire Rating","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":157811193,"_t":"IfcPropertySingleValue","_s":1,"Name":"Free Air Performance (mm2/l/m)","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":157876729,"_t":"IfcPropertySingleValue","_s":1,"Name":"Acoustic Rating","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":157942265,"_t":"IfcPropertySingleValue","_s":1,"Name":"Group Type (FM_Type)","_eNominalValue":{"_t":"IfcLabel","_v":"Others"}}
+,{"_i":158007801,"_t":"IfcPropertySingleValue","_s":1,"Name":"Group Type (iFMType)","_eNominalValue":{"_t":"IfcReal","_v":25.0}}
+,{"_i":158073337,"_t":"IfcPropertySingleValue","_s":1,"Name":"Inventory No.","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":158138873,"_t":"IfcPropertySingleValue","_s":1,"Name":"Serial No.","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":158204409,"_t":"IfcPropertySingleValue","_s":1,"Name":"Production Year","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":158269945,"_t":"IfcPropertySingleValue","_s":1,"Name":"Object Weight","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":158335481,"_t":"IfcPropertySingleValue","_s":1,"Name":"Object Weight Unit","_eNominalValue":{"_t":"IfcLabel","_v":"kg"}}
+,{"_i":158401017,"_t":"IfcPropertySingleValue","_s":1,"Name":"User Defined 1","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":158466553,"_t":"IfcPropertySingleValue","_s":1,"Name":"User Defined 2","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":158532089,"_t":"IfcPropertySingleValue","_s":1,"Name":"User Defined 3","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":158597625,"_t":"IfcPropertySingleValue","_s":1,"Name":"User Defined 4","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":158663161,"_t":"IfcPropertySingleValue","_s":1,"Name":"User Defined 5","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":158728697,"_t":"IfcPropertySingleValue","_s":1,"Name":"Door Orientation Definition","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":158794233,"_t":"IfcPropertySingleValue","_s":1,"Name":"Door Orientation","_eNominalValue":{"_t":"IfcLabel","_v":"L"}}
+,{"_i":158859769,"_t":"IfcPropertySingleValue","_s":1,"Name":"NBS Clause","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":158925305,"_t":"IfcPropertySingleValue","_s":1,"Name":"Door Closer","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":158990841,"_t":"IfcPropertySingleValue","_s":1,"Name":"Vision Panel Type","_eNominalValue":{"_t":"IfcLabel","_v":"No Vision Panel"}}
+,{"_i":159056377,"_t":"IfcPropertySingleValue","_s":1,"Name":"Elevation Type","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":159121913,"_t":"IfcPropertySingleValue","_s":1,"Name":"Frame Type","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":159187449,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hold Open Device","_eNominalValue":{"_t":"IfcBoolean","_v":false}}
+,{"_i":159252985,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fire Signage","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":159318521,"_t":"IfcPropertySingleValue","_s":1,"Name":"Comments","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":159384057,"_t":"IfcPropertySingleValue","_s":1,"Name":"IFC Operation (ifc_optypestr)","_eNominalValue":{"_t":"IfcLabel","_v":"Single Door Single Swing"}}
+,{"_i":159449593,"_t":"IfcPropertySingleValue","_s":1,"Name":"IFC Operation (ifc_optype)","_eNominalValue":{"_t":"IfcReal","_v":1.0}}
+]}

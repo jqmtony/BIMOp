@@ -1,0 +1,5 @@
+{"objects":[{"_i":38142457,"_t":"IfcPropertySingleValue","_s":1,"Name":"FireRating","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":38207993,"_t":"IfcPropertySingleValue","_s":1,"Name":"AcousticRating","_eNominalValue":{"_t":"IfcLabel","_v":""}}
+,{"_i":38273529,"_t":"IfcPropertySingleValue","_s":1,"Name":"ThermalTransmittance","_eNominalValue":{"_t":"IfcThermalTransmittanceMeasure","_v":0.0}}
+,{"_i":38339065,"_t":"IfcPropertySingleValue","_s":1,"Name":"GlazingAreaFraction","_eNominalValue":{"_t":"IfcPositiveRatioMeasure","_v":0.0}}
+]}

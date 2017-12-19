@@ -1,0 +1,5 @@
+{"objects":[{"_i":1405026809,"_t":"IfcPropertySingleValue","_s":1,"Name":"Number","_eNominalValue":{"_t":"IfcLabel","_v":"A102"}}
+,{"_i":1405092345,"_t":"IfcPropertySingleValue","_s":1,"Name":"Name","_eNominalValue":{"_t":"IfcLabel","_v":"Living Room"}}
+,{"_i":1405682169,"_t":"IfcPropertySingleValue","_s":1,"Name":"Room Number","_eNominalValue":{"_t":"IfcLabel","_v":"A102"}}
+,{"_i":1405747705,"_t":"IfcPropertySingleValue","_s":1,"Name":"Room Name","_eNominalValue":{"_t":"IfcLabel","_v":"Living Room"}}
+]}
