@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BIMOp Home</title>
+</head>
+<body>
+{% for error in errors %}
+<p>{{error}}</p>
+{% endfor %}
+<ol>
+{% for user in users %}
+<li>{{user}}</li>
+{% endfor %}
+</ol>
+
+<ol>
+{% for project in projects %}
+<li>{{project}}</li>
+{% endfor %}
+</ol>
+
+<button type = "button" onclick="{% url 'logout_then_login' %}">Logout</button>
+</body>
+</html>

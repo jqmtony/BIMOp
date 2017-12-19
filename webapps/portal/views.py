@@ -14,4 +14,28 @@ def dashboard(request):
 def home(request):
 	return render(request, 'portal/html/index.html')
 
+@login_required
+def admin(request):
+	projects = [];
+	users = [];
+	errors = [];
+	usertype = None;
+	# Try to get user type
+	try:
+		usertype = request.user.userwrapper.user_type;
+	except:
+		# Note the super user has no userwrapper
+		pass;
+	if usertype == 'administrator':
+		projects = Project.objects.all();
+		users = UserWrapper.objects.all();
+	else:
+		errors.append('You are not authorized to view this page.');
+	return render(request, 'portal/html/admin.html', {'projects': projects,
+													  'users': users,
+													  'errors': errors});
+
+
+
+
 

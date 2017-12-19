@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BIMOp Login</title>
+</head>
+<body>
+<form method='post' action="{% url 'login' %}">
+	<table>
+		<tr>
+			<td>{{ form.username.label_tag }}</td>
+			<td>{{ form.username }}</td>
+		</tr>
+		<tr>
+			<td>{{ form.password.label_tag }}</td>
+			<td>{{ form.password }}</td>
+		</tr>
+	</table>
+	<input type="submit" value="Login"/>
+	{% csrf_token %}
+</form>
+</body>
+</html>

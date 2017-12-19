@@ -1,4 +1,4 @@
-#!/home/zhiangz/Documents/BIMOP/virt_env/bin/python3.5
+#!/home/zhiangz/Documents/BIMOp/virt_env/bin/python3.5
 from django.core import management
 
 if __name__ == "__main__":
