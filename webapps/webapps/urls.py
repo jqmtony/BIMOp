@@ -19,5 +19,6 @@ from django.urls import path, include, re_path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('portal/', include('portal.urls')),
+    path('monitor/', include('monitor.urls')),
     re_path(r'^$', include('portal.urls'))
 ]

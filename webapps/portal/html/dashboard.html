@@ -1,1 +1,21 @@
-This is the dashboard to be implemented.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BIMOp Dashboard</title>
+</head>
+<body>
+<p>User: {{user}}</p>
+<ol>
+{% for proj in proj_perm_list %}
+<li>Project: {{proj.0}}, Actions: 
+{% for act in proj.1 %}
+<a href="/{{act}}/{{proj.0.id}}">{{act}}</a>
+{% endfor %}
+</li>
+{% endfor %} 
+</ol>
+
+<button type = "button" onclick="location.href='{% url 'logout_then_login' %}';">Logout</button>
+
+</body>
+</html>
