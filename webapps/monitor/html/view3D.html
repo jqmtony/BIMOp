@@ -2,8 +2,31 @@
 <html>
 <head>
 	<title>BIMOp 3D Viewer</title>
+	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/bimserverapiwebsocket.js"></script>
+	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/bimserverclient.js"></script>
+	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/bimserverapipromise.js"></script>
+	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/ifc2x3tc1.js"></script>
+	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/ifc4.js"></script>
+	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/model.js"></script>
+	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/translations_en.js"></script>
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js"></script>
+	{% load static %}
+	<script type="text/javascript" src="{% static 'js/bimServerLoader.js' %}"></script>
+	<script>
+		{% if errors|length == 0 %}
+		$(document).ready(function(){
+			alert("http://{{bim_server_ip}}"+":"+"{{bim_server_port}}")
+   			var bimServerRet = getCreditialsFromBIMServer("http://{{bim_server_ip}}"+":"+"{{bim_server_port}}", 
+														  "{{bim_server_username}}", "{{bim_server_password}}", "{{bim_server_poid}}");
+   			alert("BIM server logged in")
+   		}) 
+			
+
+		{% endif %}
+	</script>
 </head>
 <body>
+<p>{{errors|length}}</p>
 <p>Error: {{errors}}</p>
 
 

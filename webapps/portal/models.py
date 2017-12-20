@@ -7,8 +7,10 @@ class Project(models.Model):
 	project_name = models.CharField(max_length=200)
 	project_permissions = models.CharField(max_length=200, null = True) # Comma separated string
 	bim_server_ip = models.GenericIPAddressField(null = True)
+	bim_server_port = models.CharField(max_length=200, null=True)
 	bim_server_username = models.CharField(max_length=200, null = True)
 	bim_server_password = models.CharField(max_length=200, null = True)
+	bim_server_poid = models.CharField(max_length=200, null = True)
 
 	def __str__(self):
 		return self.project_name;
