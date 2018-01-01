@@ -2,32 +2,36 @@
 <html>
 <head>
 	<title>BIMOp 3D Viewer</title>
-	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/bimserverapiwebsocket.js"></script>
-	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/bimserverclient.js"></script>
-	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/bimserverapipromise.js"></script>
-	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/ifc2x3tc1.js"></script>
-	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/ifc4.js"></script>
-	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/model.js"></script>
-	<script type="text/javascript" src="http://{{bim_server_ip}}:{{bim_server_port}}/apps/bimserverjavascriptapi/js/translations_en.js"></script>
-	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js"></script>
 	{% load static %}
-	<script type="text/javascript" src="{% static 'js/bimServerLoader.js' %}"></script>
-	<script>
-		{% if errors|length == 0 %}
-		$(document).ready(function(){
-			alert("http://{{bim_server_ip}}"+":"+"{{bim_server_port}}")
-   			var bimServerRet = getCreditialsFromBIMServer("http://{{bim_server_ip}}"+":"+"{{bim_server_port}}", 
-														  "{{bim_server_username}}", "{{bim_server_password}}", "{{bim_server_poid}}");
-   			alert("BIM server logged in")
-   		}) 
-			
+	<script type="text/javascript" src="{% static "js/bimSurferUtils.js" %}"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    
+    <script>
+        var address = "http://{{bim_server_ip}}:{{bim_server_port}}";
+        var token = "{{bim_server_token}}";
+        
+        /* Generating a new version based on the current time, this way resources are never cached
+         When building a version of BIMsurfer V2 this should be replaced by an actual version number in order
+         To facilitate proper caching
+        */
+        var version = new Date().getTime();
 
-		{% endif %}
-	</script>
+        // This has been moved to bimserverapi, can be removed in a day
+        String.prototype.firstUpper = function () {
+            return this.charAt(0).toUpperCase() + this.slice(1);
+        }
+        
+        // Because the demo is in a subfolder compared to the BIMsurfer API, we tell require JS to use the "../" baseUrl
+        var require = {
+            baseUrl: "../",
+            urlArgs: "bust=" + version
+        };
+    </script>
 </head>
 <body>
 <p>{{errors|length}}</p>
 <p>Error: {{errors}}</p>
+<p>Token: {{bim_server_token}} </p>
 
 
 <button type = "button" onclick="location.href='{% url 'logout_then_login' %}';">Logout</button>
