@@ -1,0 +1,5 @@
+{"objects":[{"_i":1450246649,"_t":"IfcPropertySingleValue","_s":1,"Name":"Roughness","_eNominalValue":{"_t":"IfcReal","_v":0.04572}}
+,{"_i":1450312185,"_t":"IfcPropertySingleValue","_s":1,"Name":"Material","_eNominalValue":{"_t":"IfcLabel","_v":"Carbon Steel"}}
+,{"_i":1450377721,"_t":"IfcPropertySingleValue","_s":1,"Name":"Connection Type","_eNominalValue":{"_t":"IfcLabel","_v":"Threaded"}}
+,{"_i":1450443257,"_t":"IfcPropertySingleValue","_s":1,"Name":"Class","_eNominalValue":{"_t":"IfcLabel","_v":"Schedule 40"}}
+]}

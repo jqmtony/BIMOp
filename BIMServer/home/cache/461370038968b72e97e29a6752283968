@@ -1,0 +1,10 @@
+{"objects":[{"_i":1779696121,"_t":"IfcPropertySingleValue","_s":1,"Name":"Center to End Label","_eNominalValue":{"_t":"IfcReal","_v":0.08854166666666667}}
+,{"_i":1779892729,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fitting Outside Radius","_eNominalValue":{"_t":"IfcReal","_v":0.04687500000000001}}
+,{"_i":1780089337,"_t":"IfcPropertySingleValue","_s":1,"Name":"Angle 1","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":90.0}}
+,{"_i":1780810233,"_t":"IfcPropertySingleValue","_s":1,"Name":"TagNumber","_eNominalValue":{"_t":"IfcLabel","_v":"TagNumber"}}
+,{"_i":1780875769,"_t":"IfcPropertySingleValue","_s":1,"Name":"InstallationDate","_eNominalValue":{"_t":"IfcLabel","_v":"InstallationDate"}}
+,{"_i":1780941305,"_t":"IfcPropertySingleValue","_s":1,"Name":"SerialNumber","_eNominalValue":{"_t":"IfcLabel","_v":"SerialNumber"}}
+,{"_i":1781006841,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyStartDate","_eNominalValue":{"_t":"IfcLabel","_v":"WarrantyStartDate"}}
+,{"_i":1781072377,"_t":"IfcPropertySingleValue","_s":1,"Name":"BarCode","_eNominalValue":{"_t":"IfcLabel","_v":"BarCode"}}
+,{"_i":1781137913,"_t":"IfcPropertySingleValue","_s":1,"Name":"AssetIdentifier","_eNominalValue":{"_t":"IfcLabel","_v":"AssetIdentifier"}}
+]}

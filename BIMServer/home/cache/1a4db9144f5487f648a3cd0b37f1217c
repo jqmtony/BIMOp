@@ -1,0 +1,9 @@
+{"objects":[{"_i":2093416953,"_t":"IfcPropertySingleValue","_s":1,"Name":"Tick Size","_eNominalValue":{"_t":"IfcReal","_v":0.03749999999999994}}
+,{"_i":2093482489,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nominal Radius","_eNominalValue":{"_t":"IfcReal","_v":0.04101049868766404}}
+,{"_i":2093548025,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nominal Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.08202099737532809}}
+,{"_i":2093679097,"_t":"IfcPropertySingleValue","_s":1,"Name":"Insulation Radius","_eNominalValue":{"_t":"IfcReal","_v":0.04687500000000001}}
+,{"_i":2093810169,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fitting Outside Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.09375000000000001}}
+,{"_i":2093875705,"_t":"IfcPropertySingleValue","_s":1,"Name":"Center to End","_eNominalValue":{"_t":"IfcReal","_v":0.06770833333333323}}
+,{"_i":2094006777,"_t":"IfcPropertySingleValue","_s":1,"Name":"Angle","_eNominalValue":{"_t":"IfcPlaneAngleMeasure","_v":90.0}}
+,{"_i":2094531065,"_t":"IfcPropertySingleValue","_s":1,"Name":"Size","_eNominalValue":{"_t":"IfcLabel","_v":"25 mmø-25 mmø"}}
+]}

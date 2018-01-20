@@ -1,0 +1,7 @@
+{"objects":[{"_i":1449591289,"_t":"IfcPropertySingleValue","_s":1,"Name":"Horizontal Justification","_eNominalValue":{"_t":"IfcInteger","_v":0}}
+,{"_i":1449656825,"_t":"IfcPropertySingleValue","_s":1,"Name":"Vertical Justification","_eNominalValue":{"_t":"IfcInteger","_v":0}}
+,{"_i":1522598393,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reference Level","_eNominalValue":{"_t":"IfcLabel","_v":"Level 1"}}
+,{"_i":1522663929,"_t":"IfcPropertySingleValue","_s":1,"Name":"Offset","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.1158381176309801}}
+,{"_i":1522729465,"_t":"IfcPropertySingleValue","_s":1,"Name":"Start Offset","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.1158381176309801}}
+,{"_i":1522795001,"_t":"IfcPropertySingleValue","_s":1,"Name":"End Offset","_eNominalValue":{"_t":"IfcLengthMeasure","_v":2.72175133944635}}
+]}

@@ -1,0 +1,4 @@
+{"objects":[{"_i":1585644025,"_t":"IfcPropertySingleValue","_s":1,"Name":"Level","_eNominalValue":{"_t":"IfcLabel","_v":"Level 2"}}
+,{"_i":1585709561,"_t":"IfcPropertySingleValue","_s":1,"Name":"Host","_eNominalValue":{"_t":"IfcLabel","_v":"Level : Level 2"}}
+,{"_i":1585775097,"_t":"IfcPropertySingleValue","_s":1,"Name":"Offset","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.08864999999945682}}
+]}

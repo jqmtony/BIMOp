@@ -1,0 +1,13 @@
+{"objects":[{"_i":2073297401,"_t":"IfcPropertySingleValue","_s":1,"Name":"Manufacturer","_eNominalValue":{"_t":"IfcLabel","_v":"Greenheck"}}
+,{"_i":2073887225,"_t":"IfcPropertySingleValue","_s":1,"Name":"Assembly Code","_eNominalValue":{"_t":"IfcLabel","_v":"D3040200"}}
+,{"_i":2074739193,"_t":"IfcPropertySingleValue","_s":1,"Name":"Keynote","_eNominalValue":{"_t":"IfcLabel","_v":"15700"}}
+,{"_i":2074804729,"_t":"IfcPropertySingleValue","_s":1,"Name":"Model","_eNominalValue":{"_t":"IfcLabel","_v":"CUE 060-E"}}
+,{"_i":2074870265,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type Comments","_eNominalValue":{"_t":"IfcLabel","_v":"Direct Drive"}}
+,{"_i":2074935801,"_t":"IfcPropertySingleValue","_s":1,"Name":"URL","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":2075001337,"_t":"IfcPropertySingleValue","_s":1,"Name":"Description","_eNominalValue":{"_t":"IfcLabel","_v":"Rooftop Upblast Fan"}}
+,{"_i":2075066873,"_t":"IfcPropertySingleValue","_s":1,"Name":"Assembly Description","_eNominalValue":{"_t":"IfcLabel","_v":"Exhaust Ventilation Systems"}}
+,{"_i":2075132409,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type Mark","_eNominalValue":{"_t":"IfcLabel","_v":"none"}}
+,{"_i":2075197945,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cost","_eNominalValue":{"_t":"IfcReal","_v":1500.0}}
+,{"_i":2076967417,"_t":"IfcPropertySingleValue","_s":1,"Name":"OmniClass Number","_eNominalValue":{"_t":"IfcLabel","_v":"23.75.35.17.27"}}
+,{"_i":2077032953,"_t":"IfcPropertySingleValue","_s":1,"Name":"OmniClass Title","_eNominalValue":{"_t":"IfcLabel","_v":"Centrifugal Fans"}}
+]}

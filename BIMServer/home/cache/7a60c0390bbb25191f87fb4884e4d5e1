@@ -1,0 +1,10 @@
+{"objects":[{"_i":1948910073,"_t":"IfcPropertySingleValue","_s":1,"Name":"Width 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.033}}
+,{"_i":1948975609,"_t":"IfcPropertySingleValue","_s":1,"Name":"Valve Length","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.36}}
+,{"_i":1949958649,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Diameter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.03}}
+,{"_i":1950024185,"_t":"IfcPropertySingleValue","_s":1,"Name":"Open Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.116}}
+,{"_i":1950089721,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nominal Radius","_eNominalValue":{"_t":"IfcReal","_v":0.04101049868766404}}
+,{"_i":1950155257,"_t":"IfcPropertySingleValue","_s":1,"Name":"Nominal Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.08202099737532809}}
+,{"_i":1951662585,"_t":"IfcPropertySingleValue","_s":1,"Name":"C1 Offset 2","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.062}}
+,{"_i":1951728121,"_t":"IfcPropertySingleValue","_s":1,"Name":"C1 Offset 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.098}}
+,{"_i":1951793657,"_t":"IfcPropertySingleValue","_s":1,"Name":"Body Length","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.245}}
+]}

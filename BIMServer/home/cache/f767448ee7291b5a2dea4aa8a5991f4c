@@ -1,0 +1,17 @@
+{"objects":[{"_i":1435304441,"_t":"IfcPropertySingleValue","_s":1,"Name":"Vent Radius","_eNominalValue":{"_t":"IfcReal","_v":0.4101049868766404}}
+,{"_i":1435369977,"_t":"IfcPropertySingleValue","_s":1,"Name":"Vent Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.8202099737532809}}
+,{"_i":1435501049,"_t":"IfcPropertySingleValue","_s":1,"Name":"Vent Box Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.102}}
+,{"_i":1435566585,"_t":"IfcPropertySingleValue","_s":1,"Name":"Vent Box Diameter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.254}}
+,{"_i":1436418553,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hot Water Radius","_eNominalValue":{"_t":"IfcReal","_v":0.06561679790026247}}
+,{"_i":1436484089,"_t":"IfcPropertySingleValue","_s":1,"Name":"Hot Water Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.1312335958005249}}
+,{"_i":1436549625,"_t":"IfcPropertySingleValue","_s":1,"Name":"Gas Radius","_eNominalValue":{"_t":"IfcReal","_v":0.04101049868766404}}
+,{"_i":1436615161,"_t":"IfcPropertySingleValue","_s":1,"Name":"Gas Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.08202099737532809}}
+,{"_i":1436680697,"_t":"IfcPropertySingleValue","_s":1,"Name":"Electrical Box Width","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.094}}
+,{"_i":1436746233,"_t":"IfcPropertySingleValue","_s":1,"Name":"Electrical Box Length","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.203}}
+,{"_i":1436811769,"_t":"IfcPropertySingleValue","_s":1,"Name":"Electrical Box Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.203}}
+,{"_i":1436877305,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cold Water Radius","_eNominalValue":{"_t":"IfcReal","_v":0.06561679790026247}}
+,{"_i":1436942841,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cold Water Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.1312335958005249}}
+,{"_i":1437073913,"_t":"IfcPropertySingleValue","_s":1,"Name":"Boiler Top Diameter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.56}}
+,{"_i":1437204985,"_t":"IfcPropertySingleValue","_s":1,"Name":"Boiler Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.9650000000000001}}
+,{"_i":1437270521,"_t":"IfcPropertySingleValue","_s":1,"Name":"Boiler Diameter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.6100000000000001}}
+]}

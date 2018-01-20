@@ -1,0 +1,35 @@
+{"objects":[{"_i":1587151353,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 3","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.056432}}
+,{"_i":1587216889,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 2","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.0728}}
+,{"_i":1587282425,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.07915000000000001}}
+,{"_i":1587347961,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Radius 4","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.031032}}
+,{"_i":1587413497,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Radius 2","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.0855}}
+,{"_i":1587479033,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Radius 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.092}}
+,{"_i":1588003321,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 4","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.02134819455806278}}
+,{"_i":1588396537,"_t":"IfcPropertySingleValue","_s":1,"Name":"Flange Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.051}}
+,{"_i":1589117433,"_t":"IfcPropertySingleValue","_s":1,"Name":"ModelNumber","_eNominalValue":{"_t":"IfcLabel","_v":"0014"}}
+,{"_i":1589182969,"_t":"IfcPropertySingleValue","_s":1,"Name":"ExpectedLife","_eNominalValue":{"_t":"IfcLabel","_v":"10 years"}}
+,{"_i":1589248505,"_t":"IfcPropertySingleValue","_s":1,"Name":"ReplacementCost","_eNominalValue":{"_t":"IfcLabel","_v":"$300"}}
+,{"_i":1589314041,"_t":"IfcPropertySingleValue","_s":1,"Name":"AssetAccountingType","_eNominalValue":{"_t":"IfcLabel","_v":"FIXED"}}
+,{"_i":1589379577,"_t":"IfcPropertySingleValue","_s":1,"Name":"AccessibilityPerformance","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":1589445113,"_t":"IfcPropertySingleValue","_s":1,"Name":"CodePerformance","_eNominalValue":{"_t":"IfcLabel","_v":"15700"}}
+,{"_i":1589510649,"_t":"IfcPropertySingleValue","_s":1,"Name":"Color","_eNominalValue":{"_t":"IfcLabel","_v":"Green"}}
+,{"_i":1589576185,"_t":"IfcPropertySingleValue","_s":1,"Name":"Constituents","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":1589641721,"_t":"IfcPropertySingleValue","_s":1,"Name":"Features","_eNominalValue":{"_t":"IfcLabel","_v":"Compact, self-lubricating"}}
+,{"_i":1589707257,"_t":"IfcPropertySingleValue","_s":1,"Name":"Finish","_eNominalValue":{"_t":"IfcLabel","_v":"Cast Iron"}}
+,{"_i":1589772793,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grade","_eNominalValue":{"_t":"IfcLabel","_v":"A"}}
+,{"_i":1589838329,"_t":"IfcPropertySingleValue","_s":1,"Name":"Material","_eNominalValue":{"_t":"IfcLabel","_v":"Cast Iron"}}
+,{"_i":1589903865,"_t":"IfcPropertySingleValue","_s":1,"Name":"ModelReference","_eNominalValue":{"_t":"IfcLabel","_v":"0014"}}
+,{"_i":1589969401,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalHeight","_eNominalValue":{"_t":"IfcLabel","_v":"184 mm"}}
+,{"_i":1590034937,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalLength","_eNominalValue":{"_t":"IfcLabel","_v":"165 mm"}}
+,{"_i":1590100473,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalWidth","_eNominalValue":{"_t":"IfcLabel","_v":"137 mm"}}
+,{"_i":1590166009,"_t":"IfcPropertySingleValue","_s":1,"Name":"ProductionYear","_eNominalValue":{"_t":"IfcLabel","_v":"2011"}}
+,{"_i":1590231545,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reference","_eNominalValue":{"_t":"IfcLabel","_v":"Internet"}}
+,{"_i":1590297081,"_t":"IfcPropertySingleValue","_s":1,"Name":"Shape","_eNominalValue":{"_t":"IfcLabel","_v":"Odd"}}
+,{"_i":1590362617,"_t":"IfcPropertySingleValue","_s":1,"Name":"Size","_eNominalValue":{"_t":"IfcLabel","_v":"0014"}}
+,{"_i":1590428153,"_t":"IfcPropertySingleValue","_s":1,"Name":"SustainabilityPerformance","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":1590493689,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDescription","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1590559225,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDurationLabor","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1590624761,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDurationParts","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1590690297,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyGuarantorLabor","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":1590755833,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyGuarantorParts","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+]}

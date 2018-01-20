@@ -1,0 +1,5 @@
+{"objects":[{"_i":1585512953,"_t":"IfcPropertySingleValue","_s":1,"Name":"RPM","_eNominalValue":{"_t":"IfcReal","_v":3250.0}}
+,{"_i":1585578489,"_t":"IfcPropertySingleValue","_s":1,"Name":"Flow Rate","_eNominalValue":{"_t":"IfcReal","_v":0.03531466672148859}}
+,{"_i":1585840633,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Type","_eNominalValue":{"_t":"IfcLabel","_v":"Hydronic Supply,Power"}}
+,{"_i":1585906169,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Name","_eNominalValue":{"_t":"IfcLabel","_v":"Hydronic Supply Unit A,Hydronic Return Unit A"}}
+]}

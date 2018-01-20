@@ -3,4 +3,6 @@ from . import views
 
 urlpatterns = [
 	path('<int:project_id>/', views.view3D, name = 'view3D'),
+	path('<int:project_id>/sensorsDataQuery/<str:queryType>/<str:sensorType>', views.sensorsDataQuery, name = 'sensorsDataQuery'),
+
 	]

@@ -1,0 +1,3 @@
+{"objects":[{"_i":2077688313,"_t":"IfcPropertySingleValue","_s":1,"Name":"Comments","_eNominalValue":{"_t":"IfcLabel","_v":"Boiler Exhaust Fan"}}
+,{"_i":2077753849,"_t":"IfcPropertySingleValue","_s":1,"Name":"Mark","_eNominalValue":{"_t":"IfcLabel","_v":"F 1B"}}
+]}

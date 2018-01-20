@@ -25,13 +25,14 @@ SECRET_KEY = 'xd@pkfa%94*go!rgv3gu3s4a_s2!t-56@57n$dg)^-50ke@8@y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.1.103']
 
 
 # Application definition
 
 INSTALLED_APPS = [
 	'portal.apps.PortalConfig',
+    'monitor.apps.MonitorConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

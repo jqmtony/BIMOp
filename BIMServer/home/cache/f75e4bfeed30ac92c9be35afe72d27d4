@@ -1,0 +1,8 @@
+{"objects":[{"_i":1447035385,"_t":"IfcPropertySingleValue","_s":1,"Name":"Schedule Level","_eNominalValue":{"_t":"IfcLabel","_v":"Level 1"}}
+,{"_i":1447494137,"_t":"IfcPropertySingleValue","_s":1,"Name":"TagNumber","_eNominalValue":{"_t":"IfcLabel","_v":"Foyer A1"}}
+,{"_i":1447559673,"_t":"IfcPropertySingleValue","_s":1,"Name":"InstallationDate","_eNominalValue":{"_t":"IfcLabel","_v":"Aug. 29, 2011"}}
+,{"_i":1447625209,"_t":"IfcPropertySingleValue","_s":1,"Name":"SerialNumber","_eNominalValue":{"_t":"IfcLabel","_v":"123456789"}}
+,{"_i":1447690745,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyStartDate","_eNominalValue":{"_t":"IfcLabel","_v":"Aug. 29, 2011"}}
+,{"_i":1447756281,"_t":"IfcPropertySingleValue","_s":1,"Name":"BarCode","_eNominalValue":{"_t":"IfcLabel","_v":"123456789"}}
+,{"_i":1447821817,"_t":"IfcPropertySingleValue","_s":1,"Name":"AssetIdentifier","_eNominalValue":{"_t":"IfcLabel","_v":"none"}}
+]}

@@ -1,0 +1,4 @@
+{"objects":[{"_i":1431110137,"_t":"IfcPropertySingleValue","_s":1,"Name":"Level","_eNominalValue":{"_t":"IfcLabel","_v":"Roof"}}
+,{"_i":1431175673,"_t":"IfcPropertySingleValue","_s":1,"Name":"Upper Limit","_eNominalValue":{"_t":"IfcLabel","_v":"Roof"}}
+,{"_i":1431241209,"_t":"IfcPropertySingleValue","_s":1,"Name":"Limit Offset","_eNominalValue":{"_t":"IfcLengthMeasure","_v":4.000000000000002}}
+]}

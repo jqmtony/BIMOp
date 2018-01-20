@@ -1,0 +1,10 @@
+{"objects":[{"_i":1613758969,"_t":"IfcPropertySingleValue","_s":1,"Name":"Water Pressure Drop","_eNominalValue":{"_t":"IfcReal","_v":4206.24}}
+,{"_i":1613824505,"_t":"IfcPropertySingleValue","_s":1,"Name":"Water Flow","_eNominalValue":{"_t":"IfcReal","_v":0.02542656003947178}}
+,{"_i":1613890041,"_t":"IfcPropertySingleValue","_s":1,"Name":"Output Heat","_eNominalValue":{"_t":"IfcReal","_v":346705.5545222202}}
+,{"_i":1613955577,"_t":"IfcPropertySingleValue","_s":1,"Name":"Input Heat","_eNominalValue":{"_t":"IfcReal","_v":488681.5329186214}}
+,{"_i":1614021113,"_t":"IfcPropertySingleValue","_s":1,"Name":"Gas Flow","_eNominalValue":{"_t":"IfcReal","_v":0.01553845335745498}}
+,{"_i":1614086649,"_t":"IfcPropertySingleValue","_s":1,"Name":"Exhaust Air Pressure Drop","_eNominalValue":{"_t":"IfcReal","_v":518.1600000000001}}
+,{"_i":1614152185,"_t":"IfcPropertySingleValue","_s":1,"Name":"Exhaust Air Flow","_eNominalValue":{"_t":"IfcReal","_v":0.1412586668859543}}
+,{"_i":1614414329,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Type","_eNominalValue":{"_t":"IfcLabel","_v":"Hydronic Supply,Other,Power,Exhaust Air"}}
+,{"_i":1614479865,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Name","_eNominalValue":{"_t":"IfcLabel","_v":"Hydronic Supply Unit B,Hydronic Return Unit B,Unit B Natural Gas,Unit B Mechanical Exhaust Air"}}
+]}

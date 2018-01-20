@@ -1,0 +1,4 @@
+{"objects":[{"_i":2073231865,"_t":"IfcPropertySingleValue","_s":1,"Name":"Voltage","_eNominalValue":{"_t":"IfcReal","_v":2238.893366675622}}
+,{"_i":2073362937,"_t":"IfcPropertySingleValue","_s":1,"Name":"Load Classification","_eNominalValue":{"_t":"IfcLabel","_v":"HVAC"}}
+,{"_i":2073690617,"_t":"IfcPropertySingleValue","_s":1,"Name":"Number of Poles","_eNominalValue":{"_t":"IfcInteger","_v":3}}
+]}

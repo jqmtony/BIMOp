@@ -1,0 +1,33 @@
+{"objects":[{"_i":2073428473,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.15}}
+,{"_i":2073494009,"_t":"IfcPropertySingleValue","_s":1,"Name":"Radius 2","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.16}}
+,{"_i":2073756153,"_t":"IfcPropertySingleValue","_s":1,"Name":"Half Outlet Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.125}}
+,{"_i":2073821689,"_t":"IfcPropertySingleValue","_s":1,"Name":"Half Exhaust Inlet Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.125}}
+,{"_i":2074280441,"_t":"IfcPropertySingleValue","_s":1,"Name":"Diameter 2","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.32}}
+,{"_i":2074345977,"_t":"IfcPropertySingleValue","_s":1,"Name":"Diameter 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.2999999999999999}}
+,{"_i":2075263481,"_t":"IfcPropertySingleValue","_s":1,"Name":"ModelNumber","_eNominalValue":{"_t":"IfcLabel","_v":"CUE 060-E"}}
+,{"_i":2075329017,"_t":"IfcPropertySingleValue","_s":1,"Name":"ExpectedLife","_eNominalValue":{"_t":"IfcLabel","_v":"10 years"}}
+,{"_i":2075394553,"_t":"IfcPropertySingleValue","_s":1,"Name":"ReplacementCost","_eNominalValue":{"_t":"IfcLabel","_v":"$1500"}}
+,{"_i":2075460089,"_t":"IfcPropertySingleValue","_s":1,"Name":"AssetAccountingType","_eNominalValue":{"_t":"IfcLabel","_v":"FIXED"}}
+,{"_i":2075525625,"_t":"IfcPropertySingleValue","_s":1,"Name":"AccessibilityPerformance","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":2075591161,"_t":"IfcPropertySingleValue","_s":1,"Name":"CodePerformance","_eNominalValue":{"_t":"IfcLabel","_v":"15700"}}
+,{"_i":2075656697,"_t":"IfcPropertySingleValue","_s":1,"Name":"Color","_eNominalValue":{"_t":"IfcLabel","_v":"Grey"}}
+,{"_i":2075722233,"_t":"IfcPropertySingleValue","_s":1,"Name":"Constituents","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":2075787769,"_t":"IfcPropertySingleValue","_s":1,"Name":"Features","_eNominalValue":{"_t":"IfcLabel","_v":"Backdraft Damper"}}
+,{"_i":2075853305,"_t":"IfcPropertySingleValue","_s":1,"Name":"Finish","_eNominalValue":{"_t":"IfcLabel","_v":"Milled"}}
+,{"_i":2075918841,"_t":"IfcPropertySingleValue","_s":1,"Name":"Grade","_eNominalValue":{"_t":"IfcLabel","_v":"A"}}
+,{"_i":2075984377,"_t":"IfcPropertySingleValue","_s":1,"Name":"Material","_eNominalValue":{"_t":"IfcLabel","_v":"Aluminum"}}
+,{"_i":2076049913,"_t":"IfcPropertySingleValue","_s":1,"Name":"ModelReference","_eNominalValue":{"_t":"IfcLabel","_v":"CUE 060-E"}}
+,{"_i":2076115449,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalHeight","_eNominalValue":{"_t":"IfcLabel","_v":"387 mm"}}
+,{"_i":2076180985,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalLength","_eNominalValue":{"_t":"IfcLabel","_v":"467 mm"}}
+,{"_i":2076246521,"_t":"IfcPropertySingleValue","_s":1,"Name":"NominalWidth","_eNominalValue":{"_t":"IfcLabel","_v":"467 mm"}}
+,{"_i":2076312057,"_t":"IfcPropertySingleValue","_s":1,"Name":"ProductionYear","_eNominalValue":{"_t":"IfcLabel","_v":"2011"}}
+,{"_i":2076377593,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reference","_eNominalValue":{"_t":"IfcLabel","_v":"Internet"}}
+,{"_i":2076443129,"_t":"IfcPropertySingleValue","_s":1,"Name":"Shape","_eNominalValue":{"_t":"IfcLabel","_v":"Odd"}}
+,{"_i":2076508665,"_t":"IfcPropertySingleValue","_s":1,"Name":"Size","_eNominalValue":{"_t":"IfcLabel","_v":"060-E"}}
+,{"_i":2076574201,"_t":"IfcPropertySingleValue","_s":1,"Name":"SustainabilityPerformance","_eNominalValue":{"_t":"IfcLabel","_v":"n/a"}}
+,{"_i":2076639737,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDescription","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":2076705273,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDurationLabor","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":2076770809,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyDurationParts","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":2076836345,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyGuarantorLabor","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+,{"_i":2076901881,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyGuarantorParts","_eNominalValue":{"_t":"IfcLabel","_v":"tbd"}}
+]}

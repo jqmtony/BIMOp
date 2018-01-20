@@ -1,0 +1,10 @@
+{"objects":[{"_i":2073625081,"_t":"IfcPropertySingleValue","_s":1,"Name":"Overall Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.2999999999999999}}
+,{"_i":2073952761,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fan Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.2}}
+,{"_i":2074018297,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fan Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.2}}
+,{"_i":2074083833,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fan Diameter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.4}}
+,{"_i":2074149369,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outlet Width","_eNominalValue":{"_t":"IfcReal","_v":0.8202099737532809}}
+,{"_i":2074214905,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outlet Height","_eNominalValue":{"_t":"IfcReal","_v":0.8202099737532809}}
+,{"_i":2074477049,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cap Radius","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.14}}
+,{"_i":2074542585,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cap Diameter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.28}}
+,{"_i":2074608121,"_t":"IfcPropertySingleValue","_s":1,"Name":"Base Width","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.4}}
+]}

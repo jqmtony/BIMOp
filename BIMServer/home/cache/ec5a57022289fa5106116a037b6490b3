@@ -1,0 +1,6 @@
+{"objects":[{"_i":2221670905,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outer Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.1095833333333333}}
+,{"_i":2221933049,"_t":"IfcPropertySingleValue","_s":1,"Name":"Inner Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.08741666666666667}}
+,{"_i":2222260729,"_t":"IfcPropertySingleValue","_s":1,"Name":"Size","_eNominalValue":{"_t":"IfcLabel","_v":"25 mmø"}}
+,{"_i":2222522873,"_t":"IfcPropertySingleValue","_s":1,"Name":"Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.08202099737532809}}
+,{"_i":2222916089,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.1143625000000087}}
+]}

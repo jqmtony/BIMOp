@@ -1,0 +1,16 @@
+{"objects":[{"_i":1586889209,"_t":"IfcPropertySingleValue","_s":1,"Name":"Suction Outside Radius","_eNominalValue":{"_t":"IfcReal","_v":0.08612204724409449}}
+,{"_i":1586954745,"_t":"IfcPropertySingleValue","_s":1,"Name":"Suction Outside Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.172244094488189}}
+,{"_i":1587020281,"_t":"IfcPropertySingleValue","_s":1,"Name":"Suction Nominal Radius","_eNominalValue":{"_t":"IfcReal","_v":0.06561679790026247}}
+,{"_i":1587085817,"_t":"IfcPropertySingleValue","_s":1,"Name":"Suction Nominal Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.1312335958005249}}
+,{"_i":1587544569,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Diameter 4","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.06206400000000001}}
+,{"_i":1587610105,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Diameter 2","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.171}}
+,{"_i":1587675641,"_t":"IfcPropertySingleValue","_s":1,"Name":"Outside Diameter 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.184}}
+,{"_i":1588068857,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 3","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.06206400000000001}}
+,{"_i":1588134393,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 2","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.3448000000000001}}
+,{"_i":1588199929,"_t":"IfcPropertySingleValue","_s":1,"Name":"Length 1","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.4310000000000001}}
+,{"_i":1588331001,"_t":"IfcPropertySingleValue","_s":1,"Name":"Housing Width","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.152}}
+,{"_i":1588462073,"_t":"IfcPropertySingleValue","_s":1,"Name":"Flange Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.13}}
+,{"_i":1588527609,"_t":"IfcPropertySingleValue","_s":1,"Name":"Flange Diameter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.102}}
+,{"_i":1588593145,"_t":"IfcPropertySingleValue","_s":1,"Name":"Discharge Nominal Radius","_eNominalValue":{"_t":"IfcReal","_v":0.06561679790026247}}
+,{"_i":1588658681,"_t":"IfcPropertySingleValue","_s":1,"Name":"Discharge Nominal Diameter","_eNominalValue":{"_t":"IfcReal","_v":0.1312335958005249}}
+]}

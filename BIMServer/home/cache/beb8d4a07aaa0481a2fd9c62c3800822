@@ -1,0 +1,6 @@
+{"objects":[{"_i":1471807993,"_t":"IfcPropertySingleValue","_s":1,"Name":"Insulation Thickness","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1472463353,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Type","_eNominalValue":{"_t":"IfcLabel","_v":"Hydronic Supply"}}
+,{"_i":1472528889,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Name","_eNominalValue":{"_t":"IfcLabel","_v":"Hydronic Return Unit A"}}
+,{"_i":1472594425,"_t":"IfcPropertySingleValue","_s":1,"Name":"Loss Method","_eNominalValue":{"_t":"IfcInteger","_v":5}}
+,{"_i":1472659961,"_t":"IfcPropertySingleValue","_s":1,"Name":"K Coefficient Table","_eNominalValue":{"_t":"IfcLabel","_v":"Regular 45, 90 and 180 Elbow"}}
+]}

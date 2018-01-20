@@ -1,0 +1,6 @@
+{"objects":[{"_i":2251031033,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reference Level","_eNominalValue":{"_t":"IfcLabel","_v":"Level 2"}}
+,{"_i":2251096569,"_t":"IfcPropertySingleValue","_s":1,"Name":"Offset","_eNominalValue":{"_t":"IfcLengthMeasure","_v":-0.4412990907149472}}
+,{"_i":2251162105,"_t":"IfcPropertySingleValue","_s":1,"Name":"Start Offset","_eNominalValue":{"_t":"IfcLengthMeasure","_v":-0.4412990907149472}}
+,{"_i":2251227641,"_t":"IfcPropertySingleValue","_s":1,"Name":"End Offset","_eNominalValue":{"_t":"IfcLengthMeasure","_v":-0.4412556265126679}}
+,{"_i":2251424249,"_t":"IfcPropertySingleValue","_s":1,"Name":"Slope","_eNominalValue":{"_t":"IfcReal","_v":1.352302721366148E-5}}
+]}

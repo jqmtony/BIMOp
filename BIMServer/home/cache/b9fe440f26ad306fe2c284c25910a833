@@ -1,0 +1,13 @@
+{"objects":[{"_i":1586758137,"_t":"IfcPropertySingleValue","_s":1,"Name":"URL","_eNominalValue":{"_t":"IfcLabel","_v":"None"}}
+,{"_i":1586823673,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type Comments","_eNominalValue":{"_t":"IfcLabel","_v":"Cartridge Circulator"}}
+,{"_i":1587806713,"_t":"IfcPropertySingleValue","_s":1,"Name":"Model","_eNominalValue":{"_t":"IfcLabel","_v":"0014"}}
+,{"_i":1587872249,"_t":"IfcPropertySingleValue","_s":1,"Name":"Manufacturer","_eNominalValue":{"_t":"IfcLabel","_v":"TACO"}}
+,{"_i":1588265465,"_t":"IfcPropertySingleValue","_s":1,"Name":"Keynote","_eNominalValue":{"_t":"IfcLabel","_v":"15700"}}
+,{"_i":1588724217,"_t":"IfcPropertySingleValue","_s":1,"Name":"Description","_eNominalValue":{"_t":"IfcLabel","_v":"Medium Flow Circulator"}}
+,{"_i":1588789753,"_t":"IfcPropertySingleValue","_s":1,"Name":"Cost","_eNominalValue":{"_t":"IfcReal","_v":300.0}}
+,{"_i":1588855289,"_t":"IfcPropertySingleValue","_s":1,"Name":"Assembly Code","_eNominalValue":{"_t":"IfcLabel","_v":"D3040400"}}
+,{"_i":1588986361,"_t":"IfcPropertySingleValue","_s":1,"Name":"Assembly Description","_eNominalValue":{"_t":"IfcLabel","_v":"Hot Water Distribution"}}
+,{"_i":1589051897,"_t":"IfcPropertySingleValue","_s":1,"Name":"Type Mark","_eNominalValue":{"_t":"IfcLabel","_v":"None"}}
+,{"_i":1590821369,"_t":"IfcPropertySingleValue","_s":1,"Name":"OmniClass Number","_eNominalValue":{"_t":"IfcLabel","_v":"23.60.30.21"}}
+,{"_i":1590886905,"_t":"IfcPropertySingleValue","_s":1,"Name":"OmniClass Title","_eNominalValue":{"_t":"IfcLabel","_v":"Pumps"}}
+]}

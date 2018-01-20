@@ -1,0 +1,9 @@
+{"objects":[{"_i":2093744633,"_t":"IfcPropertySingleValue","_s":1,"Name":"Fitting Outside Radius","_eNominalValue":{"_t":"IfcReal","_v":0.04687500000000001}}
+,{"_i":2093941241,"_t":"IfcPropertySingleValue","_s":1,"Name":"Center Radius","_eNominalValue":{"_t":"IfcReal","_v":0.06770833333333334}}
+,{"_i":2094662137,"_t":"IfcPropertySingleValue","_s":1,"Name":"TagNumber","_eNominalValue":{"_t":"IfcLabel","_v":"TagNumber"}}
+,{"_i":2094727673,"_t":"IfcPropertySingleValue","_s":1,"Name":"InstallationDate","_eNominalValue":{"_t":"IfcLabel","_v":"InstallationDate"}}
+,{"_i":2094793209,"_t":"IfcPropertySingleValue","_s":1,"Name":"SerialNumber","_eNominalValue":{"_t":"IfcLabel","_v":"SerialNumber"}}
+,{"_i":2094858745,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyStartDate","_eNominalValue":{"_t":"IfcLabel","_v":"WarrantyStartDate"}}
+,{"_i":2094924281,"_t":"IfcPropertySingleValue","_s":1,"Name":"BarCode","_eNominalValue":{"_t":"IfcLabel","_v":"BarCode"}}
+,{"_i":2094989817,"_t":"IfcPropertySingleValue","_s":1,"Name":"AssetIdentifier","_eNominalValue":{"_t":"IfcLabel","_v":"AssetIdentifier"}}
+]}

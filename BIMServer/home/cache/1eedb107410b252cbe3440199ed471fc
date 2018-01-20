@@ -1,0 +1,4 @@
+{"objects":[{"_i":2077098489,"_t":"IfcPropertySingleValue","_s":1,"Name":"External Static Presure","_eNominalValue":{"_t":"IfcReal","_v":9.144}}
+,{"_i":2077426169,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Type","_eNominalValue":{"_t":"IfcLabel","_v":"Exhaust Air,Power"}}
+,{"_i":2077491705,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Name","_eNominalValue":{"_t":"IfcLabel","_v":"Unit B Mechanical Exhaust Air"}}
+]}

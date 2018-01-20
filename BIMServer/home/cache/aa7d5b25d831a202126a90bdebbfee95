@@ -1,0 +1,9 @@
+{"objects":[{"_i":1401881081,"_t":"IfcPropertySingleValue","_s":1,"Name":"Specified Supply Airflow","_eNominalValue":{"_t":"IfcReal","_v":0.1000637448648076}}
+,{"_i":1401946617,"_t":"IfcPropertySingleValue","_s":1,"Name":"Calculated Supply Airflow","_eNominalValue":{"_t":"IfcReal","_v":0.1000637448648076}}
+,{"_i":1402012153,"_t":"IfcPropertySingleValue","_s":1,"Name":"Actual Supply Airflow","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1381302777,"_t":"IfcPropertySingleValue","_s":1,"Name":"Return Airflow","_eNominalValue":{"_t":"IfcInteger","_v":0}}
+,{"_i":1402077689,"_t":"IfcPropertySingleValue","_s":1,"Name":"Specified Return Airflow","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1402143225,"_t":"IfcPropertySingleValue","_s":1,"Name":"Actual Return Airflow","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1402208761,"_t":"IfcPropertySingleValue","_s":1,"Name":"Specified Exhaust Airflow","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1402274297,"_t":"IfcPropertySingleValue","_s":1,"Name":"Actual Exhaust Airflow","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+]}

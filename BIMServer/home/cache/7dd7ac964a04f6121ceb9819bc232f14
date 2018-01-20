@@ -1,0 +1,8 @@
+{"objects":[{"_i":2072183289,"_t":"IfcPropertySingleValue","_s":1,"Name":"Schedule Level","_eNominalValue":{"_t":"IfcLabel","_v":"Roof"}}
+,{"_i":2072773113,"_t":"IfcPropertySingleValue","_s":1,"Name":"TagNumber","_eNominalValue":{"_t":"IfcLabel","_v":"F 1A"}}
+,{"_i":2072838649,"_t":"IfcPropertySingleValue","_s":1,"Name":"InstallationDate","_eNominalValue":{"_t":"IfcLabel","_v":"Aug. 29, 2011"}}
+,{"_i":2072904185,"_t":"IfcPropertySingleValue","_s":1,"Name":"SerialNumber","_eNominalValue":{"_t":"IfcLabel","_v":"123456789"}}
+,{"_i":2072969721,"_t":"IfcPropertySingleValue","_s":1,"Name":"WarrantyStartDate","_eNominalValue":{"_t":"IfcLabel","_v":"Aug. 29, 2011"}}
+,{"_i":2073035257,"_t":"IfcPropertySingleValue","_s":1,"Name":"BarCode","_eNominalValue":{"_t":"IfcLabel","_v":"123456789"}}
+,{"_i":2073100793,"_t":"IfcPropertySingleValue","_s":1,"Name":"AssetIdentifier","_eNominalValue":{"_t":"IfcLabel","_v":"None"}}
+]}

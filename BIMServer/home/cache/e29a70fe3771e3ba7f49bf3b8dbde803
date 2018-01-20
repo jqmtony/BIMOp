@@ -1,0 +1,3 @@
+{"objects":[{"_i":2123432441,"_t":"IfcPropertySingleValue","_s":1,"Name":"Host","_eNominalValue":{"_t":"IfcLabel","_v":"Linked Revit Model : Duplex_A 08-29-2011.rvt"}}
+,{"_i":2123497977,"_t":"IfcPropertySingleValue","_s":1,"Name":"Elevation","_eNominalValue":{"_t":"IfcLengthMeasure","_v":0.1016}}
+]}

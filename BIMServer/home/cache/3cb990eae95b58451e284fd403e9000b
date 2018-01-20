@@ -1,0 +1,5 @@
+{"objects":[{"_i":1429930489,"_t":"IfcPropertySingleValue","_s":1,"Name":"Area","_eNominalValue":{"_t":"IfcAreaMeasure","_v":26.17799424999997}}
+,{"_i":1429996025,"_t":"IfcPropertySingleValue","_s":1,"Name":"Perimeter","_eNominalValue":{"_t":"IfcLengthMeasure","_v":21.48199999999996}}
+,{"_i":1430061561,"_t":"IfcPropertySingleValue","_s":1,"Name":"Unbounded Height","_eNominalValue":{"_t":"IfcLengthMeasure","_v":2.900000000000002}}
+,{"_i":1430127097,"_t":"IfcPropertySingleValue","_s":1,"Name":"Volume","_eNominalValue":{"_t":"IfcVolumeMeasure","_v":56.89358179199991}}
+]}

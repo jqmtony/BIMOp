@@ -1,0 +1,4 @@
+{"objects":[{"_i":1586692601,"_t":"IfcPropertySingleValue","_s":1,"Name":"Voltage","_eNominalValue":{"_t":"IfcReal","_v":1237.849697921618}}
+,{"_i":1587741177,"_t":"IfcPropertySingleValue","_s":1,"Name":"Number of Poles","_eNominalValue":{"_t":"IfcInteger","_v":1}}
+,{"_i":1587937785,"_t":"IfcPropertySingleValue","_s":1,"Name":"Load Classification","_eNominalValue":{"_t":"IfcLabel","_v":"Appliance - Dwelling Unit"}}
+]}

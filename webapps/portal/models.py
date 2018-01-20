@@ -11,6 +11,8 @@ class Project(models.Model):
 	bim_server_username = models.CharField(max_length=200, null = True)
 	bim_server_password = models.CharField(max_length=200, null = True)
 	bim_server_poid = models.CharField(max_length=200, null = True)
+	bim_server_roid = models.CharField(max_length=200, null = True)
+	sensor_data_update_interval_ms = models.IntegerField(null = True);
 
 	def __str__(self):
 		return self.project_name;
