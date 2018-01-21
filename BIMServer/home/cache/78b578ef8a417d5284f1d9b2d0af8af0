@@ -1,0 +1,16 @@
+{"objects":[{"_i":1497563641,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Type","_eNominalValue":{"_t":"IfcLabel","_v":"Hydronic Supply"}}
+,{"_i":1497629177,"_t":"IfcPropertySingleValue","_s":1,"Name":"System Name","_eNominalValue":{"_t":"IfcLabel","_v":"Hydronic Return Unit A"}}
+,{"_i":1497694713,"_t":"IfcPropertySingleValue","_s":1,"Name":"Insulation Thickness","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1497825785,"_t":"IfcPropertySingleValue","_s":1,"Name":"Invert Elevation","_eNominalValue":{"_t":"IfcLengthMeasure","_v":2.735412232142426}}
+,{"_i":1497891321,"_t":"IfcPropertySingleValue","_s":1,"Name":"Additional Flow","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1497956857,"_t":"IfcPropertySingleValue","_s":1,"Name":"Flow","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1498087929,"_t":"IfcPropertySingleValue","_s":1,"Name":"Reynolds Number","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1498153465,"_t":"IfcPropertySingleValue","_s":1,"Name":"Relative Roughness","_eNominalValue":{"_t":"IfcReal","_v":1.912000583260426}}
+,{"_i":1448608249,"_t":"IfcPropertySingleValue","_s":1,"Name":"Flow State","_eNominalValue":{"_t":"IfcInteger","_v":0}}
+,{"_i":1498219001,"_t":"IfcPropertySingleValue","_s":1,"Name":"Friction Factor","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1498284537,"_t":"IfcPropertySingleValue","_s":1,"Name":"Velocity","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1498350073,"_t":"IfcPropertySingleValue","_s":1,"Name":"Friction","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1498415609,"_t":"IfcPropertySingleValue","_s":1,"Name":"Pressure Drop","_eNominalValue":{"_t":"IfcReal","_v":0.0}}
+,{"_i":1498546681,"_t":"IfcPropertySingleValue","_s":1,"Name":"Section","_eNominalValue":{"_t":"IfcInteger","_v":34}}
+,{"_i":1499464185,"_t":"IfcPropertySingleValue","_s":1,"Name":"Area","_eNominalValue":{"_t":"IfcAreaMeasure","_v":0.003327577605962766}}
+]}

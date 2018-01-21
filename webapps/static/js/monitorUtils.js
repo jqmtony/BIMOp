@@ -41,6 +41,7 @@ function querySensorData(queryType, sensorType){
         		components_sensorData_info_now[queryGuid] = thisSensorDataInfoDict;
         	}
         	addMsgToStatus("info", "Sensor data are updated")
+        	addMsgToUpdateAt(nowTime)
         	if (isQueryOutofdate){
         		addMsgToStatus("warning", "At least one sensor data is out of date");
         	}
@@ -52,6 +53,10 @@ function querySensorData(queryType, sensorType){
         	addMsgToStatus("warning", "Sensor data cannot be updated. Error message from server: " + data.errors)
         }
     });
+}
+
+function addMsgToUpdateAt(nowTime){
+	document.getElementById("updatedAt").innerHTML = "Updated at " + nowTime
 }
 
 function addMsgToStatus(msgLevel, msg){
@@ -111,4 +116,102 @@ function displaySensorData(currentSelectedGuid, dataContainerName, components_se
 function clearDisplay(dataContainerName, defaultText){
 	container = document.getElementById(dataContainerName);
 	container.innerHTML = defaultText;
+}
+
+
+function openDataTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+function displaySensorHist(currentSelectedGuid, sensorType, histLengthHours, divId){
+	nowTime = new Date()
+	nowTime2 = new Date()
+	nowTime2.setHours(nowTime2.getHours() - histLengthHours);
+	displaySensorHistUrl = "sensorsDataQuery/" + "histSingle" + "/" + sensorType + "/" + currentSelectedGuid + "/" 
+		+ nowTime2.toISOString() + "/" + nowTime.toISOString();
+	$.get(displaySensorHistUrl, function(data, status){
+			if (Object.keys(data.errors).length == 0){
+				dataForChart = [];
+				queryResults = data.sensorsDataQuery.queryResults;
+				for (var i=0; i<queryResults.length; i++){
+					queryResult = queryResults[i];
+					thisDataForChart = []
+					recordedTimeDate = new Date(queryResult.recordedTime)
+					thisDataForChart.push(recordedTimeDate.getTime())
+					if (queryResult.isGood){
+						thisDataForChart.push(parseFloat(queryResult.value))
+					}else{
+						thisDataForChart.push(parseFloat("0.0"))
+					}
+					dataForChart.push(thisDataForChart);
+				}
+				//Hight chart
+				Highcharts.chart(divId, {
+			        chart: {
+			            zoomType: 'x'
+			        },
+			        title: {
+			            text: 'Time-series sensor data'
+			        },
+			        xAxis: {
+			            type: 'datetime'
+			        },
+			        yAxis: {
+			            title: {
+			                text: sensorType
+			            }
+			        },
+			        legend: {
+			            enabled: false
+			        },
+			        plotOptions: {
+			            area: {
+			                fillColor: {
+			                    linearGradient: {
+			                        x1: 0,
+			                        y1: 0,
+			                        x2: 0,
+			                        y2: 1
+			                    },
+			                    stops: [
+			                        [0, Highcharts.getOptions().colors[0]],
+			                        [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+			                    ]
+			                },
+			                marker: {
+			                    radius: 2
+			                },
+			                lineWidth: 1,
+			                states: {
+			                    hover: {
+			                        lineWidth: 1
+			                    }
+			                },
+			                threshold: null
+			            }
+			        },
+
+			        series: [{
+			            type: 'area',
+			            name: currentSelectedGuid,
+			            data: dataForChart
+			        }]
+    			});
+
+				//document.getElementById(divId).innerHTML = JSON.stringify(dataForChart);
+			}
+
+			
+
+		});
 }

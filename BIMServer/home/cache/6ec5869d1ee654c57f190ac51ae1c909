@@ -1,0 +1,3 @@
+{"objects":[{"_i":2180907513,"_t":"IfcPropertySingleValue","_s":1,"Name":"Comments","_eNominalValue":{"_t":"IfcLabel","_v":"Added unit"}}
+,{"_i":2180973049,"_t":"IfcPropertySingleValue","_s":1,"Name":"Mark","_eNominalValue":{"_t":"IfcLabel","_v":"Foyer B2"}}
+]}

@@ -73,12 +73,12 @@ h1, h2 {
 
 #dataContainer {
     float:left;
-    width:200px;
     position:relative;
     left:0px;
-    overflow-x:hidden;
+    overflow-x:scroll;
     overflow-y:scroll;
-    height: 600px;
+    height: 100%;
+    max-height: 400px;
 }
 
 canvas {

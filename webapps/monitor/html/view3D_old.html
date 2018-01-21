@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<!-- This page is modified based on the BIMSurfer example -->
+<head>
+	<meta charset="utf-8"/>
+	<title>BIMOp 3D Viewer</title>
+	{% load static %}
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css' />
+    
+    <link rel="stylesheet" href="{% static "css/bimsurfer/demo.css" %}"/>
+    <link rel="stylesheet" href="{% static "css/bimsurfer/apiref.css" %}"/>
+    <link rel="stylesheet" href="{% static "css/bimsurfer/tree.css" %}"/>
+    <link rel="stylesheet" href="{% static "css/bimsurfer/metadata.css" %}"/>
+    <link rel="stylesheet" href="{% static "css/monitor.css" %}"/>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+
+	<script type="text/javascript" src="{% static "js/bimSurferUtils.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/monitorUtils.js" %}"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    
+    <script>
+        var address = "http://{{bim_server_ip}}:{{bim_server_port}}";
+        var token = "{{bim_server_token}}";
+        var poid = "{{bim_server_poid}}";
+        var roid = "{{bim_server_roid}}";
+        var realTimeSyncToleranceInMS = {{sensor_data_update_interval_ms}}
+        var project_bim_components_info = {{project_bim_components_info|safe}}
+        var maxStatusMsgNumber = 50;
+        var dataContainerDefaultText = "Select an element to see object properties"
+
+        
+        /* Generating a new version based on the current time, this way resources are never cached
+         When building a version of BIMsurfer V2 this should be replaced by an actual version number in order
+         To facilitate proper caching
+        */
+        var version = new Date().getTime();
+
+        // This has been moved to bimserverapi, can be removed in a day
+        String.prototype.firstUpper = function () {
+            return this.charAt(0).toUpperCase() + this.slice(1);
+        }
+        
+        // Because the demo is in a subfolder compared to the BIMsurfer API, we tell require JS to use the "../" baseUrl
+        var require = {
+            baseUrl: "{% static "js/" %}",
+            urlArgs: "bust=" + version
+        };
+    </script>
+    <script type="text/javascript" src="{% static "js/bimsurfer/lib/require.js" %}"></script>
+    <script type="text/javascript">
+
+        // Loads a model from BIMServer, builds an explorer tree UI.
+        // Clicking on a tree node fits the view to its scene object.
+
+        loadScripts(address + "/apps/bimserverjavascriptapi/js/", [
+             "bimserverclient.js",
+             "model.js",
+             "bimserverapiwebsocket.js",
+             "bimserverapipromise.js",
+             "geometry.js",
+             "ifc2x3tc1.js",
+             "ifc4.js",
+             "translations_en.js",
+        ], function(){
+            require(["bimsurfer/src/BimSurfer","bimsurfer/src/StaticTreeRenderer","bimsurfer/src/MetaDataRenderer","bimsurfer/lib/domReady!",],
+	            function (BimSurfer, StaticTreeRenderer, MetaDataRenderer) {
+	
+	                var bimSurfer = new BimSurfer({
+	                    domNode: "viewerContainer"
+	                });
+	                
+	                bimSurfer.on("loading-finished", function(){
+	                	addMsgToStatus("info", "BIM model loading finished")//document.getElementById("status").innerHTML = "BIM model loading finished";
+	                	// Create BIM model type selector
+                        var domNode = document.getElementById("typeSelector");
+                        domNode.innerHTML = "";
+                        bimSurfer.getTypes().forEach(function(ifc_type) {
+                            var on = ifc_type.visible;
+                            var d = document.createElement("div");
+                            var t = document.createTextNode(ifc_type.name);
+                            var setClass = function() {
+                                d.className = "fa fa-eye " + ["inactive", "active"][on*1];
+                            };
+                            setClass();
+                            d.appendChild(t);
+                            domNode.appendChild(d);
+                            d.onclick = function() {
+                                on = !on;
+                                setClass();
+                                bimSurfer.setVisibility({types:[ifc_type.name], visible:on});
+                            };
+                        });
+                        // Create BIM sensor data display entities
+                        addMsgToStatus("info", "Creating sensor data displays...")// document.getElementById("status").innerHTML = "Creating sensor data displays..."
+                        displaySensorType = "temperature"
+                        scene = xeogl.scenes['1'];
+                        project_components_text_guidNEntityid = {};
+                        project_components_text_entities = [];
+                        textBillBoard = new xeogl.Billboard(scene);
+                        textDepthBuf = new xeogl.DepthBuf(scene, {active: false});
+                        Object.keys(project_bim_components_info).forEach(function(key) {
+                        	thisGuid = key;
+                        	thisSensors = project_bim_components_info[key];
+                        	if (displaySensorType in thisSensors){
+                        		thisUnit = thisSensors[displaySensorType]
+                        		// Create text entities at default location with default text contents
+                        		textEntity = new xeogl.Entity(scene,{
+	                        		geometry: new xeogl.VectorTextGeometry(scene,{
+	                        			origin: [0,0,0],
+	            						text: "??"+thisUnit,
+	            						xSize: 0.2,
+	            						ySize: 0.2,
+	            						colors: [0.0, 0.0, 0.0],
+	            					}),
+							        material: new xeogl.PhongMaterial(scene,{
+							            emissive: [0.0, 0.0, 0.0],
+							            lineWidth: 2,
+							            diffuse: [0.0, 0.0, 0.0],
+							        }),
+							        transform: new xeogl.Translate(scene,{
+							            xyz: [0, 0, 0]
+							        }),
+							        billboard: textBillBoard,
+							        depthBuf: textDepthBuf,
+    							});
+    							project_components_text_guidNEntityid[thisGuid] = textEntity.id;
+                        	}	
+	                	});
+                    	// Move text entities besides corresponding components
+                    	project_components_text_guidNid = {};
+                    	project_components_guids = Object.keys(project_bim_components_info);
+                    	viewer_components_ids = bimSurfer.toId(project_components_guids); // Raw ids, must be appended roid at the front to be used
+	                    for (var i=0; i<viewer_components_ids.length; i++){
+	                    	viewer_components_id_raw = viewer_components_ids[i];
+	                    	viewer_components_id_final = roid + ":" + viewer_components_id_raw;
+	                    	project_components_text_guidNid[project_components_guids[i]] = viewer_components_id_final;
+	                    	bimViewerComponentWorldCenter = scene.components[viewer_components_id_final].worldBoundary.center;
+	                    	relatedTextEntityId = project_components_text_guidNEntityid[project_components_guids[i]];
+	                    	scene.entities[relatedTextEntityId].transform.xyz = bimViewerComponentWorldCenter;	
+	                    }
+                    	// Register mouseclicked events to select corresponding textVectors
+                    	currentSelectedEntityId = null;
+                    	currentSelectedEntityOrgEmissive = null;
+                    	currentSelectedGuid = null;
+                    	lastSelectedEntityId = null;
+	                    scene.input.on("mouseclicked", function(coords) {
+	                    	canvasX = coords[0];
+	                    	canvasY = coords[1];
+	                    	isSelectionValid = false;
+	                    	// Based on the canvas position determine which text entity is selected
+	                    	for (var i=0; i<project_components_guids.length; i++){
+	                    		project_components_text_guid = project_components_guids[i];
+	                    		thisRelatedEntityId = project_components_text_guidNEntityid[project_components_text_guid];
+	                    		thisRelatedEntityAABB = scene.entities[thisRelatedEntityId].canvasBoundary.aabb; //left, right, top, bottom
+	                    		if (canvasX > thisRelatedEntityAABB[0] && canvasX < thisRelatedEntityAABB[2] &&
+	                    			canvasY > thisRelatedEntityAABB[1] && canvasY < thisRelatedEntityAABB[3]){
+	                    			currentSelectedEntityId = thisRelatedEntityId;
+	                    			currentSelectedGuid = project_components_text_guid;
+	                    			isSelectionValid = true;
+	                    			break;
+	                    		}
+	                    	}
+	                    	if (isSelectionValid){
+	                    		// Change text entity color
+	                    		if (lastSelectedEntityId != null){
+	                    			scene.entities[lastSelectedEntityId].material.emissive = currentSelectedEntityOrgEmissive;
+	                    		}
+	                    		currentSelectedEntityOrgEmissive = scene.entities[currentSelectedEntityId].material.emissive.slice();
+	                    		scene.entities[currentSelectedEntityId].material.emissive = [0.0, 0.9, 0.6];
+	                    		// Display sensor data info
+	                    		displaySensorData(currentSelectedGuid, 'SensorLive', components_sensorData_info_now);
+	                    	}else{
+	                    		// Clear text entity color
+	                    		if (lastSelectedEntityId != null){
+	                    			scene.entities[lastSelectedEntityId].material.emissive = currentSelectedEntityOrgEmissive;
+	                    		}
+	                    		currentSelectedEntityId = null;
+	                    		currentSelectedGuid = null;
+	                    		currentSelectedEntityOrgEmissive = null;
+	                    		// Clear display text
+	                    		clearDisplay('SensorLive', dataContainerDefaultText);
+	                    	}
+	                    	lastSelectedEntityId = currentSelectedEntityId;
+	                    	console.log("Mouse clicked at: x=" + coords[0] + ", y=" + coords[1]);
+	                    });
+	                    // Create a clock
+	                    function addZeroToNumber(number) {
+	                    	if (number < 10) {number = "0" + number};  // add zero in front of numbers < 10
+    						return number;
+    					}
+    					function setClock(){
+    						var clock = new Date();
+		                    var yClock = clock.getFullYear();
+		                    var monClock = addZeroToNumber(clock.getMonth() + 1);
+		                    var dClock = addZeroToNumber(clock.getDate());
+	    					var hClock = addZeroToNumber(clock.getHours());
+	    					var minClock = addZeroToNumber(clock.getMinutes());
+	    					var sClock = addZeroToNumber(clock.getSeconds());
+	    					document.getElementById("clock").innerHTML = yClock + "-" + monClock + "-" + dClock + " " + hClock + ":" + minClock + ":" + sClock;
+	    					var t = setTimeout(setClock, 500);
+	    				}
+	                    setClock();
+	                    // Finish up
+	                    addMsgToStatus("info", "Sensor data displays loading finished")//document.getElementById("status").innerHTML = "Sensor data displays loading finished"
+	                    // Sensor data real-time query
+	                    components_sensorData_info_now = {};
+                	})
+
+
+	                bimSurfer.on("loading-started", function(){
+	                	addMsgToStatus("info", "Loading BIM Model...")//document.getElementById("status").innerHTML = "Loading BIM Model...";
+	                });
+	                
+	                // Lets us play with the Surfer in the console
+	                window.bimSurfer = bimSurfer;
+	
+	                // Load a model from BIMServer
+	                bimSurfer.load({
+	                    bimserver: address,
+	                    token: token,
+	                    poid: poid,
+	                    roid: roid,
+	                    schema: "ifc2x3tc1" // < TODO: Deduce automatically
+	                }).then(function (model) {
+	                    model.getTree().then(function (tree) {
+	                    
+	                        // Build a tree view of the elements in the model. The fact that it
+	                        // is 'static' refers to the fact that all branches are loaded and
+	                        // rendered immediately.
+	                        var domtree = new StaticTreeRenderer({
+	                            domNode: 'treeContainer'
+	                        });
+	                        domtree.addModel({name: "", id:roid, tree:tree});
+	                        domtree.build();
+	                        
+	                        // Add a widget that displays metadata (IfcPropertySet and instance
+	                        // attributes) of the selected element.
+	                        var metadata = new MetaDataRenderer({
+	                            domNode: 'BIMData'
+	                        });
+	                        metadata.addModel({name: "", id:roid, model:model});
+	                        
+	                        bimSurfer.on("selection-changed", function(selected) {
+	                            domtree.setSelected(selected, domtree.SELECT_EXCLUSIVE);
+	                            metadata.setSelected(selected);
+	                        });
+	                        
+	                        domtree.on("click", function (oid, selected) {
+	                            // Clicking an explorer node fits the view to its object and selects
+                                if (selected.length) {
+                                    bimSurfer.viewFit({
+                                        ids: selected,
+                                        animate: true
+                                    });
+                                }
+                                bimSurfer.setSelection({
+                                    ids:selected,
+                                    clear:true,
+                                    selected:true
+                                });
+	                        });
+
+	                    });
+	                });
+	                
+	            });
+        });
+	       
+
+    </script>
+</head>
+<body>
+<!--	
+<p>{{errors|length}}</p>
+<p>Error: {{errors}}</p>
+<p>Token: {{bim_server_token}} </p>
+<p>GUIDs: {{project_bim_components_info}} </p>
+-->
+<div id="maincontainer">
+    <div id="topsection">
+        <h1>BIMOp Building Operation Monitor</h1>
+        <div id="typeSelector">
+            <div>&nbsp;</div>
+        </div>
+    </div>
+    <div id="contentwrapper">
+        <div id="colmid">
+            <div id="colright">
+                <div id="col1wrap">
+                    <div id="col1pad">
+                        <div id="viewerContainer">
+                        </div>
+                    </div>
+                </div>
+                <div id="treeContainer" class="bimsurfer-static-tree">
+                </div>
+                <div id="dataContainer" class="bimsurfer-metadata">
+                	<div id="dataTabs" class="tab">
+	                	<button class="tablinks" onclick="openDataTab(event, 'BIMData')">BIM Data</button>
+	  					<button class="tablinks" onclick="openDataTab(event, 'SensorLive')">Sensor Live</button>
+	  					<button class="tablinks" onclick="openDataTab(event, 'SensorHist')">Sensor History</button>
+  					</div>
+  					<div id="BIMData" class="tabcontent"></div>
+					<div id="SensorLive" class="tabcontent"></div>
+					<div id="SensorHist" class="tabcontent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="status"></div>
+<div id="clock"></div>
+</div>
+
+<button type = "button" onclick="location.href='{% url 'logout_then_login' %}';">Logout</button>
+
+</body>
+</html>

@@ -60,8 +60,6 @@ def view3D(request, project_id):
 				thisCompSensorsDict[thisCompSensorType] = thisCompSensorUnit;
 			project_bim_components_info[thisCompGUID] = thisCompSensorsDict;
 
-
-
 	else:
 		errors['authentication'] = perm_check[1];
 	return render(request, 'monitor/html/view3D.html', {'errors': errors,
@@ -76,14 +74,14 @@ def view3D(request, project_id):
 
 
 @login_required
-def sensorsDataQuery(request, project_id, queryType, sensorType):
+def sensorsDataQuery(request, project_id, queryType, sensorType, guid=None, startTime=None, endTime=None, interval=None):
 	user = request.user;
 	perm_check = is_user_proj_act_permitted(user, project_id, MONITOR)
 	errors = {};
 	queryResults = [];
-	if perm_check[0]:
-		project_bim_guids = getProjectBimGuids(project_id);
+	if perm_check[0]:	
 		if queryType == 'latestAll':
+			project_bim_guids = getProjectBimGuids(project_id);
 			relatedSensors = Sensor.objects.filter(measuredTarget__guid__in=project_bim_guids).filter(sensorType=sensorType);
 			for relatedSensor in relatedSensors:
 				thisGuid = relatedSensor.measuredTarget.guid;
@@ -100,6 +98,21 @@ def sensorsDataQuery(request, project_id, queryType, sensorType):
 				thisSensorData['isGood'] = thisDataIsGood;
 				thisSensorData['notes'] = thisDataIsBadNotes;
 				queryResults.append(thisSensorData);
+		elif queryType == 'histSingle':
+			project_bim_guid = guid;
+			relatedSensor = Sensor.objects.filter(measuredTarget__guid=project_bim_guid).filter(sensorType=sensorType)[0];
+			allSensorHistInRange = SensorDataHist.objects.filter(sensor=relatedSensor).\
+									filter(recordedTime__gt=startTime).filter(recordedTime__lt=endTime).order_by('recordedTime');
+			if interval == None:
+				for sensorDataHistSingle in allSensorHistInRange:
+					thisSensorData = {};
+					thisSensorData['guid'] = project_bim_guid;
+					thisSensorData['name'] = str(relatedSensor);
+					thisSensorData['recordedTime'] = sensorDataHistSingle.recordedTime.isoformat();
+					thisSensorData['value'] = sensorDataHistSingle.value;
+					thisSensorData['isGood'] = sensorDataHistSingle.isGood;
+					thisSensorData['notes'] = sensorDataHistSingle.isBadNotes;
+					queryResults.append(thisSensorData);
 	else:
 		errors['authentication'] = perm_check[1];
 	jsonMap = {'sensorsDataQuery':{'queryType': queryType,
