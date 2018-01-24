@@ -144,18 +144,171 @@
     							project_components_text_guidNEntityid[thisGuid] = textEntity.id;
                         	}	
 	                	});
-                    	// Move text entities besides corresponding components
+	                	// Create selectors
+	                	selectorSize = 0.1;
+	                	positions = [
+					            // v0-v1-v2-v3 front
+					            selectorSize, selectorSize, selectorSize,
+					            -selectorSize, selectorSize, selectorSize,
+					            -selectorSize, -selectorSize, selectorSize,
+					            selectorSize, -selectorSize, selectorSize,
+					            // v0-v3-v4-v1 right
+					            selectorSize, selectorSize, selectorSize,
+					            selectorSize, -selectorSize, selectorSize,
+					            selectorSize, -selectorSize, -selectorSize,
+					            selectorSize, selectorSize, -selectorSize,
+					            // v0-v1-v6-v1 top
+					            selectorSize, selectorSize, selectorSize,
+					            selectorSize, selectorSize, -selectorSize,
+					            -selectorSize, selectorSize, -selectorSize,
+					            -selectorSize, selectorSize, selectorSize,
+					            // v1-v6-v7-vselectorSize left
+					            -selectorSize, selectorSize, selectorSize,
+					            -selectorSize, selectorSize, -selectorSize,
+					            -selectorSize, -selectorSize, -selectorSize,
+					            -selectorSize, -selectorSize, selectorSize,
+					            // v7-v4-v3-vselectorSize bottom
+					            -selectorSize, -selectorSize, -selectorSize,
+					            selectorSize, -selectorSize, -selectorSize,
+					            selectorSize, -selectorSize, selectorSize,
+					            -selectorSize, -selectorSize, selectorSize,
+					            // v4-v7-v6-v1 back
+					            selectorSize, -selectorSize, -selectorSize,
+					            -selectorSize, -selectorSize, -selectorSize,
+					            -selectorSize, selectorSize, -selectorSize,
+					            selectorSize, selectorSize, -selectorSize
+					        ],
+					        // Normal vectors, one for each vertex
+					        normals = [
+					            // v0-v1-v2-v3 front
+					            0, 0, 1,
+					            0, 0, 1,
+					            0, 0, 1,
+					            0, 0, 1,
+					            // v0-v3-v4-v5 right
+					            1, 0, 0,
+					            1, 0, 0,
+					            1, 0, 0,
+					            1, 0, 0,
+					            // v0-v5-v6-v1 top
+					            0, 1, 0,
+					            0, 1, 0,
+					            0, 1, 0,
+					            0, 1, 0,
+					            // v1-v6-v7-v2 left
+					            -1, 0, 0,
+					            -1, 0, 0,
+					            -1, 0, 0,
+					            -1, 0, 0,
+					            // v7-v4-v3-v2 bottom
+					            0, -1, 0,
+					            0, -1, 0,
+					            0, -1, 0,
+					            0, -1, 0,
+					            // v4-v7-v6-v5 back
+					            0, 0, -1,
+					            0, 0, -1,
+					            0, 0, -1,
+					            0, 0, -1
+					        ],
+					        // Indices - these organise the
+					        // positions and uv texture coordinates
+					        // into geometric primitives in accordance
+					        // with the "primitive" parameter,
+					        // in this case a set of three indices
+					        // for each triangle.
+					        //
+					        // Note that each triangle is specified
+					        // in counter-clockwise winding order.
+					        //
+					        // You can specify them in clockwise
+					        // order if you configure the Material
+					        // frontface property as "cw", instead
+					        // of the default "ccw".
+					        indices = [
+					            0, 1, 2,
+					            0, 2, 3,
+					            // front
+					            4, 5, 6,
+					            4, 6, 7,
+					            // right
+					            8, 9, 10,
+					            8, 10, 11,
+					            // top
+					            12, 13, 14,
+					            12, 14, 15,
+					            // left
+					            16, 17, 18,
+					            16, 18, 19,
+					            // bottom
+					            20, 21, 22,
+					            20, 22, 23
+					        ]
+					    project_components_selector_guidNEntityid = {};
+                        Object.keys(project_bim_components_info).forEach(function(key) {
+                        	thisGuid = key;
+                        	boxEntity = new xeogl.Entity(scene,{
+	                        	geometry: new xeogl.Geometry(scene,{
+	                        		primitive: "triangles",
+        							positions: 	positions,
+        							normals: normals,
+        							indices: indices,
+        						}),
+							    material: new xeogl.PhongMaterial(scene,{
+						            emissive: [0.0, 0.9, 0.6],
+						            diffuse: [0.0, 0.9, 0.6],
+							        }),
+							    transform: new xeogl.Translate(scene,{
+							        xyz: [0, 0, 0]
+							    }),
+    						});
+    						project_components_selector_guidNEntityid[thisGuid] = boxEntity.id;
+
+	                	});
+	                	
+                    	// Move text and selector entities besides corresponding components
                     	project_components_text_guidNid = {};
                     	project_components_guids = Object.keys(project_bim_components_info);
                     	viewer_components_ids = bimSurfer.toId(project_components_guids); // Raw ids, must be appended roid at the front to be used
 	                    for (var i=0; i<viewer_components_ids.length; i++){
+	                    	// Move text
 	                    	viewer_components_id_raw = viewer_components_ids[i];
 	                    	viewer_components_id_final = roid + ":" + viewer_components_id_raw;
 	                    	project_components_text_guidNid[project_components_guids[i]] = viewer_components_id_final;
 	                    	bimViewerComponentWorldCenter = scene.components[viewer_components_id_final].worldBoundary.center;
 	                    	relatedTextEntityId = project_components_text_guidNEntityid[project_components_guids[i]];
-	                    	scene.entities[relatedTextEntityId].transform.xyz = bimViewerComponentWorldCenter;	
+	                    	thisTextEntity = scene.entities[relatedTextEntityId]
+	                    	thisTextEntity.transform.xyz = bimViewerComponentWorldCenter;
+	                    	// Move selector to the end of the text
+	                    	thisTextCenter = bimViewerComponentWorldCenter.map(function (num, idx) {
+	                    		return num + thisTextEntity.localBoundary.center[idx];});
+	                    	thisTextCenterY = thisTextCenter[1];
+	                    	thisTextCenterZ = thisTextCenter[2];
+	                    	thisTextEndX = thisTextCenter[0] + 2.5*(thisTextEntity.localBoundary.aabb[3] - thisTextEntity.localBoundary.aabb[0]);
+	                    	relatedSelectorEntityId = project_components_selector_guidNEntityid[project_components_guids[i]]
+	                    	thisSelectorEntity = scene.entities[relatedSelectorEntityId];
+	                    	thisSelectorEntity.transform.xyz = [thisTextEndX, thisTextCenterY, thisTextCenterZ]
 	                    }
+	                    // Register camera view changed events to change selector position
+	                    scene.view.on("view", function(value){
+	                    	for (var i=0; i<viewer_components_ids.length; i++){
+	                    	relatedTextEntityId = project_components_text_guidNEntityid[project_components_guids[i]];
+	                    	thisTextEntity = scene.entities[relatedTextEntityId]
+	                    	// Move selector to the end of the text
+	                    	thisTextCenter = thisTextEntity.worldBoundary.center;
+	                    	thisTextCenterY = thisTextCenter[1];
+	                    	thisTextCenterZ = thisTextCenter[2];
+	                    	thisTextEndX = thisTextCenter[0] + 2.5*(thisTextEntity.localBoundary.aabb[3] - thisTextEntity.localBoundary.aabb[0]);
+	                    	relatedSelectorEntityId = project_components_selector_guidNEntityid[project_components_guids[i]]
+	                    	thisSelectorEntity = scene.entities[relatedSelectorEntityId];
+	                    	thisSelectorEntity.transform.xyz = [thisTextEndX, thisTextCenterY, thisTextCenterZ]
+	                    	console.log("log")
+	                    	console.log(thisTextCenter)
+	                    	console.log(thisSelectorEntity.transform.xyz)
+	                    	}
+
+	                    })
+
                     	// Register mouseclicked events to select corresponding textVectors
                     	currentSelectedEntityId = null;
                     	currentSelectedEntityOrgEmissive = null;
@@ -172,6 +325,7 @@
 	                    		project_components_text_guid = project_components_guids[i];
 	                    		thisRelatedEntityId = project_components_text_guidNEntityid[project_components_text_guid];
 	                    		thisRelatedEntityAABB = scene.entities[thisRelatedEntityId].canvasBoundary.aabb; //left, right, top, bottom
+	                    		console.log("canvasBoundaryAABB: "+thisRelatedEntityAABB)
 	                    		if (canvasX > thisRelatedEntityAABB[0] && canvasX < thisRelatedEntityAABB[2] &&
 	                    			canvasY > thisRelatedEntityAABB[1] && canvasY < thisRelatedEntityAABB[3]){
 	                    			currentSelectedEntityId = thisRelatedEntityId;
@@ -239,7 +393,7 @@
 	                    // Sensor data real-time query
 	                    components_sensorData_info_now = {};
 	                    // Query sensor data in real time
-	                    queryFreqSeconds = 10000
+	                    queryFreqSeconds = 100000
 	                    function querySensorDataFrequently(){
 	                    	querySensorData("latestAll", displaySensorType)
 	                    	var queryRepeat = setTimeout(querySensorDataFrequently, queryFreqSeconds)

@@ -154,6 +154,7 @@
 	                    		project_components_text_guid = project_components_guids[i];
 	                    		thisRelatedEntityId = project_components_text_guidNEntityid[project_components_text_guid];
 	                    		thisRelatedEntityAABB = scene.entities[thisRelatedEntityId].canvasBoundary.aabb; //left, right, top, bottom
+	                    		console.log("canvasBoundaryAABB: "+thisRelatedEntityAABB)
 	                    		if (canvasX > thisRelatedEntityAABB[0] && canvasX < thisRelatedEntityAABB[2] &&
 	                    			canvasY > thisRelatedEntityAABB[1] && canvasY < thisRelatedEntityAABB[3]){
 	                    			currentSelectedEntityId = thisRelatedEntityId;
